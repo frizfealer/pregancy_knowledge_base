@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>懷孕期間運動指南｜第一孕期 × 健身教練</title>
+<meta name="description" content="整理第一孕期如何延續原本運動模式、如何與健身教練溝通、強度判斷、骨盆底肌訓練、過熱與補給、安全原則與停止運動警訊。" />
+<style>
+:root{
+  --bg:#fbfaf8;
+  --panel:#ffffff;
+  --ink:#20201f;
+  --muted:#66635f;
+  --line:#e8e3dc;
+  --accent:#765f4d;
+  --accent-soft:#f2ece6;
+  --good:#2f6f55;
+  --good-soft:#edf6f1;
+  --warn:#8b5a2b;
+  --warn-soft:#fff4e8;
+  --danger:#9a3f43;
+  --danger-soft:#fff0f0;
+  --shadow:0 12px 32px rgba(56,43,30,.06);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+  line-height:1.72;
+}
+a{color:var(--accent);text-underline-offset:3px}
+.container{max-width:1040px;margin:auto;padding:0 22px}
+.hero{
+  padding:72px 0 44px;
+  border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(circle at 90% 10%, #f0e4d8 0, transparent 28%),
+    linear-gradient(180deg,#fff 0%,var(--bg) 100%);
+}
+.backlink{
+  display:inline-block;
+  margin-bottom:14px;
+  color:var(--accent);
+  text-decoration:none;
+  font-weight:650;
+  font-size:15px;
+}
+.backlink:hover{text-decoration:underline}
+.eyebrow{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  background:var(--accent-soft);
+  color:var(--accent);
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.04em;
+}
+h1{font-size:clamp(36px,6vw,62px);line-height:1.08;letter-spacing:-.04em;margin:18px 0 18px;max-width:850px}
+.hero p{font-size:18px;color:var(--muted);max-width:760px;margin:0}
+.key{
+  margin-top:28px;
+  padding:20px 22px;
+  border-left:5px solid var(--good);
+  background:var(--good-soft);
+  border-radius:14px;
+  font-size:18px;
+}
+nav{
+  position:sticky;top:0;z-index:20;
+  background:rgba(251,250,248,.9);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.navrow{display:flex;gap:8px;overflow:auto;padding:10px 0;scrollbar-width:none}
+.navrow::-webkit-scrollbar{display:none}
+.navrow a{
+  white-space:nowrap;text-decoration:none;color:var(--muted);
+  border:1px solid var(--line);background:#fff;border-radius:999px;
+  padding:7px 12px;font-size:14px
+}
+main{padding:42px 0 70px}
+section{scroll-margin-top:68px;margin:0 0 52px}
+h2{font-size:30px;letter-spacing:-.025em;margin:0 0 10px}
+h3{font-size:19px;margin:0 0 6px}
+.lead{color:var(--muted);max-width:820px;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:18px;
+  padding:22px;box-shadow:var(--shadow)
+}
+.card p:last-child{margin-bottom:0}
+.badge{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.03em;border-radius:999px;padding:4px 8px;margin-bottom:10px}
+.good{background:var(--good-soft);color:var(--good)}
+.warn{background:var(--warn-soft);color:var(--warn)}
+.danger{background:var(--danger-soft);color:var(--danger)}
+.rule{
+  display:grid;grid-template-columns:42px 1fr;gap:14px;align-items:start;
+  padding:16px 0;border-bottom:1px solid var(--line)
+}
+.rule:last-child{border-bottom:0}
+.num{
+  width:38px;height:38px;border-radius:12px;background:var(--accent-soft);
+  display:grid;place-items:center;color:var(--accent);font-weight:800
+}
+ul{padding-left:22px}
+li{margin:6px 0}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:16px;overflow:hidden;border:1px solid var(--line)}
+th,td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:13px;color:var(--muted);background:#faf8f5}
+tr:last-child td{border-bottom:0}
+.callout{
+  border:1px solid #edd7bd;background:var(--warn-soft);border-radius:16px;padding:18px 20px
+}
+.stop{
+  background:var(--danger-soft);border:1px solid #efcccc;border-radius:18px;padding:22px
+}
+.stop ul{columns:2;column-gap:34px}
+.script{
+  background:#262522;color:#f7f3ec;border-radius:18px;padding:22px;
+  position:relative;white-space:pre-wrap;font-size:15px;line-height:1.8
+}
+.copy{
+  position:absolute;right:12px;top:12px;border:1px solid #5b5751;background:#34322e;
+  color:#fff;border-radius:10px;padding:7px 10px;cursor:pointer;font:inherit;font-size:13px
+}
+.sources{display:grid;gap:10px}
+.source{
+  background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px
+}
+.source small{display:block;color:var(--muted);margin-top:5px}
+.disclaimer{color:var(--muted);font-size:13px;margin-top:20px}
+footer{border-top:1px solid var(--line);padding:28px 0 50px;color:var(--muted);font-size:13px}
+
+/* 證據註記：把數字、分母與研究限度和正文分開 */
+.ev{
+  font-size:14px;color:var(--muted);
+  border-left:3px solid var(--line);padding-left:13px;margin-top:14px
+}
+.ev b{color:var(--ink);font-weight:700}
+.ev + .ev{margin-top:8px}
+.sub{font-size:13px;color:var(--muted);font-weight:400;display:block;margin-top:2px}
+.srcgroup{font-size:13px;color:var(--muted);margin:22px 0 10px;font-weight:700}
+
+@media(max-width:760px){
+  .hero{padding-top:50px}
+  .grid{grid-template-columns:1fr}
+  .stop ul{columns:1}
+  th,td{padding:12px}
+}
+@media print{
+  nav,.copy{display:none}
+  body{background:#fff}
+  .backlink{display:none}
+  .hero{padding-top:24px}
+  .card{box-shadow:none}
+  section{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="container">
+    <a class="backlink" href="index.html">← 回目錄</a><br />
+    <span class="eyebrow">孕期運動整理 · 第一孕期</span>
+    <h1>懷孕了，運動不用全部重來</h1>
+    <p>給原本已有運動習慣、目前有健身教練的人：如何在正常、無併發症的孕期繼續動，同時把安全原則交代清楚。</p>
+    <div class="key"><strong>核心原則：</strong>如果孕前就規律運動，而且目前懷孕正常、沒有醫療或產科禁忌，第一孕期通常可以大致維持原本的運動模式。維持的是「運動種類與習慣」，不是要求自己維持完全相同的重量、速度或表現。</div>
+  </div>
+</header>
+
+<nav>
+  <div class="container navrow">
+    <a href="#first">第一孕期</a>
+    <a href="#coach">跟教練怎麼說</a>
+    <a href="#intensity">強度怎麼抓</a>
+    <a href="#safe">適合／避免</a>
+    <a href="#pelvic">骨盆底肌</a>
+    <a href="#heat">過熱與補給</a>
+    <a href="#stop">停止與禁忌</a>
+    <a href="#next">之後的孕期</a>
+    <a href="#sources">來源</a>
+  </div>
+</nav>
+
+<main class="container">
+
+<section id="first">
+  <h2>第一孕期：可以沿用原來的運動模式嗎？</h2>
+  <p class="lead">大多數情況下可以。ACOG 表示，健康且正常懷孕者可繼續或開始規律活動；孕前非常活躍的人，在產科醫療人員同意下，可以繼續原本的 workouts。</p>
+  <div class="grid">
+    <article class="card">
+      <span class="badge good">通常可以保留</span>
+      <h3>原本熟悉的運動</h3>
+      <ul>
+        <li>重量訓練</li>
+        <li>快走</li>
+        <li>原本已有習慣的跑步</li>
+        <li>室內腳踏車</li>
+        <li>游泳、水中運動</li>
+        <li>一般 yoga / Pilates 的安全修改版本</li>
+      </ul>
+    </article>
+    <article class="card">
+      <span class="badge warn">需要改的是</span>
+      <h3>表現要求，而不是全部課表</h3>
+      <ul>
+        <li>不要要求一定維持孕前重量或速度</li>
+        <li>不以 PR、極限重量或力竭為訓練目標</li>
+        <li>疲勞、噁心或狀態差時可直接減量</li>
+        <li>避免過熱，第一孕期尤其要注意</li>
+        <li>補充足夠水分</li>
+      </ul>
+    </article>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <span class="badge good">先把這件事講清楚</span>
+    <h3>規律運動不會增加流產風險</h3>
+    <p>這是第一孕期最常被親友勸退的一點，但目前證據不支持。運動本身不是流產的原因；影響風險的是既有的產科或醫療狀況，而不是有沒有去健身房。</p>
+    <div class="ev">
+      <b>2023 系統性回顧與統合分析：</b>13 個隨機對照試驗、3,728 名孕婦，中等品質證據顯示運動組與未運動組的流產風險沒有差異。對照組為未進行規律運動者。
+    </div>
+    <div class="ev">
+      <b>世代研究回顧（N=21,551，3 篇）：</b>比較輕度／中度／高強度運動者、運動與不運動者、以及運動時長與速度，各組流產率均無顯著關聯。其中丹麥 90,270 人的 6 年前瞻世代在四個孕週分組比較運動時長，也未發現運動相關的流產風險上升。
+    </div>
+    <div class="ev">
+      <b>證據限度：</b>專門針對第一孕期（未滿 14 週）流產風險的研究只有 5 篇，結果分歧；高強度運動的資料仍然不足。以上結論適用於低至中等強度的規律運動。
+    </div>
+  </div>
+
+  <div class="callout" style="margin-top:16px">
+    <strong>仰躺動作：</strong>第一孕期不需要因為「懷孕」兩個字就自動刪掉所有仰躺動作；任何時候若仰躺讓你頭暈或不舒服，就換姿勢。CDC 建議在<strong>第一孕期之後</strong>避免需要平躺仰臥的活動。另外，ACOG 也建議避免運動中的<strong>長時間靜止站立</strong>——包括組間站著不動——因為靜止站立會讓血液滯留在下肢，短時間降低血壓。
+  </div>
+</section>
+
+<section id="coach">
+  <h2>已經有健身教練：最重要的是把規則講清楚</h2>
+  <p class="lead">不必自己先重新設計「孕婦課表」。讓教練知道懷孕、醫療限制，以及你現在的訓練目標改為維持健康與體能即可。</p>
+
+  <div class="card">
+    <div class="rule"><div class="num">1</div><div><h3>告知已懷孕與目前孕週</h3><div>若產科醫師之後給任何運動限制，立即同步給教練。</div></div></div>
+    <div class="rule"><div class="num">2</div><div><h3>把目標改成維持健康與體能</h3><div>維持肌力、心肺與日常活動能力；不是減重、追 PR 或一定要維持孕前表現。</div></div></div>
+    <div class="rule"><div class="num">3</div><div><h3>每堂課依當天狀態調整</h3><div>重量、組數、休息時間、動作幅度和姿勢都可以調整，不必硬完成原定課表。</div></div></div>
+    <div class="rule"><div class="num">4</div><div><h3>加入骨盆底肌訓練</h3><div>這是少數有明確隨機對照試驗支持、又能直接放進課表的項目，詳見下方段落。</div></div></div>
+    <div class="rule"><div class="num">5</div><div><h3>確認教練是否有孕期訓練經驗</h3><div>如果完全沒有經驗，隨著孕期進展可考慮加入有 prenatal training 經驗的專業人員。</div></div></div>
+  </div>
+
+  <h3 style="margin-top:24px">可以直接傳給教練</h3>
+  <div class="script" id="coachScript"><button class="copy" onclick="copyScript()">複製</button>我最近確認懷孕了，目前大約是第 X 週。我想孕期繼續維持運動習慣，但訓練目標改成維持體能和肌力，不需要追求 PR、減脂或做到力竭。
+
+之後希望你可以依照孕期和我每次上課的狀態調整重量、動作幅度、姿勢、組數和休息時間；如果有些動作隨著孕期不適合，也請直接幫我換掉。
+
+幾個具體的請求：
+1. 大重量時盡量避免長時間閉氣憋壓，需要的話直接降重量。
+2. 組間不要長時間站著不動。
+3. 如果你會帶骨盆底肌訓練，我想固定加進課表。
+4. 訓練環境不要太悶熱，我會多帶水。
+5. 強度用「還能講完整句子」來抓，不要用固定心率上限。
+
+目前醫生沒有給我其他運動限制／醫生給我的限制是＿＿＿＿。
+
+另外想確認一下，你之前有帶過懷孕期間的學生嗎？</div>
+</section>
+
+<section id="intensity">
+  <h2>強度怎麼抓？</h2>
+  <p class="lead">孕期不適合只用某一個固定心率上限判斷。ACOG 建議可以使用主觀強度以及 talk test，兩個一起用。</p>
+
+  <div class="callout" style="margin-bottom:16px">
+    <strong>「心跳不要超過 140」已經不是現行建議。</strong>ACOG 自 1994 年起即指出，沒有人體資料支持孕婦必須限制運動強度或降低目標心率。原因是孕期血量、心率、每搏輸出量與心輸出量本來就會上升，靜止心率就已經比孕前高，固定上限會失去意義；同時孕期對運動的心率反應可能被鈍化、也可能正常，因人而異。ACOG 因此建議改用主觀強度監測。
+  </div>
+
+  <table>
+    <thead><tr><th>判斷方式</th><th>實際意思</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Talk test</strong></td>
+        <td>中等強度時心跳和呼吸增加、開始流汗，<strong>還能正常講話，但已經唱不了歌</strong>。「唱不了歌」是判斷有沒有到中等強度的分界；若幾乎無法說完一個句子，代表已經進入高強度。</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Borg RPE 13–14</strong>
+          <span class="sub">Borg 6–20 自覺費力量表</span>
+        </td>
+        <td>
+          RPE（Rating of Perceived Exertion，自覺費力程度）是靠自己感受到的心跳、呼吸、流汗與肌肉疲勞來打分數，不需要儀器。量表<strong>從 6（完全不費力）到 20（力竭）</strong>，不是從 0 開始：9 是很輕鬆、11 是輕鬆、<strong>13–14 是「有點吃力」</strong>、15 是吃力、17 是很吃力。13–14 大約等於快走的感覺：呼吸心跳明顯上升，但沒有喘到不行。ACOG 將這個區間列為中等強度的參考。
+          <div class="ev">
+            <b>孕期請勿把 RPE 換算回心率。</b>這個量表原本設計成分數 ×10 約等於健康成人的心率（13 約對應 130 bpm），但這個換算在孕期會失效。一項研究測量孕婦運動時的 RPE 與實際心率，兩者無顯著相關（P&gt;0.05）；由 RPE 推估的心率系統性低估真實心率——第二孕期快走平均低估 16 bpm（n=11）、有氧課 15 bpm（n=48）、循環訓練 18 bpm（n=24），第三孕期騎車 16 bpm（n=12），個別最大低估達 54 bpm。作者結論是孕期不應單獨依賴 RPE 判斷強度，這也是為什麼要搭配 talk test。
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>重量訓練</strong></td>
+        <td>實務上以可控制動作、不要做到力竭、當天狀態差就降低重量或總量為原則。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="key" style="margin-top:16px">
+    <strong>總活動量：</strong>CDC 與 ACOG 建議正常孕期每週至少約 <strong>150 分鐘中等強度有氧活動</strong>，可分散到一週完成（例如一週 5 天、每天 30 分鐘）。若原本就很活躍，可以在醫療人員評估下持續較高強度的活動。
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <span class="badge warn">教練一定會問</span>
+    <h3>大重量與閉氣（Valsalva）</h3>
+    <p>誠實的說法是：<strong>目前沒有指引，也沒有高品質的孕期試驗。</strong>ACOG 沒有針對閉氣憋壓或負荷上限提出建議，孕期高負荷阻力訓練的研究目前主要是回溯性問卷，不足以下定論。</p>
+    <p>常見的「孕期不要憋氣」屬於專業共識與生理推論（閉氣會使腹內壓與血壓短暫大幅上升、靜脈回流下降），不是實證結論。實務上的折衷做法是：需要靠長時間閉氣才推得動的重量就降下來，讓每一下都能維持正常呼吸節奏。如果教練查資料發現找不到官方依據，那是正常的——這裡本來就沒有。</p>
+  </div>
+</section>
+
+<section id="safe">
+  <h2>哪些運動適合？哪些要避免？</h2>
+  <div class="grid">
+    <article class="card">
+      <span class="badge good">常見安全選擇</span>
+      <ul>
+        <li>快走</li>
+        <li>游泳、水中運動</li>
+        <li>室內腳踏車</li>
+        <li>修改過的 yoga / Pilates</li>
+        <li>孕前已有經驗、身體仍舒服的跑步</li>
+        <li>正常孕期的肌力訓練</li>
+      </ul>
+    </article>
+    <article class="card">
+      <span class="badge danger">應避免</span>
+      <ul>
+        <li>容易撞擊腹部的接觸性運動：拳擊、冰球、足球、籃球等</li>
+        <li>高跌倒風險：下坡滑雪、衝浪、越野單車、體操、騎馬等</li>
+        <li>跳傘</li>
+        <li>Scuba diving（胎兒肺循環無法過濾氣泡，減壓病風險）</li>
+        <li>Hot yoga / Hot Pilates</li>
+        <li>不習慣高海拔者在 6,000 ft 以上活動</li>
+      </ul>
+    </article>
+  </div>
+
+  <div class="callout" style="margin-top:16px">
+    <strong>球拍類運動介於兩者之間。</strong>ACOG 將網球、羽球等球拍類運動列為孕前已有習慣、且與醫療人員討論後可以延續的項目；但同時註明，孕期重心與平衡改變會提高跌倒風險，因此這類運動中跌倒風險升高的情境應盡量避免。判斷點在於場上的移動與變向，不是運動本身。
+  </div>
+</section>
+
+<section id="pelvic">
+  <h2>骨盆底肌訓練：最值得加進課表的一項</h2>
+  <p class="lead">這是孕期運動裡少數有隨機對照試驗直接支持、又不需要器材、隨時可以做的項目。多數一般課表不會主動放進去，需要自己提。</p>
+
+  <div class="grid">
+    <article class="card">
+      <span class="badge good">效果</span>
+      <h3>降低尿失禁與嚴重撕裂</h3>
+      <div class="ev">
+        <b>孕晚期尿失禁：</b>目前沒有尿失禁的孕婦進行產前骨盆底肌訓練，孕晚期回報尿失禁的相對風險為 <b>RR 0.38</b>（95% CI 0.20–0.72；6 個試驗、624 人，中等品質證據），相當於比一般產前照護組降低約 62%。
+      </div>
+      <div class="ev">
+        <b>產後 3–6 個月：</b><b>RR 0.71</b>（95% CI 0.54–0.95；5 個試驗），相當於降低約 29%。對照組同樣為一般照護。
+      </div>
+      <div class="ev">
+        <b>會陰撕裂：</b>2024 年一篇隨機對照試驗統合分析另指出，孕期骨盆底肌訓練可降低三度或四度會陰撕裂的發生。
+      </div>
+    </article>
+    <article class="card">
+      <span class="badge warn">安全性與做法</span>
+      <h3>可以現在就開始</h3>
+      <p>Cochrane 回顧中，一項 43 人的預防性試驗有 2 人因骨盆底疼痛退出；其餘試驗未回報不良反應。若做的時候會痛，停下來並回報醫療人員。</p>
+      <ul>
+        <li>第一孕期就可以開始，不需要等到後期</li>
+        <li>有效的試驗多為「有指導、有結構」的訓練，不是隨便想到才做</li>
+        <li>可請教練或婦產科／骨盆底物理治療師確認收縮方式正確</li>
+        <li>孕期與產後都持續，效益會延伸到產後</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="heat">
+  <h2>過熱、補水與熱量</h2>
+  <p class="lead">「避免過熱」如果沒有具體界線，很容易被誤解成不能讓心跳上升。實際上該避開的是<strong>環境</strong>，不是強度。</p>
+
+  <div class="card">
+    <h3>真正的門檻是核心體溫 39.0°C</h3>
+    <p>致畸胎風險的參考門檻是母體核心體溫達到或超過 39.0°C。目前的證據顯示，健康孕婦靠一般運動很難達到這個溫度。</p>
+    <div class="ev">
+      <b>系統性回顧（Ravanelli 2019, BJSM）：</b>12 篇研究、347 名孕婦，<b>無任何一人核心體溫達到 39.0°C</b>；個別最高值為 38.9°C（陸上運動）。各情境的平均結束體溫：陸上運動 38.3°C（95% CI 37.7–38.9）、水中運動 37.5°C、泡熱水 36.9°C、三溫暖 37.6°C。
+    </div>
+    <div class="ev">
+      <b>由此推導的範圍：</b>環境 25°C、相對濕度 45% 的條件下，以最大心率的 80–90% 運動最多 35 分鐘；水溫不超過 33.4°C 的水中運動最多 45 分鐘。
+    </div>
+    <div class="ev">
+      <b>證據限度：</b>樣本總數僅 347 人，且部分推導依據為 1980 年代的小型研究（n&lt;10、無對照組）。把它當成合理範圍，不是精確的安全保證。
+    </div>
+    <p style="margin-top:14px"><strong>可執行的結論：</strong>避開熱瑜伽、三溫暖、泡熱水、悶熱或高濕度的戶外時段；健身房冷氣不足時降低時長。不需要因為怕熱而刻意壓低運動強度。</p>
+  </div>
+
+  <div class="grid" style="margin-top:16px">
+    <article class="card">
+      <span class="badge warn">熱量</span>
+      <h3>不要在能量不足的狀態下訓練</h3>
+      <p>第一孕期的孕吐與食慾變化會壓低進食量，如果課表照舊，很容易變成長期熱量赤字。ACOG 明確提到：孕前很活躍的人可以在產科醫師同意下維持原本課表，但<strong>若體重開始下降，就需要增加熱量攝取</strong>。</p>
+      <ul>
+        <li>避免空腹訓練</li>
+        <li>體重下降要回報產科醫師，不要自行調整</li>
+        <li>孕吐嚴重的日子直接減量，不是硬撐完課表</li>
+      </ul>
+    </article>
+    <article class="card">
+      <span class="badge good">補水</span>
+      <h3>訓練前中後都要補</h3>
+      <ul>
+        <li>訓練前先喝，不要等到口渴</li>
+        <li>時間較長或流汗多時中途補充</li>
+        <li>頭暈、心悸或異常疲倦先停下來</li>
+        <li>穿透氣、散熱好的衣物</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="stop">
+  <h2>什麼情況要先問醫師，什麼情況要立刻停止</h2>
+  <p class="lead">前者是「開始運動前的門檻」，後者是「運動當下的警訊」，兩件事不一樣。</p>
+
+  <div class="callout">
+    <h3 style="margin-top:0">先問醫師：ACOG 列出的運動禁忌</h3>
+    <p>多數在第一孕期還檢查不出來，正好可以在早期產檢與後續超音波時一併確認。若符合任一項，運動建議會與本頁不同，請依產科醫療人員指示。</p>
+    <p style="margin-bottom:6px"><strong>絕對禁忌（不建議進行有氧運動）：</strong></p>
+    <ul style="margin-top:0">
+      <li>破水</li>
+      <li>子宮頸閉鎖不全／已做子宮頸環紮</li>
+      <li>第二或第三孕期持續出血</li>
+      <li>26 週後的前置胎盤</li>
+      <li>本次懷孕已發生早產</li>
+      <li>子癲前症／妊娠高血壓</li>
+      <li>有早產風險的多胞胎妊娠</li>
+      <li>影響血流動力的心臟病</li>
+      <li>限制性肺病</li>
+      <li>嚴重貧血</li>
+    </ul>
+    <p style="margin-bottom:6px"><strong>相對禁忌（需個別評估）：</strong>未經評估的母體心律不整、控制不良的第一型糖尿病／高血壓／癲癇／甲狀腺功能亢進、胎兒生長受限等。</p>
+  </div>
+
+  <h3 style="margin-top:24px">運動中出現這些情況，停止運動並聯絡產科醫師</h3>
+  <div class="stop">
+    <ul>
+      <li>陰道出血</li>
+      <li>腹痛</li>
+      <li>規律且疼痛的宮縮</li>
+      <li>羊水或其他液體由陰道流出</li>
+      <li>還沒開始運動就呼吸困難</li>
+      <li>頭暈或快昏倒</li>
+      <li>頭痛</li>
+      <li>胸痛</li>
+      <li>影響平衡的肌肉無力</li>
+      <li>小腿疼痛或腫脹</li>
+    </ul>
+  </div>
+</section>
+
+<section id="next">
+  <h2>之後的孕期會變什麼</h2>
+  <p class="lead">這頁的重點在第一孕期，但教練的課表要用一整個孕期。先讓他知道接下來要往哪調。</p>
+  <div class="card">
+    <div class="rule"><div class="num">1</div><div><h3>第一孕期之後：不再平躺仰臥</h3><div>CDC 建議第一孕期後避免需要平躺仰臥的活動。仰臥推舉、仰臥捲腹等需要改成斜板、坐姿或側躺替代。</div></div></div>
+    <div class="rule"><div class="num">2</div><div><h3>重心前移，平衡下降</h3><div>ACOG 指出孕期最明顯的變化之一是體重增加與重心位移，並造成腰椎前凸加深。單腳、跳躍、需要快速變向的動作要提早換掉，跌倒風險比動作本身重要。</div></div></div>
+    <div class="rule"><div class="num">3</div><div><h3>腹直肌分離</h3><div>腹部負荷增加後，捲腹類與高強度核心動作通常需要調整。出現腹部中線凸起（coning）就換動作。</div></div></div>
+    <div class="rule"><div class="num">4</div><div><h3>骨盆底肌訓練繼續做</h3><div>證據涵蓋整個孕期到產後，不是只做前期。</div></div></div>
+  </div>
+</section>
+
+<section id="summary">
+  <h2>你現在可以怎麼做</h2>
+  <div class="card">
+    <p><strong>如果目前是第一孕期、孕前已有固定運動、醫生沒有說需要限制活動：</strong></p>
+    <ol>
+      <li>先維持原本的運動種類和每週架構。</li>
+      <li>把「維持體能」放在「提升表現」之前。</li>
+      <li>告訴教練已懷孕，取消 PR / 力竭要求。</li>
+      <li>把骨盆底肌訓練固定加進課表。</li>
+      <li>強度改用 talk test 搭配 RPE 13–14 判斷，不用固定心率上限。</li>
+      <li>每次訓練依疲勞、噁心、呼吸和整體感受即時調整；不空腹訓練。</li>
+      <li>避免悶熱環境、高跌倒風險與腹部撞擊風險。</li>
+      <li>在早期產檢時，把目前的運動內容與上方禁忌清單一起跟產科醫師確認。</li>
+    </ol>
+  </div>
+</section>
+
+<section id="sources">
+  <h2>來源</h2>
+  <p class="lead">官方指引與研究文獻分開列出，兩者的證據強度不同。</p>
+
+  <div class="srcgroup">官方指引</div>
+  <div class="sources">
+    <div class="source">
+      <a href="https://www.acog.org/womens-health/faqs/exercise-during-pregnancy" target="_blank" rel="noopener"><strong>ACOG — Exercise During Pregnancy</strong></a>
+      <small>安全性、150 分鐘、第一孕期避免過熱、安全/避免運動、仰躺與靜止站立、活躍者的熱量攝取、停止運動警訊。</small>
+    </div>
+    <div class="source">
+      <a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period" target="_blank" rel="noopener"><strong>ACOG Committee Opinion No. 804 — Physical Activity and Exercise During Pregnancy and the Postpartum Period</strong></a>
+      <small>孕前活躍者可繼續活動、肌力與有氧運動、RPE 13–14 與 talk test、不設固定心率上限的理由、球拍類運動的跌倒風險、scuba 與 6,000 ft、絕對與相對禁忌、孕期解剖與生理變化。</small>
+    </div>
+    <div class="source">
+      <a href="https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html" target="_blank" rel="noopener"><strong>CDC — Pregnant &amp; Postpartum Activity: An Overview</strong></a>
+      <small>正常孕期活動安全、每週 150 分鐘中等強度有氧、第一孕期後避免需平躺仰臥的活動。</small>
+    </div>
+  </div>
+
+  <div class="srcgroup">研究文獻</div>
+  <div class="sources">
+    <div class="source">
+      <a href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007471.pub4/full" target="_blank" rel="noopener"><strong>Cochrane 2020 — Pelvic floor muscle training for preventing and treating urinary and faecal incontinence in antenatal and postnatal women</strong></a>
+      <small>骨盆底肌訓練的 RR 0.38 與 RR 0.71 數據來源，含試驗數、人數與證據品質評級。</small>
+    </div>
+    <div class="source">
+      <a href="https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.14744" target="_blank" rel="noopener"><strong>Zhang et al. 2024, Acta Obstet Gynecol Scand — PFMT during pregnancy on urinary incontinence, episiotomy and perineal tear</strong></a>
+      <small>骨盆底肌訓練與三度／四度會陰撕裂的統合分析。</small>
+    </div>
+    <div class="source">
+      <a href="https://www.mdpi.com/2077-0383/12/16/5393" target="_blank" rel="noopener"><strong>The Influence of Physical Activity during Pregnancy on Miscarriage — Systematic Review and Meta-Analysis (J Clin Med, 2023)</strong></a>
+      <small>13 個 RCT、3,728 名孕婦，運動與流產風險無關聯。</small>
+    </div>
+    <div class="source">
+      <a href="https://www.aafp.org/pubs/afp/issues/2015/0401/p437.html" target="_blank" rel="noopener"><strong>Exercise and Pregnancy Loss (AFP, 2015)</strong></a>
+      <small>世代研究回顧 N=21,551 與丹麥 90,270 人世代的流產風險資料。</small>
+    </div>
+    <div class="source">
+      <strong>Ravanelli N, et al. Heat stress and fetal risk: environmental limits for exercise and passive heat stress during pregnancy. Br J Sports Med 2019;53:799–805.</strong>
+      <small>doi:10.1136/bjsports-2017-097914　12 篇研究、347 人，無人核心體溫達 39.0°C；運動與熱暴露的環境上限推導。</small>
+    </div>
+    <div class="source">
+      <a href="https://bjsm.bmj.com/content/26/2/121" target="_blank" rel="noopener"><strong>O'Neill ME, et al. Accuracy of Borg's ratings of perceived exertion in the prediction of heart rates during pregnancy. Br J Sports Med.</strong></a>
+      <small>孕期 RPE 與運動心率無顯著相關、推估心率低估 11–18 bpm 的資料來源。</small>
+    </div>
+  </div>
+
+  <p class="disclaimer">此頁整理一般孕期運動原則，不能取代個別醫療評估。若有出血、胎盤/子宮頸問題、多胞胎或其他產科/心肺疾病等情況，運動建議可能不同，應依產科醫療人員指示。文中引用的研究各有樣本數與方法上的限制，已於對應段落標註。</p>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">孕期運動整理 · 依 ACOG 與 CDC 指引及相關研究彙整 · 2026-09</div>
+</footer>
+
+<script>
+function copyScript(){
+  const el=document.getElementById('coachScript');
+  const b=el.querySelector('.copy');
+  const text=el.innerText.replace('複製','').trim();
+  navigator.clipboard.writeText(text).then(()=>{
+    const old=b.textContent;b.textContent='已複製';
+    setTimeout(()=>b.textContent=old,1200);
+  });
+}
+</script>
+</body>
+</html>

@@ -1,711 +1,181 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>孕期飲食與美國超市採買指南</title>
+<title>孕期知識庫｜飲食與運動指南</title>
+<meta name="description" content="孕期飲食與運動的整理筆記：營養素優先順序、美國超市採買清單、食安分級，以及第一孕期的運動原則與安全警訊。" />
 <style>
-  :root{
-    --bg:#f7f6f1;
-    --card:#ffffff;
-    --text:#203129;
-    --muted:#68756e;
-    --green:#486b57;
-    --green2:#e8f1ea;
-    --gold:#9c6b13;
-    --goldbg:#fff3cf;
-    --bluebg:#eef4f8;
-    --line:#dfe5e1;
-    --red:#8c3d36;
-    --redbg:#fae9e6;
-  }
-  *{box-sizing:border-box}
-  body{
-    margin:0;
-    background:var(--bg);
-    color:var(--text);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
-    line-height:1.6;
-  }
-  .wrap{max-width:1050px;margin:0 auto;padding:32px 20px 70px}
-  h1{font-size:2.1rem;line-height:1.2;margin:0 0 8px}
-  h2{font-size:1.45rem;margin:34px 0 14px}
-  h3{font-size:1.05rem;margin:0 0 7px}
-  p{margin:7px 0}
-  .hero{
-    background:linear-gradient(135deg,#eaf2eb,#ffffff);
-    border:1px solid var(--line);
-    border-radius:20px;
-    padding:26px;
-  }
-  .sub{color:var(--muted);margin:0}
-  .priority-note{
-    margin-top:17px;
-    background:var(--goldbg);
-    border:1px solid #edd28a;
-    border-left:6px solid #c79127;
-    padding:14px 16px;
-    border-radius:11px;
-    font-weight:600;
-  }
-  .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-  .grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-  .card{
-    background:var(--card);
-    border:1px solid var(--line);
-    border-radius:15px;
-    padding:17px;
-  }
-  .nutrient{
-    position:relative;
-    overflow:hidden;
-  }
-  .nutrient.top{
-    border:2px solid #d7ae50;
-    background:linear-gradient(145deg,#fff8e8,#fff);
-  }
-  .badge{
-    display:inline-block;
-    font-size:.78rem;
-    font-weight:700;
-    border-radius:999px;
-    padding:3px 9px;
-    margin:2px 4px 2px 0;
-    background:var(--green2);
-    color:#355844;
-  }
-  .badge.gold{background:#f9e8b4;color:#79530c}
-  .badge.blue{background:#e6f0f6;color:#315a70}
-  .number{
-    font-weight:800;
-    font-size:1.13rem;
-    color:var(--green);
-  }
-  .food-highlight{
-    background:#eef7ef;
-    border:2px solid #7eaa8a;
-    box-shadow:0 1px 0 rgba(0,0,0,.03);
-  }
-  .food-highlight strong:first-child{font-size:1.08rem}
-  .star{color:#a77514;font-weight:800}
-  .formula{
-    margin-top:14px;
-    background:#edf3ee;
-    border-left:5px solid var(--green);
-    border-radius:9px;
-    padding:13px 15px;
-    font-size:1.05rem;
-  }
-  table{
-    width:100%;
-    border-collapse:collapse;
-    background:var(--card);
-    border-radius:14px;
-    overflow:hidden;
-  }
-  th,td{
-    padding:11px 12px;
-    text-align:left;
-    vertical-align:top;
-    border-bottom:1px solid var(--line);
-  }
-  th{background:#edf2ee}
-  tr:last-child td{border-bottom:0}
-  .yes{background:#eef7ef}
-  .warn{background:#fff5dc}
-  .no{background:var(--redbg)}
-  ul{padding-left:20px;margin:7px 0}
-  .shopping{
-    background:#f5f8f5;
-    border:1px solid var(--line);
-    border-radius:16px;
-    padding:18px;
-  }
-  .store{
-    font-weight:800;
-    color:var(--green);
-  }
-  .small{font-size:.9rem;color:var(--muted)}
-  .cite-row{margin-top:10px;font-size:.86rem;color:var(--muted)}
-  .cite-link{
-    display:inline-block;
-    margin:3px 5px 0 0;
-    padding:3px 8px;
-    border:1px solid #ccd9d0;
-    border-radius:999px;
-    background:#fff;
-    color:#315a42;
-    text-decoration:none;
-    font-weight:650;
-  }
-  .cite-link:hover{text-decoration:underline;background:#f4f8f5}
-  .source a{color:#385f4a}
-  @media(max-width:800px){
-    .grid,.grid3{grid-template-columns:1fr}
-    h1{font-size:1.7rem}
-  }
+:root{
+  --bg:#fbfaf8;
+  --panel:#ffffff;
+  --ink:#20201f;
+  --muted:#66635f;
+  --line:#e8e3dc;
+  --accent:#765f4d;
+  --accent-soft:#f2ece6;
+  --green:#486b57;
+  --green-soft:#edf3ee;
+  --shadow:0 12px 32px rgba(56,43,30,.06);
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+  line-height:1.72;
+}
+a{color:var(--accent);text-underline-offset:3px}
+.container{max-width:1040px;margin:auto;padding:0 22px}
+
+.hero{
+  padding:78px 0 46px;
+  border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(circle at 88% 8%, #eef0e6 0, transparent 30%),
+    radial-gradient(circle at 12% 0%, #f5e9dd 0, transparent 26%),
+    linear-gradient(180deg,#fff 0%,var(--bg) 100%);
+}
+.eyebrow{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  background:var(--accent-soft);
+  color:var(--accent);
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.04em;
+}
+h1{font-size:clamp(34px,5.6vw,58px);line-height:1.1;letter-spacing:-.04em;margin:18px 0 16px;max-width:820px}
+.hero p{font-size:18px;color:var(--muted);max-width:720px;margin:0}
+
+main{padding:46px 0 30px}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+
+.card{
+  display:block;
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:26px 26px 24px;
+  text-decoration:none;
+  color:inherit;
+  box-shadow:var(--shadow);
+  transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+}
+.card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 18px 40px rgba(56,43,30,.10);
+}
+.card .tag{
+  display:inline-block;
+  padding:5px 11px;
+  border-radius:999px;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.03em;
+}
+.card h2{font-size:26px;line-height:1.25;letter-spacing:-.02em;margin:14px 0 8px}
+.card p{color:var(--muted);margin:0 0 16px;font-size:15.5px}
+.card ul{margin:0;padding-left:19px;color:var(--muted);font-size:15px}
+.card li{margin:3px 0}
+.go{
+  margin-top:18px;
+  font-weight:700;
+  font-size:15px;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+}
+
+.card.diet{border-top:4px solid var(--green)}
+.card.diet .tag{background:var(--green-soft);color:var(--green)}
+.card.diet:hover{border-color:#9dbaa8}
+.card.diet .go{color:var(--green)}
+
+.card.move{border-top:4px solid var(--accent)}
+.card.move .tag{background:var(--accent-soft);color:var(--accent)}
+.card.move:hover{border-color:#c4ab96}
+.card.move .go{color:var(--accent)}
+
+.note{
+  margin:34px 0 0;
+  padding:18px 20px;
+  border-left:5px solid var(--accent);
+  background:var(--accent-soft);
+  border-radius:14px;
+  color:#5b4838;
+  font-size:15px;
+}
+footer{
+  border-top:1px solid var(--line);
+  margin-top:44px;
+  padding:26px 0 60px;
+  color:var(--muted);
+  font-size:14px;
+}
+footer a{color:var(--muted)}
+
+@media(max-width:760px){
+  .hero{padding-top:52px}
+  .cards{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
-<div class="wrap">
 
-<section class="hero">
-  <h1>孕期飲食與美國超市採買指南</h1>
-  <p class="sub">重點不是「吃很多」，而是每天把最容易缺、對胎兒發育重要的營養素穩定補到。</p>
+<header class="hero">
+  <div class="container">
+    <span class="eyebrow">孕期知識庫</span>
+    <h1>孕期的飲食與運動，整理成兩份可執行的指南</h1>
+    <p>不是「什麼都不能做」的清單，而是把每天真正該顧的事情講清楚：吃什麼、買什麼、怎麼動、什麼時候該停。</p>
+  </div>
+</header>
 
-  <div class="priority-note">
-    <strong>每天一份 prenatal vitamin，是所有食物策略的基礎，不是備案。</strong>
-    在這之上：葉酸 → 鐵 → 碘 → 膽鹼優先；每天穩定有蛋白質、鈣與 Vitamin D，
-    每週 2–3 餐低汞魚／海鮮。
-    <div class="cite-row">
-      <a class="cite-link" href="https://www.acog.org/en/womens-health/faqs/nutrition-during-pregnancy" target="_blank" rel="noopener">ACOG 孕期營養表 ↗</a>
-      <a class="cite-link" href="https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/" target="_blank" rel="noopener">NIH ODS：孕期補充劑 ↗</a>
-    </div>
+<main class="container">
+  <div class="cards">
+
+    <a class="card diet" href="懷孕飲食指南.html">
+      <span class="tag">飲食 · 採買</span>
+      <h2>孕期飲食與美國超市採買指南</h2>
+      <p>重點不是「吃很多」，而是每天把最容易缺、對胎兒發育重要的營養素穩定補到。</p>
+      <ul>
+        <li>葉酸、鐵、碘、膽鹼的優先順序與每日建議量</li>
+        <li>為什麼同樣是鮪魚，汞含量差 5 倍</li>
+        <li>Trader Joe’s / Whole Foods 進店直接照買的清單</li>
+        <li>食安分三級：可以吃、加熱就能吃、完全避免</li>
+      </ul>
+      <span class="go">閱讀飲食指南 →</span>
+    </a>
+
+    <a class="card move" href="懷孕運動指南.html">
+      <span class="tag">運動 · 第一孕期</span>
+      <h2>懷孕期間運動指南｜第一孕期 × 健身教練</h2>
+      <p>懷孕了，運動不用全部重來。原本的訓練大多可以延續，需要調整的是規則與強度判斷。</p>
+      <ul>
+        <li>第一孕期能不能沿用原來的運動模式</li>
+        <li>已經有教練：怎麼把規則一次講清楚</li>
+        <li>強度怎麼抓、骨盆底肌訓練怎麼加</li>
+        <li>什麼情況要先問醫師，什麼情況要立刻停止</li>
+      </ul>
+      <span class="go">閱讀運動指南 →</span>
+    </a>
+
   </div>
 
-  <div class="card" style="margin-top:14px">
-    <h3>買 prenatal 時確認這 4 個數字</h3>
-    <p><span class="badge gold">Folic acid</span> ≥ 400 mcg　<span class="badge gold">Iron</span> 27 mg　<span class="badge gold">Iodine</span> 150 mcg　<span class="badge gold">Vitamin D</span> 600 IU</p>
-    <p class="small"><strong>DHA 多數 prenatal 沒有</strong>，需要另外買，或靠每週的魚吃到（建議 200–300 mg/day）。
-    Gummy 型通常不含鐵。Vitamin A 看是 retinol 還是 beta-carotene，retinol 型不要疊加額外補充劑。</p>
-  </div>
+  <p class="note">
+    兩份指南都整理自 ACOG、NIH ODS、FDA/EPA 等公開指引，內文附有可點擊的原始出處。
+    但公開指引是給「一般孕期」的通則，<strong>不能取代產檢醫師對你個人的建議</strong>——
+    既有疾病、多胞胎或任何醫師特別交代的限制，都以醫師的說法為準。
+  </p>
+</main>
 
-  <div class="formula">
-    <strong>最簡單的一餐：</strong>
-    蛋白質 1 份 + 五穀／藜麥／飯 1 份 + 蔬菜約 2 碗。
-  </div>
-</section>
+<footer class="container">
+  <p>資料來源：<a href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" target="_blank" rel="noopener">ACOG</a> ·
+  <a href="https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/" target="_blank" rel="noopener">NIH ODS</a> ·
+  <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish" target="_blank" rel="noopener">FDA/EPA</a></p>
+</footer>
 
-<h2>① 孕期最需要優先顧的營養素</h2>
-<p class="small">每張卡片下方的「NIH / ACOG / FDA ↗」都是可直接點擊的官方 citation；建議量與用途可由原始官方頁面核對。</p>
-<div class="grid3">
-
-  <div class="card nutrient top">
-    <h3>葉酸 / Folate <span class="star">★★★★★</span></h3>
-    <div class="number">600 mcg DFE/day</div>
-    <p>降低胎兒神經管缺陷（腦與脊髓）風險。</p>
-    <p><span class="badge gold">優先食物</span> 深綠葉菜、豆類、蘆筍、avocado、強化穀物</p>
-    <p class="small"><strong>DFE = 膳食葉酸當量</strong>，把食物葉酸與合成 folic acid 的吸收率差換算過（1 mcg folic acid ≈ 1.7 mcg DFE）。
-    600 是<strong>飲食＋補充劑合計</strong>，不是補充劑劑量。</p>
-    <p class="small">補充劑：<strong>≥400 mcg folic acid</strong>，懷孕前至少 1 個月開始，持續到孕期前 12 週。
-    若前一胎有神經管缺陷，改為 4 mg/day 單獨補充、孕前 3 個月開始（需醫師處方）。</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/" target="_blank" rel="noopener">NIH：Folate ↗</a>
-      <a class="cite-link" href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" target="_blank" rel="noopener">ACOG ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient top">
-    <h3>鐵 / Iron <span class="star">★★★★★</span></h3>
-    <div class="number">27 mg/day</div>
-    <p>孕期血容量增加，需要更多鐵製造紅血球。</p>
-    <p><span class="badge gold">優先食物</span> 瘦牛肉、豆類、lentils、蝦、菠菜、強化穀物</p>
-    <p class="small"><strong>促進：</strong>植物性鐵搭配甜椒、花椰菜、柳橙等 Vitamin C 食物。</p>
-    <p class="small"><strong>抑制：</strong>鈣、咖啡、茶會擋鐵吸收。鐵劑或含鐵的一餐，與乳製品／咖啡隔開 1–2 小時。</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/" target="_blank" rel="noopener">NIH：Iron ↗</a>
-      <a class="cite-link" href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" target="_blank" rel="noopener">ACOG ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient top">
-    <h3>碘 / Iodine <span class="star">★★★★★</span></h3>
-    <div class="number">220 mcg/day</div>
-    <p>胎兒甲狀腺與腦部神經發育需要碘。</p>
-    <p><span class="badge gold">優先食物</span> iodized salt、蛋、乳製品、低汞海鮮</p>
-    <p class="small">很多海鹽、kosher salt 並不是 iodized；要看包裝。</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/" target="_blank" rel="noopener">NIH：Iodine ↗</a>
-      <a class="cite-link" href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" target="_blank" rel="noopener">ACOG ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient top">
-    <h3>膽鹼 / Choline <span class="star">★★★★★</span></h3>
-    <div class="number">450 mg/day</div>
-    <p>對胎兒腦與脊髓發育重要，而且很多 prenatal 含量不足。</p>
-    <p><span class="badge gold">優先食物</span> <strong>雞蛋</strong>、牛肉、牛奶、豆製品、魚</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/" target="_blank" rel="noopener">NIH：Choline ↗</a>
-      <a class="cite-link" href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" target="_blank" rel="noopener">ACOG ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient">
-    <h3>鈣 / Calcium <span class="star">★★★★</span></h3>
-    <div class="number">1,000 mg/day</div>
-    <p>胎兒骨骼與牙齒發育。</p>
-    <p><span class="badge">好來源</span> pasteurized Greek yogurt、牛奶、起司、帶骨沙丁魚、豆腐</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/" target="_blank" rel="noopener">NIH：Calcium ↗</a>
-      <a class="cite-link" href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" target="_blank" rel="noopener">ACOG ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient">
-    <h3>Vitamin D <span class="star">★★★★</span></h3>
-    <div class="number">600 IU / 15 mcg/day</div>
-    <p>協助鈣吸收及骨骼發育。</p>
-    <p><span class="badge">好來源</span> 鮭魚、沙丁魚、fortified milk、蛋黃</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/" target="_blank" rel="noopener">NIH：Vitamin D ↗</a>
-      <a class="cite-link" href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" target="_blank" rel="noopener">ACOG ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient">
-    <h3>DHA / Omega-3 <span class="star">★★★★</span></h3>
-    <div class="number">200–300 mg DHA/day</div>
-    <p>魚類中的 omega-3 對胎兒腦部發育有重要作用。約等於每週 2–3 份低汞魚。</p>
-    <p><span class="badge blue">Best Choice</span> 鮭魚、沙丁魚、鱒魚、蝦、扇貝、cod、canned <strong>light</strong> tuna</p>
-    <p class="small"><strong>鮪魚要分清楚：</strong>canned <strong>light</strong> tuna 是 Best Choice；albacore／white tuna、yellowfin 屬 Good Choice，
-    每週只能 1 份（4 oz），且吃了就不再吃其他魚。bigeye tuna 完全避免。
-    <br>→ 原因見下方「為什麼同樣是鮪魚，差這麼多」。</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/" target="_blank" rel="noopener">NIH：Omega-3 ↗</a>
-      <a class="cite-link" href="https://www.fda.gov/food/consumers/advice-about-eating-fish" target="_blank" rel="noopener">FDA：孕期魚類建議 ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient">
-    <h3>蛋白質 <span class="star">★★★★</span></h3>
-    <div class="number">46 g/day（第一孕期）→ 71 g/day（第二、三孕期）</div>
-    <p>胎兒、胎盤與母體組織成長需要穩定蛋白質。71 g 約等於 1.1 g/kg 體重。</p>
-    <p><span class="badge">每餐都要</span> 雞肉、牛肉、魚、蛋、Greek yogurt、豆腐、豆類</p>
-    <p class="small">不用集中到晚餐，每餐都有通常最好執行。</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" target="_blank" rel="noopener">ACOG：Healthy Eating During Pregnancy ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient">
-    <h3>纖維 + Vitamin C</h3>
-    <div class="number">纖維 28 g/day　Vitamin C 85 mg/day</div>
-    <p>有助排便，也能幫助植物性鐵吸收。孕期便祕常見，鐵劑會加重。</p>
-    <p><span class="badge">好來源</span> 莓果、奇異果、柳橙、甜椒、花椰菜、豆類、全穀</p>
-    <p class="small">配合水分：每天約 2.3–3 L 總水分（含食物中的水），高纖沒配水反而更脹。</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://www.acog.org/en/womens-health/faqs/nutrition-during-pregnancy" target="_blank" rel="noopener">ACOG：孕期營養 ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient" style="border:2px solid #c98b84;background:linear-gradient(145deg,#fdf0ee,#fff)">
-    <h3>咖啡因（上限，不是目標）</h3>
-    <div class="number" style="color:var(--red)">&lt; 200 mg/day</div>
-    <p>ACOG 建議孕期每天低於 200 mg，大約是一杯 12 oz 沖泡咖啡。</p>
-    <p class="small"><strong>要一起算的：</strong>茶、抹茶、可樂、能量飲、巧克力、部分止痛藥。
-    Starbucks grande 沖泡咖啡（16 oz）單杯就已超標。Decaf 不是零，但很低。</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://www.acog.org/en/womens-health/faqs/nutrition-during-pregnancy" target="_blank" rel="noopener">ACOG ↗</a>
-    </div>
-  </div>
-
-  <div class="card nutrient" style="border:2px solid #c98b84;background:linear-gradient(145deg,#fdf0ee,#fff)">
-    <h3>Vitamin A：唯一要擔心「吃太多」的</h3>
-    <p>retinol（動物性維生素 A）攝取過量在孕期有致畸風險。beta-carotene（蔬果的橘黃色素）沒有這個問題。</p>
-    <p><span class="badge" style="background:var(--redbg);color:var(--red)">限制</span> 豬肝、雞肝、鵝肝、liver pâté、魚肝油、高劑量 retinol 補充劑</p>
-    <p class="small">注意：ACOG 的建議是把肝臟類當偶爾吃，不是完全禁止；重點是不要天天吃、也不要和 retinol 型補充劑疊加。</p>
-    <div class="cite-row">
-      <a class="cite-link" href="https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/" target="_blank" rel="noopener">NIH：Vitamin A ↗</a>
-    </div>
-  </div>
-
-</div>
-
-<h2>② 為什麼同樣是鮪魚，差這麼多</h2>
-<p>汞會沿食物鏈累積（生物放大）：魚愈大、活愈久、吃愈高階的獵物，肉裡的甲基汞就愈高。
-skipjack 成魚約 10–20 磅，bigeye 可以長到 400 磅——同樣叫「鮪魚」，在食物鏈上不是同一個位置。</p>
-
-<table>
-<tr><th>種類</th><th>FDA 實測平均汞（ppm）</th><th>分級</th><th>孕期頻率</th></tr>
-<tr class="yes"><td>Canned <strong>light</strong> tuna（主要是 skipjack）</td><td>0.13</td><td>Best Choice</td><td>每週 2–3 份</td></tr>
-<tr class="warn"><td>Yellowfin</td><td>0.35</td><td>Good Choice</td><td>每週 1 份，且該週不再吃其他魚</td></tr>
-<tr class="warn"><td>Albacore / white tuna</td><td>0.36</td><td>Good Choice</td><td>每週 1 份，且該週不再吃其他魚</td></tr>
-<tr class="no"><td>Bigeye</td><td>0.69</td><td>Avoid</td><td>完全不吃</td></tr>
-</table>
-
-<div class="card" style="margin-top:14px">
-  <h3>分級是怎麼算出來的</h3>
-  <p>三個級別不是主觀分類，是同一條汞攝取上限往回推的每週份數：</p>
-  <ul>
-    <li>平均汞 <strong>≤ 0.15 ppm</strong> → 每週可吃 3 份 → <strong>Best Choice</strong></li>
-    <li>平均汞 <strong>≤ 0.23 ppm</strong> → 每週可吃 2 份</li>
-    <li>再高就只剩 1 份 → <strong>Good Choice</strong>；超過就是 <strong>Avoid</strong></li>
-  </ul>
-  <p>albacore（0.36）和 yellowfin（0.35）都超過 0.23，所以掉到每週 1 份。bigeye（0.69）約是 canned light 的 5.3 倍，直接進 Avoid。</p>
-  <p><strong>所以「吃了 Good Choice 就不再吃其他魚」不是那條魚本身的規則，而是一週的汞額度已經用完。</strong>
-  這也解釋了為什麼鮭魚（0.022）、蝦（0.009）、扇貝（0.003）、沙丁魚（0.013）可以放心每週吃 2–3 次——它們是小型、短命、低階的魚。</p>
-  <div class="cite-row">
-    <a class="cite-link" href="https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are" target="_blank" rel="noopener">FDA：分級門檻的技術文件 ↗</a>
-    <a class="cite-link" href="https://www.fda.gov/food/metals/mercury-levels-commercial-fish-and-shellfish-1990-2012" target="_blank" rel="noopener">FDA：各魚種汞實測值 ↗</a>
-  </div>
-</div>
-
-<h2>③ 最值得高頻率出現在冰箱裡的食物</h2>
-<div class="grid">
-
-  <div class="card food-highlight">
-    <strong>🥚 雞蛋</strong>
-    <p><span class="badge gold">膽鹼</span><span class="badge">蛋白質</span><span class="badge">B12</span></p>
-    <p><strong>建議：</strong>1–2 顆／天可作為很實用的日常蛋白質來源；孕期吃全熟。</p>
-  </div>
-
-  <div class="card food-highlight">
-    <strong>🐟 鮭魚 / 鱒魚 / 沙丁魚</strong>
-    <p><span class="badge gold">DHA</span><span class="badge">Vitamin D</span><span class="badge">蛋白質</span></p>
-    <p><strong>建議：</strong>每餐 <strong>110–120 g</strong>（＝FDA 的 1 份 4 oz），每週 2–3 次，總量 8–12 oz。與蝦、扇貝、cod 輪替。</p>
-  </div>
-
-  <div class="card food-highlight">
-    <strong>🥣 Plain Greek yogurt</strong>
-    <p><span class="badge gold">鈣</span><span class="badge">蛋白質</span><span class="badge">碘</span></p>
-    <p><strong>建議：</strong>150–200 g／次；選 pasteurized、plain、低 added sugar。</p>
-  </div>
-
-  <div class="card food-highlight">
-    <strong>🥩 瘦牛肉</strong>
-    <p><span class="badge gold">鐵</span><span class="badge">膽鹼</span><span class="badge">B12</span></p>
-    <p><strong>建議：</strong>熟重約 100–130 g／餐；孕期全熟。</p>
-  </div>
-
-  <div class="card food-highlight">
-    <strong>🥬 菠菜 / 青江菜 / kale / broccoli</strong>
-    <p><span class="badge gold">葉酸</span><span class="badge">纖維</span><span class="badge">Vitamin C</span></p>
-    <p><strong>建議：</strong>每餐蔬菜合計約 250–350 g，輪替不同顏色。</p>
-  </div>
-
-  <div class="card food-highlight">
-    <strong>🫘 Lentils / chickpeas / beans</strong>
-    <p><span class="badge gold">葉酸</span><span class="badge">鐵</span><span class="badge">纖維</span></p>
-    <p><strong>建議：</strong>可以和肉類交替，也可以加入湯、沙拉或藜麥飯。</p>
-  </div>
-
-  <div class="card food-highlight">
-    <strong>🥑 Avocado</strong>
-    <p><span class="badge gold">Folate</span><span class="badge">健康脂肪</span><span class="badge">鉀</span></p>
-    <p><strong>份量：</strong>約 1/4–1/2 顆／次；熱量較高，所以不用每餐都吃。</p>
-  </div>
-
-  <div class="card food-highlight">
-    <strong>🧂 Iodized salt</strong>
-    <p><span class="badge gold">碘</span></p>
-    <p><strong>重點：</strong>購買時確認標示 “iodized”。Sea salt / kosher salt 不一定含碘。</p>
-  </div>
-
-</div>
-
-<h2>④ 主食：白飯可以換五穀飯或藜麥</h2>
-<table>
-<tr><th>主食</th><th>一餐熟重</th><th>適合原因</th></tr>
-<tr><td><strong>藜麥 / quinoa</strong></td><td>120–150 g</td><td>纖維、蛋白質、鐵、鎂比單純白飯更豐富。</td></tr>
-<tr><td><strong>五穀飯</strong></td><td>120–150 g</td><td>增加全穀、纖維與礦物質，適合與白飯輪替。</td></tr>
-<tr><td>白飯</td><td>120–150 g</td><td>容易消化；孕吐、胃脹或高纖不舒服時仍很好用。</td></tr>
-<tr><td>地瓜</td><td>150–200 g</td><td>提供纖維、鉀、β-carotene。</td></tr>
-</table>
-<p class="small">不需要每天只吃糙米；白飯、藜麥、五穀、燕麥與地瓜輪替即可。</p>
-
-<h2>⑤ 每餐份量</h2>
-<table>
-<tr><th>類別</th><th>建議份量</th></tr>
-<tr><td>雞肉</td><td>熟重 120–150 g</td></tr>
-<tr><td>瘦牛肉</td><td>熟重 100–130 g</td></tr>
-<tr><td>魚 / 蝦 / 扇貝</td><td>110–120 g／餐（1 份 = 4 oz），每週 2–3 次，全熟</td></tr>
-<tr><td>豆腐</td><td>150–200 g；若當主蛋白，可再搭配 1 顆蛋</td></tr>
-<tr><td>藜麥 / 五穀 / 白飯</td><td>熟重 120–150 g</td></tr>
-<tr><td>饅頭</td><td>60–80 g</td></tr>
-<tr><td>蔬菜</td><td>250–350 g，約 2 大碗</td></tr>
-</table>
-
-<h3 style="margin-top:22px">熱量要隨孕期調整，不是一套吃到底</h3>
-<table>
-<tr><th>孕期</th><th>比孕前多吃</th><th>大概等於</th></tr>
-<tr><td>第一孕期</td><td><strong>0</strong>（不需要額外熱量）</td><td>—</td></tr>
-<tr><td>第二孕期</td><td><strong>+340 kcal/day</strong></td><td>一份 Greek yogurt + 一根香蕉 + 一片全麥吐司</td></tr>
-<tr><td>第三孕期</td><td><strong>+450 kcal/day</strong></td><td>上面再加一小把堅果</td></tr>
-</table>
-<p class="small">⑦ 的一天範例是第二、三孕期的份量。第一孕期照這樣吃可能過量，把主食與點心各縮一點即可。</p>
-
-<h3 style="margin-top:22px">「全熟」的可執行標準</h3>
-<table>
-<tr><th>食材</th><th>中心溫度</th></tr>
-<tr><td>雞肉、火雞、任何家禽</td><td><strong>165°F / 74°C</strong></td></tr>
-<tr><td>絞肉（牛絞肉、豬絞肉）</td><td><strong>160°F / 71°C</strong></td></tr>
-<tr><td>整塊牛排、豬排、羊排</td><td><strong>145°F / 63°C</strong>，離火靜置 3 分鐘</td></tr>
-<tr><td>魚</td><td><strong>145°F / 63°C</strong>，或肉質不透明、可用叉子撥開</td></tr>
-<tr><td>蛋</td><td>蛋黃蛋白都凝固（不要溏心）</td></tr>
-<tr><td>剩菜、加熱 deli meat</td><td><strong>165°F / 74°C</strong>，要到冒蒸氣</td></tr>
-</table>
-<p class="small">買一支便宜的即時電子溫度計比目視判斷可靠得多，尤其是雞胸和厚切魚排。</p>
-
-<h2>⑥ Trader Joe’s / Whole Foods：進店直接這樣買</h2>
-<div class="shopping">
-  <p><strong>第一次去，最低限度買這 8 類：</strong>蛋、plain Greek yogurt、深綠葉菜、豆類、瘦牛肉／雞肉、低汞魚海鮮、quinoa／全穀、iodized salt。
-  下面是完整清單——本指南提到的每一樣食物都在裡面，依店內動線分組。</p>
-
-  <table>
-    <tr><th>類別</th><th>Trader Joe’s</th><th>Whole Foods</th><th>怎麼看標籤</th></tr>
-
-    <tr><td colspan="4" style="background:#edf2ee;font-weight:800">蛋白質區（每餐都要）</td></tr>
-    <tr>
-      <td><strong>蛋</strong><br><span class="small">膽鹼主力</span></td>
-      <td>一般／organic eggs 都可以</td>
-      <td>365 eggs 或其他品牌</td>
-      <td>不必為了孕期特別追求 organic；重點是冷藏保存＋煮到全熟</td>
-    </tr>
-    <tr>
-      <td><strong>瘦牛肉 / 雞肉</strong><br><span class="small">鐵、膽鹼、B12</span></td>
-      <td>ground beef 90/93% lean、sirloin、chicken breast／thigh</td>
-      <td>同樣選 90%+ lean 絞肉或整塊瘦肉、chicken breast／thigh</td>
-      <td>避開已調味／醃好的即食品（鈉高）。絞肉煮到 160°F，雞肉 165°F</td>
-    </tr>
-    <tr>
-      <td><strong>魚海鮮</strong><br><span class="small">DHA、Vitamin D、碘</span></td>
-      <td>fresh/frozen salmon、cod、shrimp、scallops</td>
-      <td>同樣優先 fresh/frozen salmon、trout、cod、shrimp、scallops</td>
-      <td>都是 Best Choice。每餐 110–120 g、每週 2–3 次。<strong>鮪魚生鮮櫃的 ahi／yellowfin 要跳過</strong></td>
-    </tr>
-    <tr>
-      <td><strong>豆腐</strong></td>
-      <td>Organic High Protein Super Firm Tofu / Organic Tofu</td>
-      <td>365 Organic Extra Firm Tofu 或其他 plain tofu</td>
-      <td>選 plain、少醬汁版本，比加工 vegan entrée 更好控制鈉</td>
-    </tr>
-
-    <tr><td colspan="4" style="background:#edf2ee;font-weight:800">乳製品區（鈣、碘、Vitamin D）</td></tr>
-    <tr>
-      <td><strong>Greek yogurt</strong></td>
-      <td><strong>Greek Lowfat Yogurt Plain</strong> 是可用選擇</td>
-      <td><strong>365 Plain Greek Yogurt</strong> 或 FAGE Plain</td>
-      <td>確認 <strong>pasteurized</strong>；plain、0 added sugar 優先</td>
-    </tr>
-    <tr>
-      <td><strong>牛奶</strong></td>
-      <td>一般冷藏鮮奶即可</td>
-      <td>365 milk 或其他品牌</td>
-      <td>找 <strong>Vitamin D fortified</strong>（美國幾乎都有加）。<strong>不要買 raw milk</strong></td>
-    </tr>
-    <tr>
-      <td><strong>起司</strong></td>
-      <td>block cheddar、Parmesan、Swiss</td>
-      <td>同上；軟起司看標示</td>
-      <td>硬起司安全。brie／feta／blue／queso fresco 要看到 <strong>pasteurized</strong> 才買</td>
-    </tr>
-
-    <tr><td colspan="4" style="background:#edf2ee;font-weight:800">蔬果區（葉酸、纖維、Vitamin C）</td></tr>
-    <tr>
-      <td><strong>深綠葉菜</strong><br><span class="small">葉酸主力</span></td>
-      <td>菠菜、kale、青江菜、asparagus</td>
-      <td>同樣挑 fresh 或 plain frozen</td>
-      <td>冷凍蔬菜完全可以；避開大量奶油／高鈉醬汁版本</td>
-    </tr>
-    <tr>
-      <td><strong>其他蔬菜</strong></td>
-      <td>broccoli、bell pepper、carrot、番茄</td>
-      <td>同上</td>
-      <td>甜椒／花椰菜是 Vitamin C 來源，和含鐵餐一起吃</td>
-    </tr>
-    <tr>
-      <td><strong>水果</strong></td>
-      <td>莓果（含冷凍）、柳橙、奇異果、香蕉</td>
-      <td>365 frozen berries、當季鮮果</td>
-      <td>冷凍莓果比鮮果便宜且不會壞。<strong>不要買預切哈密瓜／西瓜</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Avocado</strong></td>
-      <td>袋裝 avocado</td>
-      <td>散裝或袋裝</td>
-      <td>1/4–1/2 顆／次。表皮也要洗過再切</td>
-    </tr>
-    <tr>
-      <td><strong>地瓜</strong></td>
-      <td>sweet potato（含冷凍切塊）</td>
-      <td>同上</td>
-      <td>150–200 g／餐，纖維與 β-carotene</td>
-    </tr>
-
-    <tr><td colspan="4" style="background:#edf2ee;font-weight:800">乾貨與全穀</td></tr>
-    <tr>
-      <td><strong>Quinoa</strong></td>
-      <td><strong>Organic Tricolor Quinoa</strong></td>
-      <td><strong>365 Organic White Quinoa</strong>（冷凍也可以）</td>
-      <td>成分越單純越好；熟後每餐約 120–150 g</td>
-    </tr>
-    <tr>
-      <td><strong>其他全穀</strong></td>
-      <td>rolled oats、brown rice（冷凍即食包很省事）</td>
-      <td>365 rolled oats、brown rice、五穀混合米</td>
-      <td>燕麥 30–40 g 當早餐底。白飯不用戒，孕吐期反而好用</td>
-    </tr>
-    <tr>
-      <td><strong>豆類</strong></td>
-      <td>lentils、chickpeas、black beans（乾貨或罐頭）</td>
-      <td>365 lentils / chickpeas / beans</td>
-      <td>罐頭選 <strong>low sodium</strong>；使用前瀝乾沖洗</td>
-    </tr>
-    <tr>
-      <td><strong>罐頭魚</strong><br><span class="small">最便宜的 DHA</span></td>
-      <td>canned sardines（帶骨）、canned wild salmon、canned <strong>light</strong> tuna</td>
-      <td>365 sardines / salmon / light tuna</td>
-      <td><strong>只買 light tuna，不要 albacore／white</strong>。帶骨沙丁魚同時補鈣</td>
-    </tr>
-    <tr>
-      <td><strong>堅果</strong></td>
-      <td>raw almonds、walnuts、無鹽綜合堅果</td>
-      <td>365 raw nuts</td>
-      <td>選無鹽或低鹽當點心。除非本人過敏，孕期不需要迴避堅果</td>
-    </tr>
-    <tr>
-      <td><strong>鹽</strong></td>
-      <td colspan="2">不要只看 sea salt / Himalayan / kosher；直接找包裝寫 <strong>IODIZED SALT</strong></td>
-      <td>碘是孕期關鍵營養素之一</td>
-    </tr>
-
-    <tr><td colspan="4" style="background:#edf2ee;font-weight:800">補充劑與工具</td></tr>
-    <tr>
-      <td><strong>Prenatal vitamin</strong></td>
-      <td>維他命區選擇少，不一定有貨</td>
-      <td>supplement 區選擇多（Garden of Life、New Chapter、Ritual 等）</td>
-      <td>翻到 Supplement Facts 確認 4 個數字：folic acid ≥400 mcg、iron 27 mg、iodine 150 mcg、Vitamin D 600 IU</td>
-    </tr>
-    <tr>
-      <td><strong>DHA 補充劑</strong></td>
-      <td>選擇少</td>
-      <td>fish oil 或藻油（algal oil，素食可）</td>
-      <td>只在魚吃不夠時才需要。目標 200–300 mg DHA/day，看的是 DHA 而不是總 omega-3</td>
-    </tr>
-    <tr>
-      <td><strong>即時電子溫度計</strong></td>
-      <td>沒有</td>
-      <td>廚具區有，或線上買更便宜</td>
-      <td>$15 左右。判斷雞胸和厚切肉魚是否全熟，比目視可靠得多</td>
-    </tr>
-  </table>
-
-  <p class="small">實際庫存會依分店變化；以包裝營養標示與 ingredients 為準。
-  兩家店都要避開的三區：charcuterie／熟食櫃、冷燻鮭魚、prepared foods 現成沙拉（見 ⑧）。</p>
-</div>
-
-<h2>⑦ 一天範例</h2>
-<table>
-<tr><th>餐</th><th>範例</th><th>主要補到</th></tr>
-<tr>
-  <td>早餐</td>
-  <td>Plain Greek yogurt 180 g + 燕麥 30–40 g + 熟蛋 1–2 顆 + 莓果／奇異果 + avocado 1/4–1/2 顆</td>
-  <td>膽鹼、鈣、蛋白質、葉酸、纖維</td>
-</tr>
-<tr>
-  <td>午餐</td>
-  <td>鮭魚／扇貝／蝦 110–120 g + quinoa 120–150 g + broccoli 150 g + 甜椒／菠菜 150 g</td>
-  <td>DHA、Vitamin D、蛋白質、葉酸、Vitamin C</td>
-</tr>
-<tr>
-  <td>點心</td>
-  <td>水果 + pasteurized yogurt／牛奶，或少量堅果</td>
-  <td>鈣、蛋白質、Vitamin C、纖維</td>
-</tr>
-<tr>
-  <td>晚餐</td>
-  <td>瘦牛肉 100–130 g／雞肉 120–150 g／豆腐 180–200 g + 五穀飯 120–150 g + 蔬菜 250–350 g</td>
-  <td>鐵、膽鹼、蛋白質、葉酸、纖維</td>
-</tr>
-</table>
-<p class="small">這個排法本身就把鐵和鈣分開了：早餐吃 yogurt（鈣），晚餐吃牛肉（鐵）。刻意維持這個間隔。</p>
-
-<div class="card warn" style="margin-top:16px">
-  <h3>孕吐期：把標準降下來，不要硬撐</h3>
-  <p>第一孕期常常什麼都吃不下，這時候「每天達標」不現實，也不必要——第一孕期本來就不需要額外熱量。</p>
-  <ul>
-    <li><strong>優先保住兩件事：</strong>prenatal vitamin（睡前或配點心吃比較不反胃）＋水分。</li>
-    <li>少量多餐，每 2–3 小時吃一點，不要讓胃完全空掉。</li>
-    <li>乾的澱粉（蘇打餅、吐司、白飯）通常最好入口；白飯這時候比糙米實用。</li>
-    <li>薑（薑糖、薑茶）有幫助。冷食、氣味淡的食物比熱菜容易接受。</li>
-    <li>如果 prenatal 本身讓人反胃，跟醫師討論換劑型（gummy 較溫和，但通常不含鐵，需另補）。</li>
-    <li>吐到無法進食或喝水、體重下降，要看醫師，不要自己撐。</li>
-  </ul>
-</div>
-
-<h2>⑧ 食安：分三級，不是二選一</h2>
-<p class="small">中間那一欄最容易被誤會。deli meat、軟起司、燻鮭魚並不是整個孕期都不能碰——加熱或選對版本就安全。
-孕婦感染李斯特菌的機率約是一般人的 <strong>10 倍</strong>，而加熱和巴氏殺菌是唯二能殺死李斯特菌的方法。</p>
-
-<div class="grid3">
-  <div class="card yes">
-    <h3>可以正常吃</h3>
-    <ul>
-      <li>洗乾淨的水果與蔬菜</li>
-      <li>完全煮熟的肉、蛋、魚、蝦、扇貝</li>
-      <li>Pasteurized 牛奶、Greek yogurt、起司</li>
-      <li>硬起司：cheddar、Swiss、Parmesan（水分低，不論原料奶都安全）</li>
-      <li>冷凍蔬菜、冷凍魚，正確保存並煮熟</li>
-      <li>熟食壽司卷（加州卷等，不含生魚）</li>
-      <li>常溫櫃的罐頭／真空肉醬（非冷藏款）</li>
-    </ul>
-  </div>
-
-  <div class="card warn">
-    <h3>加熱到冒蒸氣就可以吃</h3>
-    <p class="small" style="margin-top:0">全部加熱到 <strong>165°F / 74°C</strong>。放涼再吃也行，關鍵是有加熱過。</p>
-    <ul>
-      <li>Deli meat／冷切肉：火雞、火腿、roast beef、salami</li>
-      <li>熱狗、香腸</li>
-      <li>冷燻鮭魚（lox、cold-smoked salmon）</li>
-      <li>剩菜（冷藏超過一天的）</li>
-    </ul>
-    <p class="small"><strong>另外要看標籤，不用加熱：</strong>brie、camembert、feta、blue cheese、queso fresco／blanco 等軟起司，
-    只要標示 <strong>pasteurized</strong> 就安全；沒標就跳過。</p>
-  </div>
-
-  <div class="card no">
-    <h3>完全避免</h3>
-    <ul>
-      <li>酒精（沒有安全劑量）</li>
-      <li>生／半熟肉、魚、貝類、蛋；生魚壽司、ceviche、生蠔</li>
-      <li>生蛋製品：生麵團／生麵粉、自製美乃滋、凱薩沙拉醬、荷蘭醬、提拉米蘇、自製冰淇淋</li>
-      <li>未殺菌乳製品與未殺菌果汁（raw milk、fresh-pressed 未標 pasteurized）</li>
-      <li>冷藏 pâté／肉醬抹醬</li>
-      <li>熟食櫃現成沙拉：雞肉沙拉、蛋沙拉、鮪魚沙拉、coleslaw</li>
-      <li>預切哈密瓜／西瓜（切面冷藏久了是李斯特菌溫床）</li>
-      <li>生芽菜（alfalfa、mung bean 等，要煮熟才吃）</li>
-      <li>未清洗蔬果</li>
-      <li><strong>高汞魚 7 種：</strong>shark、swordfish、king mackerel、bigeye tuna、tilefish (Gulf of Mexico)、marlin、orange roughy</li>
-    </ul>
-  </div>
-</div>
-
-<div class="card" style="margin-top:14px">
-  <h3>在 Whole Foods / Trader Joe’s 特別要留意的三區</h3>
-  <p><strong>Charcuterie／熟食櫃</strong>、<strong>冷燻鮭魚</strong>、<strong>prepared foods 現成沙拉</strong>——這三區的東西幾乎全落在中間或右邊那欄。
-  不是不能買，但買回家要處理過。切過 deli meat 的砧板和刀要洗過再切其他食材。</p>
-  <div class="cite-row">
-    <a class="cite-link" href="https://www.acog.org/womens-health/faqs/listeria-and-pregnancy" target="_blank" rel="noopener">ACOG：Listeria and Pregnancy ↗</a>
-    <a class="cite-link" href="https://www.fda.gov/food/consumers/advice-about-eating-fish" target="_blank" rel="noopener">FDA/EPA：魚類三級清單 ↗</a>
-  </div>
-</div>
-
-<h2>資料來源</h2>
-<div class="card source small">
-  <p><strong>ACOG — Healthy Eating During Pregnancy</strong><br>
-  <a href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy">acog.org</a></p>
-
-  <p><strong>NIH Office of Dietary Supplements — Pregnancy Fact Sheet</strong><br>
-  <a href="https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/">ods.od.nih.gov</a></p>
-
-  <p><strong>FDA/EPA — Advice about Eating Fish</strong><br>
-  <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">fda.gov</a></p>
-
-  <p><strong>ACOG — Listeria and Pregnancy</strong><br>
-  <a href="https://www.acog.org/womens-health/faqs/listeria-and-pregnancy">acog.org</a></p>
-
-  <p>孕期參考量：folate 600 mcg DFE（補充劑 ≥400 mcg folic acid）、iron 27 mg、iodine 220 mcg、choline 450 mg、
-  calcium 1,000 mg（19–50 歲；≤18 歲為 1,300 mg）、Vitamin D 600 IU、protein 71 g（第二、三孕期）、
-  fiber 28 g、Vitamin C 85 mg、caffeine &lt; 200 mg。
-  熱量：第一孕期不增加，第二孕期 +340 kcal/day，第三孕期 +450 kcal/day。
-  FDA/EPA：每週 2–3 份（1 份 = 4 oz）、總計 8–12 oz 低汞魚／海鮮。</p>
-
-  <p class="small">本文整理自上述公開指引，不能取代產檢醫師的個別建議。既有疾病（甲狀腺、貧血、妊娠糖尿病、高血壓）、
-  素食或多胞胎，都需要另外調整。</p>
-</div>
-
-</div>
 </body>
 </html>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TITLE (the build sets this)</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="../assets/daily.css">
+<noscript><style>.langs { display: none; }</style></noscript>
+</head>
+<body data-lang="zh-Hant">
+<div class="wrap">
+
+<nav class="topbar">
+  <a class="home" href="../index.html"><span data-l="zh-Hant">← 孕期知識庫</span><span data-l="en">← Pregnancy notes</span></a>
+  <div class="langs" role="group" aria-label="Language">
+    <button type="button" data-set-lang="zh-Hant" aria-pressed="true">繁</button>
+    <button type="button" data-set-lang="zh-Hans" aria-pressed="false">简</button>
+    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+  </div>
+</nav>
+
+<!-- Filled by build_site.py from pages.json: date, hook title, summary, tags. -->
+<header class="head" id="head"></header>
+
+<!-- 1. Guess first: one question, answer hidden until tapped. -->
+<span class="step"><span data-l="zh-Hant">先猜一猜</span><span data-l="en">Guess first</span></span>
+<details class="claims">
+  <summary><span data-l="zh-Hant">問題？</span><span data-l="en">Question?</span></summary>
+  <p data-l="zh-Hant">答案。<sup><a href="#s1">1</a></sup></p>
+  <p data-l="en">Answer.<sup><a href="#s1">1</a></sup></p>
+</details>
+
+<!-- 2. The short version: the point in plain words, plus the main figure. -->
+<span class="step"><span data-l="zh-Hant">第一步・白話版</span><span data-l="en">Step 1 · The short version</span></span>
+<h2><span data-l="zh-Hant">標題</span><span data-l="en">Heading</span></h2>
+<div class="claims">
+  <p data-l="zh-Hant">重點。<sup><a href="#s1">1</a></sup></p>
+  <p data-l="en">The point.<sup><a href="#s1">1</a></sup></p>
+</div>
+
+<figure class="flow-diagram">
+  <svg viewBox="0 0 1000 300" role="img" aria-label="What the diagram shows">
+    <title>Diagram title</title>
+    <!-- labels as <text data-l="zh-Hant"> / <text data-l="en"> pairs; colors from var(--…) -->
+  </svg>
+  <figcaption><span data-l="zh-Hant">說明。</span><span data-l="en">Caption.</span></figcaption>
+</figure>
+
+<!-- 3. Why: the mechanism, one h3 per idea. -->
+<span class="step"><span data-l="zh-Hant">第二步・原理</span><span data-l="en">Step 2 · Why</span></span>
+<h2><span data-l="zh-Hant">為什麼？</span><span data-l="en">Why?</span></h2>
+<div class="claims">
+  <h3><span data-l="zh-Hant">小標</span><span data-l="en">Subheading</span></h3>
+  <p data-l="zh-Hant">原理。<sup><a href="#s1">1</a></sup></p>
+  <p data-l="en">Mechanism.<sup><a href="#s1">1</a></sup></p>
+</div>
+
+<!-- Optional photo from fetch_image.py:
+<figure>
+  <img src="img/YYYY-MM-DD-name.jpg" alt="…" width="1200" height="800" loading="lazy">
+  <figcaption><span data-l="zh-Hant">說明。</span><span data-l="en">Caption.</span>
+    <span class="credit">author · license · source</span></figcaption>
+</figure>
+-->
+
+<!-- 4. Details: table, numbers, disagreements, when to call the doctor. -->
+<span class="step"><span data-l="zh-Hant">第三步・細節</span><span data-l="en">Step 3 · Details</span></span>
+<h2><span data-l="zh-Hant">細節</span><span data-l="en">Details</span></h2>
+<div class="claims">
+  <p data-l="zh-Hant">細節。<sup><a href="#s1">1</a></sup></p>
+  <p data-l="en">Details.<sup><a href="#s1">1</a></sup></p>
+</div>
+
+<!-- Curated pages use this instead of (or after) steps 1–3:
+<div class="claims">
+<ul class="picks" data-l="zh-Hant">
+  <li><a href="URL">標題</a> <span class="src">· 出處</span><p>兩句：講什麼、為什麼值得點。<sup><a href="#s1">1</a></sup></p></li>
+</ul>
+<ul class="picks" data-l="en">
+  <li><a href="URL">Title</a> <span class="src">· Publisher</span><p>Two sentences: what it covers, why click.<sup><a href="#s1">1</a></sup></p></li>
+</ul>
+</div>
+-->
+
+<!-- 5. Do today: 2–4 concrete actions (advice, no citations). -->
+<div class="callout todo">
+  <p data-l="zh-Hant"><strong>今天就能做</strong></p>
+  <p data-l="en"><strong>Do today</strong></p>
+  <ul data-l="zh-Hant"><li>行動。</li></ul>
+  <ul data-l="en"><li>Action.</li></ul>
+</div>
+
+<!-- 6. Cards: same as pages.json. -->
+<span class="step"><span data-l="zh-Hant">自我測驗</span><span data-l="en">Check yourself</span></span>
+<h2><span data-l="zh-Hant">點開看答案</span><span data-l="en">Tap to reveal</span></h2>
+<details>
+  <summary class="card-q"><span data-l="zh-Hant">問題？</span><span data-l="en">Question?</span></summary>
+  <p data-l="zh-Hant">答案。</p>
+  <p data-l="en">Answer.</p>
+</details>
+
+<!-- 7. Filled by build_site.py with cards from 1, 3, 7 and 14 days earlier. -->
+<section id="review"></section>
+
+<h2><span data-l="zh-Hant">來源</span><span data-l="en">Sources</span></h2>
+<ol class="sources">
+  <li id="s1"><a href="URL">Title</a> — Publisher, reviewed YYYY-MM-DD</li>
+</ol>
+
+<p class="disclaimer"><span data-l="zh-Hant">本頁整理公開指引，不能取代產檢醫師或小兒科醫師的個別建議。</span><span data-l="en">This page summarizes public guidance and doesn't replace advice from your own OB or pediatrician.</span></p>
+
+</div>
+<script src="../assets/daily.js"></script>
+</body>
+</html>

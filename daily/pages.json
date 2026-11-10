@@ -125,6 +125,86 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-10",
+      "slug": "ny-paid-prenatal-leave",
+      "file": "daily/2026-11-10-ny-paid-prenatal-leave.html",
+      "title": {
+        "zh-Hant": "產檢也能請有薪假：紐約多給你 20 小時，不用動到病假",
+        "en": "Prenatal appointments come with paid time off in New York: 20 hours, on top of sick leave"
+      },
+      "summary": {
+        "zh-Hant": "紐約州私部門員工每 52 週有 20 小時有薪產檢假，按小時請、不必說明檢查內容，但只有孕婦本人能用。寶寶出生後，接手的是父母都能請的有薪家庭假。",
+        "en": "Private-sector workers in New York get 20 hours of Paid Prenatal Leave per 52 weeks, usable by the hour with no need to say what the visit is, but only by the pregnant person. After the birth, Paid Family Leave takes over for both parents."
+      },
+      "tags": [
+        "resources",
+        "early",
+        "w13",
+        "learn"
+      ],
+      "sources": [
+        "https://www.ny.gov/new-york-state-paid-prenatal-leave/paid-prenatal-leave-information-employees",
+        "https://www.ny.gov/new-york-state-paid-prenatal-leave",
+        "https://dol.ny.gov/paid-prenatal-leave-law-employee-fact-sheet-p695",
+        "https://access.nyc.gov/programs/nys-paid-prenatal-leave/",
+        "https://paidfamilyleave.ny.gov/2026",
+        "https://paidfamilyleave.ny.gov/eligibility",
+        "https://paidfamilyleave.ny.gov/bonding-leave-birth-child"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "已經有病假了，為什麼產檢還要特地用產檢假？",
+            "en": "You have sick leave, so why use Paid Prenatal Leave for appointments?"
+          },
+          "a": {
+            "zh-Hant": "因為那 20 小時是額外的，不從病假扣；先用它，病假就能留給真的生病。雇主也不能強迫你改用別的假。",
+            "en": "The 20 hours are extra and don't come out of sick leave, so using them first saves sick days for illness. Your employer can't make you use another type instead."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "伴侶陪產檢可以用這 20 小時嗎？",
+            "en": "Can a partner use the 20 hours to come to appointments?"
+          },
+          "a": {
+            "zh-Hant": "不行，只有懷孕的人本人能用。伴侶的假是出生後的有薪家庭假。",
+            "en": "No, only the pregnant person can. The partner's leave is Paid Family Leave after the birth."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "請產檢假時，要告訴雇主是什麼檢查嗎？",
+            "en": "Do you have to tell your employer what the appointment is for?"
+          },
+          "a": {
+            "zh-Hant": "不用。雇主不能問健康資訊或看診原因，也不能要求病歷。",
+            "en": "No. Your employer can't ask for health information or the reason, or require medical records."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "有薪家庭假可以在生產前開始嗎？要多早通知？",
+            "en": "Can Paid Family Leave start before the birth, and how much notice is needed?"
+          },
+          "a": {
+            "zh-Hant": "不行，出生後才能開始，並要在 12 個月內請完；可預見時至少 30 天前通知雇主。",
+            "en": "No. It starts only after the birth and must be used within 12 months; give at least 30 days' notice when foreseeable."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "產檢假沒用完會怎樣？",
+            "en": "What happens to unused prenatal leave hours?"
+          },
+          "a": {
+            "zh-Hant": "不會帶到下一期，也不會折現，而且不能用在產後照護。52 週從第一次使用開始算。",
+            "en": "They don't roll over or get paid out, and they can't be used for care after pregnancy. The 52 weeks start at first use."
+          }
+        }
+      ]
     }
   ]
 }

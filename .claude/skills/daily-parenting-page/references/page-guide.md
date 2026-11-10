@@ -31,6 +31,30 @@ The summary under it states the takeaway in one or two sentences.
 8. **來源 / Sources** — `<ol class="sources">`, items `id="s1"`… with title, publisher,
    reviewed date.
 
+## Keep asking "why"
+
+Readers want to know why, and the reasons are what make a recommendation convincing. For
+every recommendation, fact or number on the page, ask these before writing, and research
+the answers like any other claim:
+
+1. **Why do this at all?** What goes wrong without it, for whom, and how often?
+2. **Why now / at this time?** Why not earlier, why not later?
+3. **What will the reader object?** The obvious "but…": 「媽媽本來就有抗體了」,
+   「以前打過了」, 「等生完再說」. Answer it directly.
+4. **Why this way and not the alternative?** (shot vs nasal spray, test A vs test B)
+5. **How much does it help?** An effect size with what it counts, the comparison group
+   and the study size (「跟沒打的相比，住院風險低 40%，研究涵蓋 200 多萬名孕婦」).
+
+Then ask "why" once more of each answer. Stop when the answer is the mechanism or the
+evidence itself.
+
+In the Why section, make each `h3` one of these questions in the reader's words, and open
+each paragraph with its one-line answer in bold. When no fetched source explains a why,
+say so ("CDC doesn't state a specific reason") instead of filling the gap with your own
+reasoning.
+
+## Wording
+
 Define every term the first time it appears (「胰島素阻抗」（身體細胞對胰島素的反應變差）).
 State numbers with units and what they count. Keep paragraphs to 2–3 sentences.
 

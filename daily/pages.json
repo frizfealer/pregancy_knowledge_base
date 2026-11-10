@@ -2,15 +2,33 @@
   "guides": [
     {
       "file": "懷孕飲食指南.html",
-      "title": {"zh-Hant": "孕期飲食與美國超市採買指南", "en": "Pregnancy nutrition and U.S. grocery guide"},
-      "summary": {"zh-Hant": "營養素優先順序、魚類汞分級、Trader Joe's / Whole Foods 採買清單、食安三級。", "en": "Nutrient priorities, fish mercury tiers, Trader Joe's and Whole Foods shopping lists, food-safety tiers."},
-      "tags": ["health", "early"]
+      "title": {
+        "zh-Hant": "孕期飲食與美國超市採買指南",
+        "en": "Pregnancy nutrition and U.S. grocery guide"
+      },
+      "summary": {
+        "zh-Hant": "營養素優先順序、魚類汞分級、Trader Joe's / Whole Foods 採買清單、食安三級。",
+        "en": "Nutrient priorities, fish mercury tiers, Trader Joe's and Whole Foods shopping lists, food-safety tiers."
+      },
+      "tags": [
+        "health",
+        "early"
+      ]
     },
     {
       "file": "懷孕運動指南.html",
-      "title": {"zh-Hant": "懷孕期間運動指南（第一孕期）", "en": "Exercise during pregnancy (first trimester)"},
-      "summary": {"zh-Hant": "運動模式延續、與教練溝通、強度判斷、重量上限與硬舉、骨盆底肌訓練、停止運動警訊。", "en": "Keeping your routine, talking to your trainer, judging intensity, lifting limits, pelvic floor training, warning signs to stop."},
-      "tags": ["health", "early"]
+      "title": {
+        "zh-Hant": "懷孕期間運動指南（第一孕期）",
+        "en": "Exercise during pregnancy (first trimester)"
+      },
+      "summary": {
+        "zh-Hant": "運動模式延續、與教練溝通、強度判斷、重量上限與硬舉、骨盆底肌訓練、停止運動警訊。",
+        "en": "Keeping your routine, talking to your trainer, judging intensity, lifting limits, pelvic floor training, warning signs to stop."
+      },
+      "tags": [
+        "health",
+        "early"
+      ]
     }
   ],
   "pages": [
@@ -23,34 +41,83 @@
         "en": "The first trimester is almost over: put these 4 things on your calendar"
       },
       "summary": {
-        "zh-Hant": "流感疫苗任何孕期都能打；約第 20 週照解剖超音波；24–28 週驗妊娠糖尿病；27–36 週打百日咳疫苗。每個時間都有理由。",
-        "en": "Flu shot any trimester; anatomy ultrasound around week 20; gestational diabetes screening in weeks 24–28; Tdap in weeks 27–36. Each timing has a reason."
+        "zh-Hant": "流感疫苗任何孕期都能打；約第 20 週照解剖超音波；24–28 週驗妊娠糖尿病；27–36 週打百日咳疫苗。每一件都多問一句：為什麼是這個時間？",
+        "en": "Flu shot any trimester; anatomy ultrasound around week 20; gestational diabetes screening in weeks 24–28; Tdap in weeks 27–36. For each: why this timing?"
       },
-      "tags": ["health", "early", "mid", "w13", "learn"],
+      "tags": [
+        "health",
+        "early",
+        "mid",
+        "w13",
+        "learn"
+      ],
       "sources": [
         "https://womenshealth.gov/pregnancy/youre-pregnant-now-what/stages-pregnancy",
         "https://medlineplus.gov/ency/patientinstructions/000557.htm",
         "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/gestational/tests-diagnosis",
         "https://cdc.gov/flu/vaccine-safety/vaccine-pregnant.html",
         "https://www.cdc.gov/pertussis/pregnant/mom/get-vaccinated.html",
-        "https://www.cdc.gov/diabetes/about/gestational-diabetes.html"
+        "https://www.cdc.gov/diabetes/about/gestational-diabetes.html",
+        "https://www.cdc.gov/flu/vaccines/keyfacts.html",
+        "https://www.cdc.gov/vaccines-pregnancy/recommended-vaccines/index.html",
+        "https://archive.cdc.gov/www_cdc_gov/media/releases/2018/p1011-flu-vaccine-reduces-risk-pregnant-women.html",
+        "https://www.cdc.gov/flu/whats-new/2023-2024-study-vaccination-6-months.html",
+        "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/index.html",
+        "https://cdc.gov/pertussis/vaccines/tdap-vaccination-during-pregnancy.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK570574/",
+        "https://www.isuog.org/static/4e2ed89e-fa8a-42c2-9c0929cd89cb58ff/ISUOG-Practice-Guidelines-routine-mid-trimester-fetal-ultrasound.pdf",
+        "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/gestational/definition-facts"
       ],
       "cards": [
         {
-          "q": {"zh-Hant": "懷孕可以打噴鼻式流感疫苗嗎？", "en": "Can you get the nasal spray flu vaccine while pregnant?"},
-          "a": {"zh-Hant": "不行，要打注射型；而且任何孕期都可以打。", "en": "No. Get the shot, which is fine in any trimester."}
+          "q": {
+            "zh-Hant": "媽媽以前得過流感或打過疫苗，懷孕為什麼還要再打？",
+            "en": "If mom has had flu or a flu shot before, why get one in pregnancy?"
+          },
+          "a": {
+            "zh-Hant": "病毒每年在變、舊保護會下降；懷孕時比較容易重症；寶寶滿 6 個月前不能打，要靠媽媽傳給他的抗體。",
+            "en": "Viruses change and old protection fades; pregnancy makes severe flu more likely; and the baby can't be vaccinated until 6 months, so it relies on antibodies from mom."
+          }
         },
         {
-          "q": {"zh-Hant": "第 20 週左右的超音波主要看什麼？能抓到所有問題嗎？", "en": "What does the week-20 ultrasound look at, and does it catch everything?"},
-          "a": {"zh-Hant": "看寶寶的構造（心臟、腎臟、四肢等）。不能，大約只能發現一半的異常。", "en": "The baby's anatomy (heart, kidneys, limbs and more). No: it finds about half of abnormalities."}
+          "q": {
+            "zh-Hant": "百日咳疫苗為什麼建議在 27–36 週的前段打？",
+            "en": "Why is Tdap best given early in weeks 27–36?"
+          },
+          "a": {
+            "zh-Hant": "抗體約 2 週到高峰，傳給寶寶還需要時間，而媽媽的抗體會隨時間下降；早一點打，生產時抗體還高、也來得及傳給寶寶。",
+            "en": "Antibodies peak about 2 weeks after the shot, transfer takes time, and mom's levels fall; earlier in the window keeps levels high at birth with time to reach the baby."
+          }
         },
         {
-          "q": {"zh-Hant": "為什麼妊娠糖尿病篩檢排在 24–28 週？", "en": "Why is gestational diabetes screening done in weeks 24–28?"},
-          "a": {"zh-Hant": "懷孕荷爾蒙造成的胰島素阻抗越來越明顯，妊娠糖尿病通常在第 24 週左右才出現。", "en": "Insulin resistance from pregnancy hormones builds up, and gestational diabetes usually appears around week 24."}
+          "q": {
+            "zh-Hant": "第 20 週左右的超音波主要看什麼？能抓到所有問題嗎？",
+            "en": "What does the week-20 ultrasound look at, and does it catch everything?"
+          },
+          "a": {
+            "zh-Hant": "看寶寶的構造（心臟、腎臟、四肢等）。不能，大約只能發現一半的異常。",
+            "en": "The baby's anatomy (heart, kidneys, limbs and more). No: it finds about half of abnormalities."
+          }
         },
         {
-          "q": {"zh-Hant": "Tdap 為什麼每一胎都要打？", "en": "Why is Tdap given in every pregnancy?"},
-          "a": {"zh-Hant": "它的作用是讓媽媽在出生前把抗體傳給這一個寶寶，每個寶寶都需要自己那一次。", "en": "Its job is to pass antibodies to this particular baby before birth, and each baby needs its own transfer."}
+          "q": {
+            "zh-Hant": "為什麼妊娠糖尿病篩檢排在 24–28 週？",
+            "en": "Why is gestational diabetes screening done in weeks 24–28?"
+          },
+          "a": {
+            "zh-Hant": "懷孕荷爾蒙造成的胰島素阻抗越來越明顯，妊娠糖尿病通常在第 24 週左右才出現。",
+            "en": "Insulin resistance from pregnancy hormones builds up, and gestational diabetes usually appears around week 24."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "Tdap 為什麼每一胎都要打？",
+            "en": "Why is Tdap given in every pregnancy?"
+          },
+          "a": {
+            "zh-Hant": "它的作用是讓媽媽在出生前把抗體傳給這一個寶寶，每個寶寶都需要自己那一次。",
+            "en": "Its job is to pass antibodies to this particular baby before birth, and each baby needs its own transfer."
+          }
         }
       ]
     }

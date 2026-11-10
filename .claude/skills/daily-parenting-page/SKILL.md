@@ -46,6 +46,8 @@ family is now, and publishes it to <https://frizfealer.github.io/pregancy_knowle
 
 Follow `references/sources-and-images.md`. In short:
 
+- Before searching, write down the "why" questions from the page guide for each point
+  you plan to make; search for their answers too, not only for the facts.
 - Read the actual pages (WebFetch), not search snippets. Every factual sentence needs a
   source you fetched today. Record each source's title, publisher and reviewed date.
 - Medical claims need a tier-1 source (CDC, NIH/MedlinePlus/NICHD/NIDDK, womenshealth.gov,
@@ -72,6 +74,10 @@ following `references/page-guide.md`. The essentials:
   date, no week number in the title; the stage goes in tags (`early`, `w13`, ...).
 - Order: guess first → the plain-language version → why → details → do today → cards →
   review (auto) → sources. Simple before principle before detail.
+- Keep asking "why" (see "Keep asking why" in the page guide): why do it, why now, the
+  reader's obvious objection, why this way, how much it helps. Research those answers in
+  step 3 like any other claim; they are what makes the Why section convincing. At least
+  one card should test a "why".
 - Write zh-Hant and en for every block, as `data-l` siblings. Never write zh-Hans.
 - Put factual paragraphs and list items inside `.claims`; each one ends with a
   `<sup><a href="#sN">N</a></sup>` citation.

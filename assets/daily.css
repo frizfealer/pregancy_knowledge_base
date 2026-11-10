@@ -127,6 +127,7 @@ th { font-size: 0.82rem; color: var(--muted); }
 
 /* Citations and sources */
 sup a { text-decoration: none; font-weight: 700; padding: 0 1px; }
+sup + sup::before { content: ","; color: var(--muted); }
 .sources { font-size: 0.85rem; color: var(--muted); }
 .sources li { margin: 4px 0; max-width: none; overflow-wrap: anywhere; }
 .disclaimer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--line); margin-top: 2.5rem; padding-top: 12px; }

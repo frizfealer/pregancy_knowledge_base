@@ -1,0 +1,30 @@
+name: Validate daily pages
+on:
+  pull_request:
+    paths:
+      - 'daily/**'
+      - 'assets/**'
+      - '.claude/skills/daily-parenting-page/**'
+      - '.github/workflows/validate-daily-pages.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'daily/**'
+      - 'assets/**'
+      - '.claude/skills/daily-parenting-page/**'
+      - '.github/workflows/validate-daily-pages.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install --no-cache-dir beautifulsoup4 opencc-python-reimplemented pillow
+      - name: Validate registry, sources, claims, images, and language blocks
+        run: python .claude/skills/daily-parenting-page/scripts/build_site.py --check-only

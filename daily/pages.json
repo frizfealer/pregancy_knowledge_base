@@ -231,7 +231,8 @@
         "https://www.pubmed.gov/30747971/",
         "https://www.cdc.gov/mmwr/volumes/69/wr/mm6919a2.htm",
         "https://omh.ny.gov/omhweb/perinatal-mental-health/",
-        "https://mchb.hrsa.gov/national-maternal-mental-health-hotline"
+        "https://mchb.hrsa.gov/national-maternal-mental-health-hotline",
+        "https://www.acog.org/programs/perinatal-mental-health/patient-screening"
       ],
       "cards": [
         {
@@ -260,8 +261,8 @@
             "en": "What examples of \"higher risk\" does the USPSTF give?"
           },
           "a": {
-            "zh-Hant": "曾有憂鬱病史、目前已有憂鬱症狀，或低收入、年輕或單親等社經因素。",
-            "en": "A history of depression, current depressive symptoms, or socioeconomic factors such as low income or young or single parenthood."
+            "zh-Hant": "曾有憂鬱病史、目前有尚未達臨床診斷門檻的憂鬱症狀，或低收入、年輕或單親等社經因素。",
+            "en": "A history of depression, current depressive symptoms below a diagnostic threshold, or socioeconomic factors such as low income or young or single parenthood."
           }
         },
         {
@@ -280,8 +281,8 @@
             "en": "How do you reach the National Maternal Mental Health Hotline?"
           },
           "a": {
-            "zh-Hant": "打電話或傳簡訊到 1-833-TLC-MAMA（1-833-852-6262），免費、保密、24 小時，英語和西班牙語。",
-            "en": "Call or text 1-833-TLC-MAMA (1-833-852-6262): free, confidential, 24/7, in English and Spanish."
+            "zh-Hant": "打電話或傳簡訊到 1-833-TLC-MAMA（1-833-852-6262），免費、保密、24 小時，有英語、西班牙語及中文口譯，伴侶也能使用。",
+            "en": "Call or text 1-833-TLC-MAMA (1-833-852-6262): free, confidential, 24/7, with English, Spanish and interpreter support (including Chinese); partners can call too."
           }
         }
       ]

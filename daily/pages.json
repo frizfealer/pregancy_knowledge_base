@@ -206,6 +206,85 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-11",
+      "slug": "pregnancy-depression-prevention",
+      "file": "daily/2026-11-11-pregnancy-depression-prevention.html",
+      "title": {
+        "zh-Hant": "憂鬱不一定等到產後：孕期就能預防，諮商讓風險少近 4 成",
+        "en": "Depression doesn't wait for the birth: it can be prevented in pregnancy, and counseling cuts the risk by about 40%"
+      },
+      "summary": {
+        "zh-Hant": "圍產期憂鬱從懷孕期間就可能開始，伴侶也會遇到。風險較高的人在孕期接受 CBT 或 IPT 諮商，發生風險約低 4 成；產檢時主動提心情，並把紐約可用的專線存起來。",
+        "en": "Perinatal depression can start in pregnancy, and partners can be affected too. For people at higher risk, CBT or IPT counseling lowers the risk by about 40%. Bring up your mood at prenatal visits and save the hotlines available in New York."
+      },
+      "tags": [
+        "mind",
+        "early",
+        "w13",
+        "learn"
+      ],
+      "sources": [
+        "https://www.nhs.uk/pregnancy/mental-health-in-pregnancy-and-after-the-birth/depression/",
+        "https://www.uspreventiveservicestaskforce.org/uspstf/document/evidence-summary/perinatal-depression-preventive-interventions",
+        "https://www.pubmed.gov/30747971/",
+        "https://www.cdc.gov/mmwr/volumes/69/wr/mm6919a2.htm",
+        "https://omh.ny.gov/omhweb/perinatal-mental-health/",
+        "https://mchb.hrsa.gov/national-maternal-mental-health-hotline"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "圍產期憂鬱涵蓋哪一段時間？",
+            "en": "What time span does perinatal depression cover?"
+          },
+          "a": {
+            "zh-Hant": "懷孕期間到產後 1 年。孕期的憂鬱沒治療，可能變重並延續到產後。",
+            "en": "Pregnancy through 1 year after birth. Untreated depression in pregnancy can worsen and continue after the birth."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "還沒有憂鬱，為什麼高風險的人現在就該談諮商？",
+            "en": "If you're not depressed yet, why should a higher-risk person talk about counseling now?"
+          },
+          "a": {
+            "zh-Hant": "因為諮商是「預防」：17 個試驗、3,094 人的合併結果，接受諮商的人發生圍產期憂鬱的風險比是 0.61，約低 4 成。",
+            "en": "Because counseling is prevention: pooling 17 trials with 3,094 people, counseling groups had a risk ratio of 0.61, about 40% lower risk of perinatal depression."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "USPSTF 舉了哪些「風險較高」的例子？",
+            "en": "What examples of \"higher risk\" does the USPSTF give?"
+          },
+          "a": {
+            "zh-Hant": "曾有憂鬱病史、目前已有憂鬱症狀，或低收入、年輕或單親等社經因素。",
+            "en": "A history of depression, current depressive symptoms, or socioeconomic factors such as low income or young or single parenthood."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "伴侶也會有圍產期情緒問題嗎？",
+            "en": "Can partners have perinatal mood problems too?"
+          },
+          "a": {
+            "zh-Hant": "會。紐約州心理衛生廳指出約每 10 位伴侶有 1 位。",
+            "en": "Yes. The NY State Office of Mental Health says about 1 in 10 partners do."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "全國孕產婦心理健康專線怎麼聯絡？",
+            "en": "How do you reach the National Maternal Mental Health Hotline?"
+          },
+          "a": {
+            "zh-Hant": "打電話或傳簡訊到 1-833-TLC-MAMA（1-833-852-6262），免費、保密、24 小時，英語和西班牙語。",
+            "en": "Call or text 1-833-TLC-MAMA (1-833-852-6262): free, confidential, 24/7, in English and Spanish."
+          }
+        }
+      ]
     }
   ]
 }

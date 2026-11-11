@@ -22,6 +22,13 @@ articles about a study (find the study or the agency page instead).
 
 ## Rules
 
+- Search first, then fetch. In an unattended run, the fetch tool only lets through URLs
+  that appeared in a search result or in the task prompt; any other URL waits for an
+  approval nobody answers and stays blocked for the rest of the run. So run WebSearch
+  for each source, then fetch the URL exactly as the result shows it (same trailing
+  slash, same `www.`). Never type a URL from memory or adjust one, and never retry a URL
+  that was blocked. If a site's page doesn't show up in search, use another tier-1 page
+  that does.
 - Fetch and read every page you cite. Don't cite from memory or from a search snippet.
 - Record title, publisher and the page's own reviewed or updated date in the sources list.
 - When sources disagree, say so on the page with both citations.

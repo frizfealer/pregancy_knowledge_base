@@ -286,6 +286,74 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-12",
+      "slug": "first-fetal-movements",
+      "file": "daily/2026-11-12-first-fetal-movements.html",
+      "title": {
+        "zh-Hant": "寶寶早就在動了，你只是還感覺不到：第一次胎動多在 16–24 週",
+        "en": "Your baby is already moving, you just can't feel it yet: first movements usually come at 16–24 weeks"
+      },
+      "summary": {
+        "zh-Hant": "寶寶從孕早期就開始動，因為活動能幫關節、肌肉和骨骼發育；但要到 16–24 週才感覺得到，第一胎或前壁胎盤可能更晚。24 週還沒感覺就告訴醫護；之後胎動變少，立刻打電話。",
+        "en": "The baby starts moving early in pregnancy because movement helps build joints, muscles and bones, but you usually feel it only at 16–24 weeks, later with a first baby or an anterior placenta. Tell your provider if there's nothing by 24 weeks; later, call right away if movement drops."
+      },
+      "tags": [
+        "growth",
+        "early",
+        "mid",
+        "w13",
+        "learn"
+      ],
+      "sources": [
+        "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/",
+        "https://medlineplus.gov/ency/article/002398.htm",
+        "https://my.clevelandclinic.org/health/body/22829-quickening-in-pregnancy",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6514418"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "多數人第一次感覺到胎動是在第幾週？第一胎呢？",
+            "en": "When do most people first feel the baby move? And with a first baby?"
+          },
+          "a": {
+            "zh-Hant": "16 到 24 週之間；第一胎可能要過了 20 週。",
+            "en": "Between 16 and 24 weeks; with a first baby, possibly not until after 20 weeks."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "寶寶為什麼需要在子宮裡動？",
+            "en": "Why does the baby need to move in the uterus?"
+          },
+          "a": {
+            "zh-Hant": "活動能幫助關節、肌肉和骨骼發育。胎動太少時，關節周圍會長出過多結締組織（關節攣縮症）。",
+            "en": "Movement helps develop joints, muscles and bones. With too little movement, excess connective tissue forms around the joints (arthrogryposis)."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼前壁胎盤會讓人比較晚感覺到胎動？",
+            "en": "Why can an anterior placenta delay feeling movement?"
+          },
+          "a": {
+            "zh-Hant": "因為胎盤位在子宮和肚皮之間，可能讓第一次胎動較難感覺到。",
+            "en": "Because the placenta sits between the uterus and the belly wall, which may make the first movements harder to feel."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "之後如果胎動變少或模式改變，該怎麼做？",
+            "en": "Later on, what should you do if movement drops or the pattern changes?"
+          },
+          "a": {
+            "zh-Hant": "立刻打電話給產科或產房，不要等到隔天，半夜也一樣。不要用家用胎心儀自己聽：聽到心跳不代表寶寶沒事。",
+            "en": "Call your OB or labor and delivery right away, without waiting for the next day, even at night. Don't check with a home doppler: hearing a heartbeat doesn't mean the baby is well."
+          }
+        }
+      ]
     }
   ]
 }

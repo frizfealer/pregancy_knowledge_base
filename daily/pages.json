@@ -354,6 +354,75 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-13",
+      "slug": "baby-hears-your-voice",
+      "file": "daily/2026-11-13-baby-hears-your-voice.html",
+      "title": {
+        "zh-Hant": "寶寶在肚子裡「偷聽」：約 18 週先聽見心跳，27 週後聽見你說話",
+        "en": "Your baby is listening in: your heartbeat from about 18 weeks, your voice from about 27"
+      },
+      "summary": {
+        "zh-Hant": "寶寶先聽見你身體裡的聲音，孕中期後段才聽得到外面的聲音。跟肚子說話、唱歌不是在教他，而是讓聲音變熟悉，出生後能安撫他；不想做也不必內疚。聲音會穿過身體，戴耳塞也保護不了寶寶，孕期避開超過 115 分貝和低頻震動。",
+        "en": "The baby hears the sounds inside your body first and outside sounds later in the second trimester. Talking and singing to the bump doesn't teach, but it makes sounds familiar enough to comfort after birth, and skipping it is fine. Sound passes through the body, so earplugs don't protect the baby: avoid noise over 115 dBA and low-frequency rumble."
+      },
+      "tags": [
+        "education",
+        "early",
+        "mid",
+        "w13",
+        "learn"
+      ],
+      "sources": [
+        "https://www.healthychildren.org/English/tips-tools/ask-the-pediatrician/Pages/I%E2%80%99m-pregnant-and-would-like-to-sing-to-my-unborn-baby.aspx",
+        "https://medlineplus.gov/ency/article/002398.htm",
+        "https://www.cdc.gov/niosh/reproductive-health/prevention/noise.html",
+        "https://pubmed.ncbi.nlm.nih.gov/23173548/",
+        "https://rightdecisions.scot.nhs.uk/zpathways-in-development/speech-and-language/learning-resources-for-health-visitors/talk-to-your-baby-in-the-womb-evidence-summary"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "寶寶大約幾週開始聽得到你身體裡的聲音？什麼時候聽得到外面的聲音，像你說話？",
+            "en": "Around when does the baby start hearing sounds inside your body? And outside sounds, like your voice?"
+          },
+          "a": {
+            "zh-Hant": "AAP 說約 18 週聽得到心跳等身體裡的聲音，27 到 29 週左右聽得到外面的聲音，包括你說話。",
+            "en": "AAP says about 18 weeks for body sounds like your heartbeat, and around 27 to 29 weeks for outside sounds, including your voice."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "寶寶出生前聽不懂話，為什麼還值得跟他說話、唱歌？",
+            "en": "The baby can't understand words before birth, so why is talking and singing still worth it?"
+          },
+          "a": {
+            "zh-Hant": "不是為了教他，而是讓聲音變熟悉：反覆聽到的聲音寶寶會認得，出生後熟悉的歌、書和你的聲音能安撫他。新生兒研究也看到，子宮裡聽到的語言會影響出生後對母音的反應。",
+            "en": "Not to teach, but to make sounds familiar: babies recognize sounds they hear over and over, and after birth familiar songs, books and your voice can comfort them. A newborn study also found that language heard in the womb shapes how babies respond to vowels after birth."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "在很吵的地方戴耳塞，能保護肚子裡的寶寶嗎？",
+            "en": "Does wearing earplugs in a loud place protect the baby?"
+          },
+          "a": {
+            "zh-Hant": "不能完全保護。聲音會穿過身體傳進子宮；CDC 建議孕期就算戴著聽力防護，也避開超過 115 分貝（約電鋸）的地方。",
+            "en": "Not fully. Sound travels through the body into the womb; CDC advises avoiding places louder than 115 dBA (about a chainsaw) during pregnancy, even with hearing protection."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼低頻的轟隆聲、震動要特別避開？",
+            "en": "Why should you especially avoid low-frequency rumble and vibration?"
+          },
+          "a": {
+            "zh-Hant": "因為低頻聲音比高頻更容易穿過身體，傳到寶寶那裡。",
+            "en": "Because low-frequency sound travels through the body, and to the baby, more easily than high-frequency sound."
+          }
+        }
+      ]
     }
   ]
 }

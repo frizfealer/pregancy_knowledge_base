@@ -360,12 +360,12 @@
       "slug": "baby-hears-your-voice",
       "file": "daily/2026-11-13-baby-hears-your-voice.html",
       "title": {
-        "zh-Hant": "寶寶在肚子裡「偷聽」：約 18 週先聽見心跳，27 週後聽見你說話",
-        "en": "Your baby is listening in: your heartbeat from about 18 weeks, your voice from about 27"
+        "zh-Hant": "寶寶何時能聽見你說話？不同醫學資料相差幾週",
+        "en": "When can your baby hear your voice? Medical sources differ by weeks"
       },
       "summary": {
-        "zh-Hant": "寶寶先聽見你身體裡的聲音，孕中期後段才聽得到外面的聲音。跟肚子說話、唱歌不是在教他，而是讓聲音變熟悉，出生後能安撫他；不想做也不必內疚。聲音會穿過身體，戴耳塞也保護不了寶寶，孕期避開超過 115 分貝和低頻震動。",
-        "en": "The baby hears the sounds inside your body first and outside sounds later in the second trimester. Talking and singing to the bump doesn't teach, but it makes sounds familiar enough to comfort after birth, and skipping it is fine. Sound passes through the body, so earplugs don't protect the baby: avoid noise over 115 dBA and low-frequency rumble."
+        "zh-Hant": "胎兒約 18 週開始聽見體內的聲音；外界人聲的時程各家略有差異，NHS 指出約 24 週，AAP 則說約 27–29 週。日常說話或唱歌能讓聲音變熟悉，不做也不必內疚。孕期應避開非常大的噪音與低頻震動；耳塞不能完全保護胎兒。",
+        "en": "Fetuses begin hearing sounds inside the body around week 18. Guidance varies on outside voices: NHS says around week 24, while AAP says around weeks 27–29. Talking or singing can make your voice familiar, but it is optional. Avoid very loud noise and low-frequency rumble during pregnancy; earplugs do not fully protect the fetus."
       },
       "tags": [
         "education",
@@ -379,7 +379,7 @@
         "https://medlineplus.gov/ency/article/002398.htm",
         "https://www.cdc.gov/niosh/reproductive-health/prevention/noise.html",
         "https://pubmed.ncbi.nlm.nih.gov/23173548/",
-        "https://rightdecisions.scot.nhs.uk/zpathways-in-development/speech-and-language/learning-resources-for-health-visitors/talk-to-your-baby-in-the-womb-evidence-summary"
+        "https://www.berkshirehealthcare.nhs.uk/advice/your-baby-and-you/bonding-with-your-new-baby"
       ],
       "cards": [
         {

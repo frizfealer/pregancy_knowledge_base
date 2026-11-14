@@ -450,7 +450,8 @@
         "https://www.health.ny.gov/prevention/dental/pregnancy_oral_health.htm",
         "https://www.nhs.uk/conditions/gum-disease/",
         "https://www.op.nysed.gov/title8/education-law/article-133",
-        "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays-radiographs"
+        "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays-radiographs",
+        "https://pubmed.ncbi.nlm.nih.gov/41421601/"
       ],
       "cards": [
         {
@@ -499,8 +500,8 @@
             "en": "Has treating gum disease been proven to prevent preterm birth?"
           },
           "a": {
-            "zh-Hant": "還沒有。2022 年合併 12 個試驗的分析發現，深層清潔整體上沒有顯著降低早產；看牙是為了你自己的口腔和寶寶將來的牙齒。",
-            "en": "Not yet. A 2022 analysis of 12 trials found deep cleaning didn't significantly lower preterm birth overall; the reason to go is your own mouth and your baby's future teeth."
+            "zh-Hant": "還沒有定論。2026 年合併 14 項試驗、8,316 人的研究顯示整體可能有降低早產的趨勢，但信賴區間跨過 1；加用 chlorhexidine 漱口水的效果證據確定性很低。孕期仍應為口腔健康接受需要的牙科治療。",
+            "en": "Not conclusively. A 2026 review of 14 trials and 8,316 participants showed a possible lower preterm-birth risk, but the confidence interval included no effect; evidence for additional chlorhexidine mouthwash was very uncertain. Dental care remains important for oral health."
           }
         }
       ]

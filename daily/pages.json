@@ -447,8 +447,10 @@
         "https://www.cdc.gov/oral-health/data-research/facts-stats/fast-facts-pregnancy-and-oral-health.html",
         "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC9856591",
-        "https://healthweb-back.health.ny.gov/prevention/dental/prenatal_oral_health.htm",
-        "https://www.nhs.uk/conditions/gum-disease/complications"
+        "https://www.health.ny.gov/prevention/dental/pregnancy_oral_health.htm",
+        "https://www.nhs.uk/conditions/gum-disease/",
+        "https://www.op.nysed.gov/title8/education-law/article-133",
+        "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays-radiographs"
       ],
       "cards": [
         {
@@ -457,8 +459,8 @@
             "en": "Are dental X-rays and numbing shots safe in pregnancy?"
           },
           "a": {
-            "zh-Hant": "安全。ADA 和 HRSA 都說可以在懷孕任何階段進行；ADA 也說已不再建議用護罩遮腹部。要先問產科醫師的是靜脈鎮靜、笑氣、全身麻醉和抗生素或止痛藥。",
-            "en": "Yes. The ADA and HRSA say both are fine at any stage of pregnancy, and the ADA says abdominal shielding is no longer recommended. Check with your OB first for IV sedation, nitrous oxide, general anesthesia, antibiotics or pain medicine."
+            "zh-Hant": "有臨床需要的牙科 X 光和局部麻醉在孕期可以安全進行。ADA 不再建議例行穿鉛衣，但紐約州法律仍要求照牙科 X 光時保護軀幹與甲狀腺（甲狀腺護罩有特定例外）。靜脈鎮靜、笑氣、全身麻醉及用藥須先與產科討論。",
+            "en": "Clinically indicated dental X-rays and local anesthesia are safe during pregnancy. The ADA no longer routinely recommends lead aprons, but New York law still requires torso and thyroid shielding during dental X-rays (with a limited thyroid exception). Discuss IV sedation, nitrous oxide, general anesthesia and medicines with the OB."
           }
         },
         {

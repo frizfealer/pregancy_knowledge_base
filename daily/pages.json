@@ -423,6 +423,85 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-14",
+      "slug": "dental-care-in-pregnancy",
+      "file": "daily/2026-11-14-dental-care-in-pregnancy.html",
+      "title": {
+        "zh-Hant": "懷孕可以看牙醫嗎？照 X 光、打麻藥都安全，別拖到產後",
+        "en": "Can you see the dentist while pregnant? X-rays and numbing shots are safe, so don't wait until after the birth"
+      },
+      "summary": {
+        "zh-Hant": "CDC 與 HRSA 都說牙科治療在懷孕任何階段都安全，包括 X 光、局部麻醉、補牙和根管治療；只有鎮靜、笑氣、全身麻醉和用藥要先問產科醫師。荷爾蒙讓牙齦更容易發炎，產後蛀牙細菌也可能傳給寶寶，所以趁孕期處理。治療牙周病能否降低早產，目前證據還不確定。",
+        "en": "The CDC and HRSA say dental care is safe at any stage of pregnancy, including X-rays, numbing shots, fillings and root canals; only sedation, nitrous oxide, general anesthesia and medicines need your OB's input first. Hormones make gums more easily inflamed and cavity bacteria can pass to the baby after birth, so get care now. Whether treating gum disease lowers preterm birth is still uncertain."
+      },
+      "tags": [
+        "health",
+        "mid",
+        "w14",
+        "learn"
+      ],
+      "sources": [
+        "https://www.hrsa.gov/oral-health/pregnancy",
+        "https://www.cdc.gov/oral-health/data-research/facts-stats/fast-facts-pregnancy-and-oral-health.html",
+        "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9856591",
+        "https://healthweb-back.health.ny.gov/prevention/dental/prenatal_oral_health.htm",
+        "https://www.nhs.uk/conditions/gum-disease/complications"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "懷孕時照牙齒 X 光、打局部麻醉安全嗎？",
+            "en": "Are dental X-rays and numbing shots safe in pregnancy?"
+          },
+          "a": {
+            "zh-Hant": "安全。ADA 和 HRSA 都說可以在懷孕任何階段進行；ADA 也說已不再建議用護罩遮腹部。要先問產科醫師的是靜脈鎮靜、笑氣、全身麻醉和抗生素或止痛藥。",
+            "en": "Yes. The ADA and HRSA say both are fine at any stage of pregnancy, and the ADA says abdominal shielding is no longer recommended. Check with your OB first for IV sedation, nitrous oxide, general anesthesia, antibiotics or pain medicine."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼懷孕更容易牙齦發炎？",
+            "en": "Why are gums more likely to get inflamed in pregnancy?"
+          },
+          "a": {
+            "zh-Hant": "孕期荷爾蒙會讓牙齦對牙菌斑細菌的反應變得誇大，同樣的細菌引起更明顯的紅腫。",
+            "en": "Pregnancy hormones exaggerate the gums' response to plaque bacteria, so the same bacteria cause more redness and swelling."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼蛀牙最好在寶寶出生前處理，而不是等生完？",
+            "en": "Why treat cavities before the baby is born rather than after?"
+          },
+          "a": {
+            "zh-Hant": "拖延可能讓問題更複雜；而且產後致蛀牙細菌可能透過親吻等方式傳給寶寶，媽媽有很多未治療蛀牙時，孩子將來蛀牙的風險約高 3 倍。",
+            "en": "Delay can make problems more complex, and after birth cavity-causing bacteria can pass to the baby through things like kisses; when a mother has many untreated cavities, the child's future cavity risk is about 3 times higher."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "孕吐之後，怎麼保護牙齒？",
+            "en": "After vomiting, how do you protect your teeth?"
+          },
+          "a": {
+            "zh-Hant": "不要馬上刷牙，先用 1 杯水加 1 茶匙小蘇打漱口。",
+            "en": "Don't brush right away; rinse first with 1 teaspoon of baking soda in a cup of water."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "治療牙周病已經證明能預防早產嗎？",
+            "en": "Has treating gum disease been proven to prevent preterm birth?"
+          },
+          "a": {
+            "zh-Hant": "還沒有。2022 年合併 12 個試驗的分析發現，深層清潔整體上沒有顯著降低早產；看牙是為了你自己的口腔和寶寶將來的牙齒。",
+            "en": "Not yet. A 2022 analysis of 12 trials found deep cleaning didn't significantly lower preterm birth overall; the reason to go is your own mouth and your baby's future teeth."
+          }
+        }
+      ]
     }
   ]
 }

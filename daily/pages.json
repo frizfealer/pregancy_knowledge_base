@@ -534,7 +534,13 @@
         "https://comptroller.nyc.gov/reports/nyc-under-three-a-plan-to-make-child-care-affordable-for-new-york-city-families/",
         "https://dol.ny.gov/domestic-workers-bill-rights",
         "https://www.nyc.gov/assets/dca/downloads/pdf/businesses/Domestic-Household-Employee-Rights.pdf",
-        "https://www.irs.gov/pub/irs-pdf/p926.pdf"
+        "https://www.irs.gov/pub/irs-pdf/p926.pdf",
+        "https://www.nyc.gov/mayors-office/news/2026/04/mayor-mamdani-launches-first-of-its-kind-child-care-website-and-",
+        "https://www.nyc.gov/mayors-office/news/2026/10/mayor-mamdani-to-deliver-free-child-care-to-more-than-10-000-low",
+        "https://www.nyc.gov/site/acs/news/p13-26/october-infant-safe-sleep-awareness-month-administration-children-s-services-reminds",
+        "https://www.wcb.ny.gov/content/main/coverage-requirements.jsp",
+        "https://www.nyc.gov/site/dca/about/paid-sick-leave-FAQs.page",
+        "https://www.nyc.gov/mayors-office/news/2026/08/mayor-mamdani-announces-city-will-cover-all-out-of-pocket-child-"
       ],
       "cards": [
         {
@@ -543,8 +549,8 @@
             "en": "Can parents drop in unannounced at a licensed NYC child care center?"
           },
           "a": {
-            "zh-Hant": "可以。依市法和州法，家長必須能隨時探視或接走孩子。",
-            "en": "Yes. City and state law require that parents can see or take out their child at any time."
+            "zh-Hant": "原則上可以；除非法律或法院命令另有限制，家長可隨時探視入托的孩子，查看孩子使用的場所。",
+            "en": "Generally yes. Parents may visit their enrolled child at any time and inspect areas the child uses, unless limited by law or court order."
           }
         },
         {

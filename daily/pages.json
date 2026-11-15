@@ -505,6 +505,79 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-15",
+      "slug": "nyc-childcare-lookup",
+      "file": "daily/2026-11-15-nyc-childcare-lookup.html",
+      "title": {
+        "zh-Hant": "找托嬰別只靠口碑：紐約市每家托兒中心的檢查紀錄都能免費查",
+        "en": "Don't pick daycare on word of mouth alone: every NYC center's inspection record is free to look up"
+      },
+      "summary": {
+        "zh-Hant": "托兒中心用市衛生局的 NYC Child Care Connect 查檢查紀錄，家庭托育用紐約州 OCFS 搜尋查執照狀態，請保母則是你當雇主，要照 IRS 與紐約州家務勞工法辦。市衛生局建議至少提前 3 個月開始找，嬰兒名額又少，所以孕中期就是起步的好時機。",
+        "en": "Look up centers' inspection records in the city's NYC Child Care Connect and home-based programs' license status in the state OCFS search; with a nanny, you become the employer under IRS and New York domestic worker rules. The city advises starting at least three months ahead and infant spots are scarce, so the second trimester is a good time to begin."
+      },
+      "tags": [
+        "resources",
+        "mid",
+        "w14",
+        "curated"
+      ],
+      "sources": [
+        "https://www.nyc.gov/site/doh/health/health-topics/pregnancy-childcare-tips.page",
+        "https://www.nyc.gov/assets/doh/downloads/pdf/dc/daycare-choosingchildcare.pdf",
+        "https://a816-healthpsi.nyc.gov/ChildCare",
+        "https://www.nyc.gov/assets/doh/downloads/pdf/dc/childcare-performance-summary-card-faq.pdf",
+        "https://www.ny.gov/services/find-child-care-providers-new-york-state",
+        "https://www.nyc.gov/site/acs/early-care/findchildcare.page",
+        "https://comptroller.nyc.gov/reports/nyc-under-three-a-plan-to-make-child-care-affordable-for-new-york-city-families/",
+        "https://dol.ny.gov/domestic-workers-bill-rights",
+        "https://www.nyc.gov/assets/dca/downloads/pdf/businesses/Domestic-Household-Employee-Rights.pdf",
+        "https://www.irs.gov/pub/irs-pdf/p926.pdf"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "紐約市有執照的托兒中心，家長可以不先預約就去看孩子嗎？",
+            "en": "Can parents drop in unannounced at a licensed NYC child care center?"
+          },
+          "a": {
+            "zh-Hant": "可以。依市法和州法，家長必須能隨時探視或接走孩子。",
+            "en": "Yes. City and state law require that parents can see or take out their child at any time."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "托兒中心和家庭托育的檢查紀錄，分別去哪裡查？",
+            "en": "Where do you look up records for a center versus home-based care?"
+          },
+          "a": {
+            "zh-Hant": "托兒中心用紐約市衛生局的 NYC Child Care Connect；家庭托育和團體家庭托育用紐約州 OCFS 的托育搜尋。",
+            "en": "Centers: the NYC Health Department's NYC Child Care Connect. Family and group family day care: the New York State OCFS child care search."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼懷孕中期就該開始找托育？",
+            "en": "Why start looking for care in the second trimester?"
+          },
+          "a": {
+            "zh-Hant": "市衛生局建議至少提前 3 個月找；審計長 2019 年的報告估計，名額只夠全市約 22% 的兩歲以下孩子。",
+            "en": "The Health Department advises starting at least three months ahead, and a 2019 Comptroller report estimated spots for only about 22% of the city's children under two."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "2026 年付給保母多少現金工資，就要開始付社會安全稅與醫療保險稅？",
+            "en": "In 2026, how much cash pay to a nanny triggers Social Security and Medicare tax?"
+          },
+          "a": {
+            "zh-Hant": "付給同一位家庭雇員 3,000 美元以上；雇主和保母各負擔 7.65%。",
+            "en": "$3,000 or more to one household employee; employer and employee each pay 7.65%."
+          }
+        }
+      ]
     }
   ]
 }

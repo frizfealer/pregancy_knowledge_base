@@ -590,12 +590,12 @@
       "slug": "side-sleeping-28-weeks",
       "file": "daily/2026-11-16-side-sleeping-28-weeks.html",
       "title": {
-        "zh-Hant": "醒來發現自己在仰睡？別慌：側睡的建議從 28 週才開始",
-        "en": "Woke up on your back? Don't panic: the side-sleeping advice starts at 28 weeks"
+        "zh-Hant": "半夜醒來發現仰睡？別緊張，翻回側面再睡就好",
+        "en": "Woke up on your back? Don't panic—roll onto your side"
       },
       "summary": {
-        "zh-Hant": "NIH 資助的大型研究發現，到 30 週為止仰睡沒有增加風險；28 週後的研究則顯示，仰睡入睡的晚期死產勝算約為側睡的 2.6 倍，所以 NHS 建議那時起側睡入睡，左右都可以。現在正好慢慢練習。",
-        "en": "A large NIH-funded study found no added risk from back sleeping through week 30; after 28 weeks, studies link going to sleep on your back with about 2.6 times the odds of late stillbirth, so the NHS advises falling asleep on your side from then on, left or right. Now is a good time to practice."
+        "zh-Hant": "NIH 的孕早中期研究未發現睡姿與不良妊娠結果有顯著關聯，但不能據此認定 28 週後仰睡安全。NHS 建議從 28 週起側睡入睡，左右皆可；美國 MedlinePlus 在孕期也建議側睡。若醒來發現仰躺，不必驚慌，翻回側面就好。",
+        "en": "An NIH study found no significant association between sleep position and adverse outcomes in early/mid-pregnancy, but cannot establish that back sleeping is safe after 28 weeks. The NHS advises falling asleep on either side from week 28; U.S. MedlinePlus also recommends side sleeping during pregnancy. If you wake up on your back, simply turn onto your side."
       },
       "tags": [
         "health",
@@ -609,7 +609,8 @@
         "https://pubmed.ncbi.nlm.nih.gov/31193832/",
         "https://www.nichd.nih.gov/newsroom/news/092019-pregnancy-sleep-position",
         "https://medlineplus.gov/ency/patientinstructions/000559.htm",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5898330"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5898330",
+        "https://pubmed.ncbi.nlm.nih.gov/41997228/"
       ],
       "cards": [
         {
@@ -628,8 +629,8 @@
             "en": "Why is back sleeping not a worry yet in early mid-pregnancy?"
           },
           "a": {
-            "zh-Hant": "NIH 資助、8,700 多人的研究發現，到 30 週為止仰睡或側睡都沒有增加死產、出生偏小或妊娠高血壓的風險。",
-            "en": "An NIH-funded study of more than 8,700 women found back or side sleeping through week 30 did not raise the risk of stillbirth, small birth size or high blood pressure disorders."
+            "zh-Hant": "NIH 在孕早中期未發現顯著關聯，但無法證明孕晚期仰睡安全；從 28 週起依 NHS 建議側睡入睡。",
+            "en": "The NIH study found no significant link early/mid-pregnancy, but cannot prove back sleeping is safe later. From week 28, settle on either side as NHS advises."
           }
         },
         {

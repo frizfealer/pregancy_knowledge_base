@@ -584,6 +584,75 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-16",
+      "slug": "side-sleeping-28-weeks",
+      "file": "daily/2026-11-16-side-sleeping-28-weeks.html",
+      "title": {
+        "zh-Hant": "醒來發現自己在仰睡？別慌：側睡的建議從 28 週才開始",
+        "en": "Woke up on your back? Don't panic: the side-sleeping advice starts at 28 weeks"
+      },
+      "summary": {
+        "zh-Hant": "NIH 資助的大型研究發現，到 30 週為止仰睡沒有增加風險；28 週後的研究則顯示，仰睡入睡的晚期死產勝算約為側睡的 2.6 倍，所以 NHS 建議那時起側睡入睡，左右都可以。現在正好慢慢練習。",
+        "en": "A large NIH-funded study found no added risk from back sleeping through week 30; after 28 weeks, studies link going to sleep on your back with about 2.6 times the odds of late stillbirth, so the NHS advises falling asleep on your side from then on, left or right. Now is a good time to practice."
+      },
+      "tags": [
+        "health",
+        "mind",
+        "mid",
+        "w14",
+        "learn"
+      ],
+      "sources": [
+        "https://www.nhs.uk/conditions/stillbirth/prevention/",
+        "https://pubmed.ncbi.nlm.nih.gov/31193832/",
+        "https://www.nichd.nih.gov/newsroom/news/092019-pregnancy-sleep-position",
+        "https://medlineplus.gov/ency/patientinstructions/000559.htm",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5898330"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "NHS 建議從懷孕第幾週起側睡入睡？",
+            "en": "From what week does the NHS advise going to sleep on your side?"
+          },
+          "a": {
+            "zh-Hant": "28 週以後；左側或右側都可以。",
+            "en": "After 28 weeks; left or right side."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼現在（孕中期初）仰睡不用太擔心？",
+            "en": "Why is back sleeping not a worry yet in early mid-pregnancy?"
+          },
+          "a": {
+            "zh-Hant": "NIH 資助、8,700 多人的研究發現，到 30 週為止仰睡或側睡都沒有增加死產、出生偏小或妊娠高血壓的風險。",
+            "en": "An NIH-funded study of more than 8,700 women found back or side sleeping through week 30 did not raise the risk of stillbirth, small birth size or high blood pressure disorders."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼仰睡在懷孕後期可能有影響？",
+            "en": "Why might back sleeping matter late in pregnancy?"
+          },
+          "a": {
+            "zh-Hant": "一般認為和送到寶寶的血液與氧氣有關：變重的子宮可能壓迫主動脈和下腔靜脈。",
+            "en": "It's thought to affect blood and oxygen reaching the baby: the heavier uterus may press on the aorta and inferior vena cava."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "28 週後半夜醒來發現自己仰躺，該怎麼辦？",
+            "en": "After 28 weeks, what should you do if you wake up on your back?"
+          },
+          "a": {
+            "zh-Hant": "不用擔心，翻回側面再睡就好；研究看的是入睡時的姿勢。",
+            "en": "Don't worry; just turn onto your side and go back to sleep. The studies looked at the position you fall asleep in."
+          }
+        }
+      ]
     }
   ]
 }

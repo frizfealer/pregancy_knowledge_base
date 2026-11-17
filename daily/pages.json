@@ -654,6 +654,75 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-17",
+      "slug": "flavors-in-amniotic-fluid",
+      "file": "daily/2026-11-17-flavors-in-amniotic-fluid.html",
+      "title": {
+        "zh-Hant": "你吃的菜，寶寶在羊水裡嚐得到：孕期就是第一堂味覺課",
+        "en": "Your baby gets a taste of your dinner through the amniotic fluid: pregnancy is the first flavor lesson"
+      },
+      "summary": {
+        "zh-Hant": "胎兒會吞下、吸入羊水，感覺到媽媽吃下的味道；研究看到胎兒對胡蘿蔔和羽衣甘藍有不同表情，寶寶出生後也較能接受熟悉的味道。證據還小、長期效果未定，所以不必勉強吃苦菜，照 NHS 建議每天吃多種蔬果就好。",
+        "en": "A fetus swallows and breathes in amniotic fluid and senses the flavors of what its mother eats. Fetuses made different faces to carrot and kale, and babies accept familiar flavors more readily after birth. The evidence is small and long-term effects are unclear, so skip forcing down bitter greens and just eat a variety of fruit and veg, as the NHS advises."
+      },
+      "tags": [
+        "growth",
+        "education",
+        "mid",
+        "w14",
+        "learn"
+      ],
+      "sources": [
+        "https://durham-repository.worktribe.com/OutputFile/1208595",
+        "https://durham-repository.worktribe.com/OutputFile/1176038",
+        "https://pesquisa.bvsalud.org/sms/resource/pt/mdl-38724030",
+        "https://medlineplus.gov/ency/article/002398.htm",
+        "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "胎兒怎麼接觸到媽媽吃下的味道？",
+            "en": "How does a fetus encounter the flavors of what its mother eats?"
+          },
+          "a": {
+            "zh-Hant": "味道經血液和胎盤進到羊水，胎兒吞下、吸入羊水時感覺到。",
+            "en": "Flavors pass through the blood and placenta into the amniotic fluid, which the fetus swallows and breathes in."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "胡蘿蔔／羽衣甘藍膠囊研究看到了什麼？",
+            "en": "What did the carrot/kale capsule study see?"
+          },
+          "a": {
+            "zh-Hant": "32 和 36 週時，羽衣甘藍組胎兒較常出現「哭臉」，胡蘿蔔組較常出現「笑臉」；但還無法判斷胎兒是否真的喜歡或討厭。",
+            "en": "At 32 and 36 weeks, kale-group fetuses made more \"cry faces\" and carrot-group fetuses more \"laughter faces,\" though it can't yet be told whether fetuses actually like or dislike them."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼只能說孕期吃多種蔬菜「可能」讓寶寶以後較能接受，而不是「一定」？",
+            "en": "Why can we only say a varied pregnancy diet \"may\" help a baby accept foods later, not \"will\"?"
+          },
+          "a": {
+            "zh-Hant": "研究規模都小，證據多半是氣味而非味道，而且能否延續到斷奶後的長期飲食習慣還不清楚。",
+            "en": "The studies are small, most evidence concerns smell rather than taste, and whether the effect lasts past weaning into long-term eating habits is still unknown."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "NHS 建議孕期每天吃多少蔬果？要注意什麼？",
+            "en": "How much fruit and veg does the NHS advise in pregnancy, and what's the catch?"
+          },
+          "a": {
+            "zh-Hant": "每天至少 5 份、種類多樣；生鮮蔬果要洗乾淨，因為土壤可能有弓形蟲。",
+            "en": "At least 5 portions a day, varied; wash fresh produce, because soil can carry toxoplasma."
+          }
+        }
+      ]
     }
   ]
 }

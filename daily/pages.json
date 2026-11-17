@@ -664,8 +664,8 @@
         "en": "Your baby gets a taste of your dinner through the amniotic fluid: pregnancy is the first flavor lesson"
       },
       "summary": {
-        "zh-Hant": "胎兒會吞下、吸入羊水，感覺到媽媽吃下的味道；研究看到胎兒對胡蘿蔔和羽衣甘藍有不同表情，寶寶出生後也較能接受熟悉的味道。證據還小、長期效果未定，所以不必勉強吃苦菜，照 NHS 建議每天吃多種蔬果就好。",
-        "en": "A fetus swallows and breathes in amniotic fluid and senses the flavors of what its mother eats. Fetuses made different faces to carrot and kale, and babies accept familiar flavors more readily after birth. The evidence is small and long-term effects are unclear, so skip forcing down bitter greens and just eat a variety of fruit and veg, as the NHS advises."
+        "zh-Hant": "胎兒在孕晚期對胡蘿蔔與羽衣甘藍產生不同臉部反應。2025–2026 年的小型追蹤研究發現，嬰兒與 3 歲兒童對孕期熟悉的蔬菜氣味較少出現負面表情，但沒有證明會因此更愛吃蔬菜。孕期仍以均衡、多樣及食安為先。",
+        "en": "Late-pregnancy fetuses show different facial responses to carrot and kale exposure. Small 2025–2026 follow-ups found fewer negative facial reactions to familiar vegetable odors in infants and 3-year-olds, not proof that they eat more vegetables. A varied, balanced and safe pregnancy diet remains the priority."
       },
       "tags": [
         "growth",
@@ -675,11 +675,13 @@
         "learn"
       ],
       "sources": [
-        "https://durham-repository.worktribe.com/OutputFile/1208595",
-        "https://durham-repository.worktribe.com/OutputFile/1176038",
-        "https://pesquisa.bvsalud.org/sms/resource/pt/mdl-38724030",
+        "https://journals.sagepub.com/doi/full/10.1177/09567976221105460",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0283314",
+        "https://pubmed.ncbi.nlm.nih.gov/38724030/",
         "https://medlineplus.gov/ency/article/002398.htm",
-        "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+        "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/",
+        "https://pubmed.ncbi.nlm.nih.gov/39892645/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13167224/"
       ],
       "cards": [
         {
@@ -704,12 +706,12 @@
         },
         {
           "q": {
-            "zh-Hant": "為什麼只能說孕期吃多種蔬菜「可能」讓寶寶以後較能接受，而不是「一定」？",
-            "en": "Why can we only say a varied pregnancy diet \"may\" help a baby accept foods later, not \"will\"?"
+            "zh-Hant": "2026 年追蹤到 3 歲，是否證明孕期吃蔬菜會讓孩子長大更愛吃菜？",
+            "en": "Did the 2026 follow-up prove that eating vegetables in pregnancy makes children eat more vegetables?"
           },
           "a": {
-            "zh-Hant": "研究規模都小，證據多半是氣味而非味道，而且能否延續到斷奶後的長期飲食習慣還不清楚。",
-            "en": "The studies are small, most evidence concerns smell rather than taste, and whether the effect lasts past weaning into long-term eating habits is still unknown."
+            "zh-Hant": "沒有。12 名 3 歲兒童在聞到孕晚期熟悉的蔬菜氣味時，負面臉部反應較少；但研究沒有測實際吃菜量，樣本也很小。",
+            "en": "No. Twelve 3-year-olds made fewer negative facial expressions to familiar prenatal vegetable odors, but the study did not measure how much they ate and was very small."
           }
         },
         {

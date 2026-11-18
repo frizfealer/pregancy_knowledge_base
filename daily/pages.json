@@ -756,12 +756,12 @@
       "cards": [
         {
           "q": {
-            "zh-Hant": "在 47 項研究的統合分析裡，父親憂鬱比例最高的是哪個時期？",
-            "en": "In the 47-study meta-analysis, when was depression in fathers most common?"
+            "zh-Hant": "在 47 項研究的統合分析裡，父親憂鬱盛行率的點估計哪個時期最高？",
+            "en": "In the 47-study meta-analysis, which period had the highest point estimate of depression prevalence?"
           },
           "a": {
-            "zh-Hant": "伴侶懷孕的第一孕期，約 13.6%；產後第一年整體約 8.8%。",
-            "en": "The partner's first trimester, about 13.6%; across the first year after birth it was about 8.8%."
+            "zh-Hant": "伴侶懷孕的第一孕期約 13.6%；產後一年內研究整體約 8.8%。這些是不同樣本的點估計，不能證明個人在孕早期風險一定最高。",
+            "en": "The first trimester, about 13.6%; postpartum-year studies overall, about 8.8%. These point estimates use different samples and do not prove that any individual's risk peaks in early pregnancy."
           }
         },
         {

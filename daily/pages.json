@@ -731,12 +731,12 @@
       "slug": "partner-depression-in-pregnancy",
       "file": "daily/2026-11-18-partner-depression-in-pregnancy.html",
       "title": {
-        "zh-Hant": "準爸爸也會憂鬱：約每 10 人就有 1 人，而且懷孕期間就可能開始",
-        "en": "Dads-to-be get depressed too: about 1 in 10, and it can start during pregnancy"
+        "zh-Hant": "準爸爸也會憂鬱：研究估計約一成，孕期就值得留意",
+        "en": "Expectant fathers can experience depression: roughly 1 in 10 in pooled studies"
       },
       "summary": {
-        "zh-Hant": "從伴侶懷孕到產後一年，約 1 成男性出現憂鬱；一份 47 項研究的統合分析中，第一孕期比例最高。男性常以易怒、逃避或喝酒掩飾，容易被漏掉，而且和孩子日後的發展有關。兩個人一起留意，症狀超過 2 週就找醫師。",
-        "en": "About 1 in 10 men become depressed between their partner's pregnancy and a year after birth; in a 47-study meta-analysis the first trimester had the highest rate. Men often mask it as irritability, withdrawal or drinking, so it gets missed, and it is linked to children's later development. Watch for it together, and see a doctor if symptoms last 2 weeks."
+        "zh-Hant": "研究綜合不同孕產期時點的調查，父親出現憂鬱症狀的比例約一成；這不是整段期間的累積發病機率。症狀可能從孕期開始，部分男性表現為易怒、退縮或飲酒增加。若情緒影響生活，應及早尋求協助，不必硬等兩週。",
+        "en": "Across surveys of different pregnancy and postpartum periods, roughly 1 in 10 fathers had depressive symptoms; this is not the cumulative risk of a new diagnosis across the whole period. Symptoms can begin during pregnancy, sometimes showing as irritability, withdrawal or heavier drinking. Seek help if mood affects daily life; there is no need to wait two weeks."
       },
       "tags": [
         "mind",
@@ -749,7 +749,9 @@
         "https://www.aafp.org/afp/2016/0515/p824",
         "https://www.healthychildren.org/English/ages-stages/prenatal/delivery-beyond/Pages/dads-can-get-postpartum-depression-too.aspx",
         "https://mchb.hrsa.gov/national-maternal-mental-health-hotline",
-        "https://www.samhsa.gov/mental-health/988"
+        "https://www.samhsa.gov/mental-health/988",
+        "https://postpartum.net/get-help/help-for-dads/",
+        "https://www.nimh.nih.gov/health/publications/depression"
       ],
       "cards": [
         {
@@ -788,8 +790,8 @@
             "en": "How do you tell the \"baby blues\" from depression?"
           },
           "a": {
-            "zh-Hant": "看時間：baby blues 通常幾天就過去；持續 2 週以上就該和醫師談。",
-            "en": "By duration: the baby blues usually fade in a few days; 2 weeks or more is time to talk to a doctor."
+            "zh-Hant": "baby blues 多在幾天內緩解；症狀持續兩週尤其需要評估，但不能單靠時間診斷。若影響生活或有安全疑慮，應提早求助。",
+            "en": "Baby blues often fade in days; symptoms lasting two weeks warrant assessment, but duration alone is not a diagnosis. Get help sooner if daily life or safety is affected."
           }
         }
       ]

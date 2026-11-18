@@ -725,6 +725,74 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-18",
+      "slug": "partner-depression-in-pregnancy",
+      "file": "daily/2026-11-18-partner-depression-in-pregnancy.html",
+      "title": {
+        "zh-Hant": "準爸爸也會憂鬱：約每 10 人就有 1 人，而且懷孕期間就可能開始",
+        "en": "Dads-to-be get depressed too: about 1 in 10, and it can start during pregnancy"
+      },
+      "summary": {
+        "zh-Hant": "從伴侶懷孕到產後一年，約 1 成男性出現憂鬱；一份 47 項研究的統合分析中，第一孕期比例最高。男性常以易怒、逃避或喝酒掩飾，容易被漏掉，而且和孩子日後的發展有關。兩個人一起留意，症狀超過 2 週就找醫師。",
+        "en": "About 1 in 10 men become depressed between their partner's pregnancy and a year after birth; in a 47-study meta-analysis the first trimester had the highest rate. Men often mask it as irritability, withdrawal or drinking, so it gets missed, and it is linked to children's later development. Watch for it together, and see a doctor if symptoms last 2 weeks."
+      },
+      "tags": [
+        "mind",
+        "mid",
+        "w14",
+        "learn"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31757623/",
+        "https://www.aafp.org/afp/2016/0515/p824",
+        "https://www.healthychildren.org/English/ages-stages/prenatal/delivery-beyond/Pages/dads-can-get-postpartum-depression-too.aspx",
+        "https://mchb.hrsa.gov/national-maternal-mental-health-hotline",
+        "https://www.samhsa.gov/mental-health/988"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "在 47 項研究的統合分析裡，父親憂鬱比例最高的是哪個時期？",
+            "en": "In the 47-study meta-analysis, when was depression in fathers most common?"
+          },
+          "a": {
+            "zh-Hant": "伴侶懷孕的第一孕期，約 13.6%；產後第一年整體約 8.8%。",
+            "en": "The partner's first trimester, about 13.6%; across the first year after birth it was about 8.8%."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼一般的憂鬱問卷容易漏掉男性的憂鬱？",
+            "en": "Why do standard depression questionnaires tend to miss depression in men?"
+          },
+          "a": {
+            "zh-Hant": "因為男性常用逃避或麻木來掩飾，表現成易怒、攻擊性、喝酒或用藥，而不是說自己難過。",
+            "en": "Because men often mask it by avoiding or numbing, showing irritability, aggression, or alcohol or drug use rather than saying they feel sad."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "媽媽沒有憂鬱的話，爸爸的憂鬱還會影響孩子嗎？",
+            "en": "If the mother isn't depressed, can the father's depression still affect the child?"
+          },
+          "a": {
+            "zh-Hant": "研究在扣除媽媽的憂鬱後，仍看到父親產後憂鬱和較少親子共讀、較多體罰，以及孩子日後焦慮、行為和學業問題有關。",
+            "en": "Yes. After accounting for maternal depression, studies still link fathers' postnatal depression to less reading and more physical punishment, and to children's later anxiety, behavior and school problems."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "「產後情緒低落」和憂鬱怎麼分？",
+            "en": "How do you tell the \"baby blues\" from depression?"
+          },
+          "a": {
+            "zh-Hant": "看時間：baby blues 通常幾天就過去；持續 2 週以上就該和醫師談。",
+            "en": "By duration: the baby blues usually fade in a few days; 2 weeks or more is time to talk to a doctor."
+          }
+        }
+      ]
     }
   ]
 }

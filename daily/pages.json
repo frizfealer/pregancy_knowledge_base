@@ -795,6 +795,72 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-19",
+      "slug": "flu-shot-in-pregnancy",
+      "file": "daily/2026-11-19-flu-shot-in-pregnancy.html",
+      "title": {
+        "zh-Hant": "寶寶 6 個月前不能打流感疫苗：你現在打，抗體先替他擋",
+        "en": "Babies can't get a flu shot until 6 months: get yours now and your antibodies cover them first"
+      },
+      "summary": {
+        "zh-Hant": "CDC 建議孕期任何一期都可以打流感針劑（不是鼻噴式）。媽媽的抗體會傳給寶寶；研究中，未滿 6 個月嬰兒的流感住院約少 4 成，未滿 3 個月時住院或急診少一半。",
+        "en": "CDC recommends the flu shot (not the nasal spray) in any trimester. Your antibodies pass to the baby: in one study, flu hospitalizations in infants under 6 months were about 40% lower, and hospital or ER visits under 3 months were cut by half."
+      },
+      "tags": [
+        "health",
+        "mid",
+        "w14",
+        "learn"
+      ],
+      "sources": [
+        "https://www.cdc.gov/flu/highrisk/pregnant.htm",
+        "https://www.cdc.gov/flu/whats-new/2023-2024-study-vaccination-6-months.html",
+        "https://nhsinform.scot/healthy-living/pregnancy-and-the-flu-vaccine"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "為什麼要媽媽在孕期打，而不是寶寶出生後自己打？",
+            "en": "Why does the mother get the shot in pregnancy instead of the baby after birth?"
+          },
+          "a": {
+            "zh-Hant": "寶寶要滿 6 個月才能打流感疫苗；在那之前，只能靠媽媽孕期傳給他的抗體保護。",
+            "en": "Babies can't get a flu shot until 6 months; until then, they rely on antibodies passed from their mother during pregnancy."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "孕期該打針劑還是鼻噴式流感疫苗？",
+            "en": "In pregnancy, the flu shot or the nasal spray?"
+          },
+          "a": {
+            "zh-Hant": "針劑。CDC 說孕期不要用鼻噴式流感疫苗。",
+            "en": "The shot. CDC says not to use the nasal spray flu vaccine during pregnancy."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "媽媽孕期打流感疫苗，寶寶未滿 6 個月的流感住院風險約少多少？未滿 3 個月呢？",
+            "en": "How much does the mother's shot lower flu hospitalizations in babies under 6 months? And under 3 months?"
+          },
+          "a": {
+            "zh-Hant": "未滿 6 個月約少 40%；未滿 3 個月，住院或急診少一半（3,700 多名嬰兒的研究）。",
+            "en": "About 40% under 6 months; under 3 months, hospitalizations or ER visits were cut by half (study of 3,700+ infants)."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "上一胎或去年打過，為什麼這次還要打？",
+            "en": "You had one last year or last pregnancy. Why again?"
+          },
+          "a": {
+            "zh-Hant": "流感病毒會變，保護力也會隨時間減弱，所以每年、每次懷孕都要打。",
+            "en": "The flu virus changes and protection fades, so it's recommended every year and in every pregnancy."
+          }
+        }
+      ]
     }
   ]
 }

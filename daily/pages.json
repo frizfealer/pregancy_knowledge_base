@@ -817,7 +817,11 @@
       "sources": [
         "https://www.cdc.gov/flu/highrisk/pregnant.htm",
         "https://www.cdc.gov/flu/whats-new/2023-2024-study-vaccination-6-months.html",
-        "https://nhsinform.scot/healthy-living/pregnancy-and-the-flu-vaccine"
+        "https://www.cdc.gov/flu/vaccines/keyfacts.html",
+        "https://www.cdc.gov/vaccines-pregnancy/recommended-vaccines/index.html",
+        "https://www.cdc.gov/flu/hcp/antivirals/treatment_obstetric.html",
+        "https://www.cdc.gov/flu/vaccines/coadministration.html",
+        "https://www.cdc.gov/flu/season/2026-2027.html"
       ],
       "cards": [
         {
@@ -826,8 +830,8 @@
             "en": "Why does the mother get the shot in pregnancy instead of the baby after birth?"
           },
           "a": {
-            "zh-Hant": "寶寶要滿 6 個月才能打流感疫苗；在那之前，只能靠媽媽孕期傳給他的抗體保護。",
-            "en": "Babies can't get a flu shot until 6 months; until then, they rely on antibodies passed from their mother during pregnancy."
+            "zh-Hant": "寶寶未滿 6 個月不能打流感疫苗；孕期抗體是重要但不完整的保護，照顧者接種與避免接觸病人也很重要。",
+            "en": "Infants under 6 months cannot get a flu shot. Maternal antibodies provide important but incomplete protection; caregiver vaccination and avoiding exposure also help."
           }
         },
         {
@@ -846,8 +850,8 @@
             "en": "How much does the mother's shot lower flu hospitalizations in babies under 6 months? And under 3 months?"
           },
           "a": {
-            "zh-Hant": "未滿 6 個月約少 40%；未滿 3 個月，住院或急診少一半（3,700 多名嬰兒的研究）。",
-            "en": "About 40% under 6 months; under 3 months, hospitalizations or ER visits were cut by half (study of 3,700+ infants)."
+            "zh-Hant": "觀察研究顯示：未滿 6 個月嬰兒的流感住院相對少約 40%；未滿 3 個月嬰兒的住院或急診相對少約一半，不代表絕對風險降 40 個百分點。",
+            "en": "In an observational study: about 40% lower relative flu hospitalization among infants under 6 months, and about 50% lower hospitalization or ER visits under 3 months—not a 40-percentage-point absolute drop."
           }
         },
         {
@@ -856,8 +860,8 @@
             "en": "You had one last year or last pregnancy. Why again?"
           },
           "a": {
-            "zh-Hant": "流感病毒會變，保護力也會隨時間減弱，所以每年、每次懷孕都要打。",
-            "en": "The flu virus changes and protection fades, so it's recommended every year and in every pregnancy."
+            "zh-Hant": "每個流感季的疫苗會更新，成人通常每季打一劑；本季已接種的人，不需要只因後來懷孕就重打。",
+            "en": "Flu vaccine strains change each season. Adults generally get one dose per season; pregnancy after this season's vaccination does not require a repeat dose."
           }
         }
       ]

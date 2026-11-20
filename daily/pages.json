@@ -865,6 +865,75 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-20",
+      "slug": "choosing-a-pediatrician",
+      "file": "daily/2026-11-20-choosing-a-pediatrician.html",
+      "title": {
+        "zh-Hant": "寶寶出院 2–3 天就要回診：小兒科醫師最好生產前就選好",
+        "en": "Your newborn's first checkup comes 2–3 days after leaving the hospital: choose a pediatrician before the birth"
+      },
+      "summary": {
+        "zh-Hant": "多數醫院在住院生產時就會問小兒科醫師是誰，出院後 48–72 小時要回診。AAP 建議孕晚期先跟醫師見一次面；孕中期正好列名單、確認保險網內。",
+        "en": "Most hospitals ask for your pediatrician's name when you're admitted, and the first checkup comes 48–72 hours after discharge. The AAP recommends meeting the pediatrician in the third trimester; the second trimester is the time to shortlist and check your insurance network."
+      },
+      "tags": [
+        "resources",
+        "mid",
+        "w14",
+        "learn"
+      ],
+      "sources": [
+        "https://www.healthychildren.org/English/ages-stages/prenatal/decisions-to-make/Pages/Finding-a-Pediatrician.aspx",
+        "https://healthychildren.org:443/English/news/Pages/Expectant-Parents-Encouraged-to-Visit-Pediatrician-Before-Birth-of-Baby.aspx",
+        "https://www.healthychildren.org/English/family-life/health-management/Pages/How-to-Choose-a-Pediatrician.aspx",
+        "https://aap.org/en/patient-care/newborn-and-infant-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days",
+        "https://www.healthychildren.org/English/ages-stages/prenatal/delivery-beyond/Pages/Bringing-Baby-Home.aspx",
+        "https://www.healthcare.gov/what-if-im-pregnant-or-plan-to-get-pregnant/"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "寶寶還沒出生，為什麼就要選好小兒科醫師？",
+            "en": "Why choose a pediatrician before the baby is born?"
+          },
+          "a": {
+            "zh-Hant": "多數醫院在住院時就會問醫師名字，寶寶一出生就會通知他或值班同事，出院後 48–72 小時就要回診。",
+            "en": "Most hospitals ask for the name at admission, that doctor or the on-call associate is called as soon as the baby is born, and the first checkup comes 48–72 hours after discharge."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "AAP 建議什麼時候跟小兒科醫師第一次見面？",
+            "en": "When does the AAP recommend first meeting the pediatrician?"
+          },
+          "a": {
+            "zh-Hant": "第三孕期（孕晚期）的產前會面；這是唯一一次寶寶不用在場的例行健康檢查。",
+            "en": "A prenatal visit in the third trimester, the only routine wellness visit where the child doesn't need to be there."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼出院後幾天就要回診？主要看什麼？",
+            "en": "Why a checkup just days after discharge, and what's checked?"
+          },
+          "a": {
+            "zh-Hant": "確認寶寶吃得夠：看體重（比出生時掉超過 10% 要進一步評估）、黃疸和脫水、尿布次數。",
+            "en": "To make sure the baby is eating enough: weight (losing more than 10% of birth weight needs further evaluation), jaundice and dehydration, and diaper output."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "打電話給診所，先篩掉不合的兩個問題是什麼？",
+            "en": "Which two phone questions screen out offices fastest?"
+          },
+          "a": {
+            "zh-Hant": "收不收新病人和我的保險？診所關門後寶寶有狀況，誰接電話？",
+            "en": "Are you taking new patients with my insurance? Who answers if my baby has a problem after hours?"
+          }
+        }
+      ]
     }
   ]
 }

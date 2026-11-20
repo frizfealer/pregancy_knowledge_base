@@ -886,11 +886,14 @@
       ],
       "sources": [
         "https://www.healthychildren.org/English/ages-stages/prenatal/decisions-to-make/Pages/Finding-a-Pediatrician.aspx",
-        "https://healthychildren.org:443/English/news/Pages/Expectant-Parents-Encouraged-to-Visit-Pediatrician-Before-Birth-of-Baby.aspx",
+        "https://www.healthychildren.org/English/news/Pages/Expectant-Parents-Encouraged-to-Visit-Pediatrician-Before-Birth-of-Baby.aspx",
         "https://www.healthychildren.org/English/family-life/health-management/Pages/How-to-Choose-a-Pediatrician.aspx",
-        "https://aap.org/en/patient-care/newborn-and-infant-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days",
+        "https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/",
         "https://www.healthychildren.org/English/ages-stages/prenatal/delivery-beyond/Pages/Bringing-Baby-Home.aspx",
-        "https://www.healthcare.gov/what-if-im-pregnant-or-plan-to-get-pregnant/"
+        "https://www.healthcare.gov/what-if-im-pregnant-or-plan-to-get-pregnant/",
+        "https://www.healthcare.gov/glossary/special-enrollment-period/",
+        "https://www.healthychildren.org/english/health-issues/injuries-emergencies/pages/when-to-call-emergency-medical-services-ems.aspx",
+        "https://www.healthychildren.org/english/health-issues/conditions/fever/pages/fever-and-your-baby.aspx"
       ],
       "cards": [
         {

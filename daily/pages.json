@@ -937,6 +937,78 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-21",
+      "slug": "anatomy-scan-what-it-checks",
+      "file": "daily/2026-11-21-anatomy-scan-what-it-checks.html",
+      "title": {
+        "zh-Hant": "20 週超音波不只為了看性別：脊柱裂約能找到 9 成，心臟問題只有一半",
+        "en": "The 20-week scan isn't just about the sex: it finds about 9 in 10 cases of spina bifida, but only half of heart conditions"
+      },
+      "summary": {
+        "zh-Hant": "結構超音波通常在 18–22 週，從腦、臉、心臟、脊椎到腎臟逐一檢查，也看胎盤和羊水。先發現就能先規劃生產；但它是篩檢不是診斷，結果正常也不代表所有問題都排除。",
+        "en": "The anatomy scan, usually at 18–22 weeks, checks the baby's brain, face, heart, spine and kidneys, plus the placenta and amniotic fluid. Finding a problem early lets you plan the birth, but it is screening, not diagnosis: a normal result doesn't rule out everything."
+      },
+      "tags": [
+        "growth",
+        "health",
+        "mid",
+        "w15",
+        "learn"
+      ],
+      "sources": [
+        "https://www.nhs.uk/pregnancy/your-pregnancy-care/20-week-scan",
+        "https://www.gov.uk/government/publications/screening-tests-for-you-and-your-baby/11-physical-conditions-20-week-scan",
+        "https://my.clevelandclinic.org/health/diagnostics/22644-20-week-ultrasound",
+        "https://nhsinform.scot/healthy-living/screening/pregnancy/mid-pregnancy-scan-fetal-anomaly-scan",
+        "https://www2.hse.ie/pregnancy-birth/scans-tests/ultrasound-scans/fetal-anatomy-scan/",
+        "https://medlineplus.gov/ency/article/003778.htm",
+        "https://www.fda.gov/radiation-emitting-products/medical-imaging/ultrasound-imaging",
+        "https://www.cdc.gov/birth-defects/data-research/facts-stats/index.html"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "結構超音波通常在懷孕第幾週做？",
+            "en": "When is the anatomy scan usually done?"
+          },
+          "a": {
+            "zh-Hant": "美國通常 18–22 週（英國 NHS 是 18–21 週），約 30–45 分鐘。",
+            "en": "Usually 18–22 weeks in the U.S. (18–21 in England's NHS), taking about 30–45 minutes."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼結果正常，也不能保證寶寶完全沒問題？",
+            "en": "Why can't a normal scan guarantee the baby has no problems?"
+          },
+          "a": {
+            "zh-Hant": "有些狀況照不出來：NHS 數據中脊柱裂約找到 90%，心臟問題只約 50%；它是篩檢，不是診斷。",
+            "en": "Some conditions don't show: in NHS figures it finds about 90% of spina bifida but only about 50% of heart conditions. It's screening, not diagnosis."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼在出生前發現問題有幫助？",
+            "en": "Why does finding a condition before birth help?"
+          },
+          "a": {
+            "zh-Hant": "可以事先規劃生產和產後照護；需要很快動手術的寶寶，能安排在出生後幾小時內就能開刀的醫院生產。",
+            "en": "You can plan the birth and aftercare in advance, and a baby who will need surgery soon after birth can be delivered at a hospital that can operate within the first few hours."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼 FDA 不鼓勵另外去照「紀念超音波」？",
+            "en": "Why does the FDA discourage keepsake ultrasounds?"
+          },
+          "a": {
+            "zh-Hant": "超音波會讓組織稍微升溫，長期影響仍不清楚；醫療檢查中順便留影像可以，但不要為了紀念額外照射。",
+            "en": "Ultrasound can heat tissue slightly and the long-term effects are unknown. Images from a medically needed exam are fine; extra exposure just for keepsakes isn't."
+          }
+        }
+      ]
     }
   ]
 }

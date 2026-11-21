@@ -943,8 +943,8 @@
       "slug": "anatomy-scan-what-it-checks",
       "file": "daily/2026-11-21-anatomy-scan-what-it-checks.html",
       "title": {
-        "zh-Hant": "20 週超音波不只為了看性別：脊柱裂約能找到 9 成，心臟問題只有一半",
-        "en": "The 20-week scan isn't just about the sex: it finds about 9 in 10 cases of spina bifida, but only half of heart conditions"
+        "zh-Hant": "20 週超音波不只看性別：英國資料中，開放性脊柱裂約檢出 9 成、心臟問題約一半",
+        "en": "The 20-week scan beyond sex: England's programme detects about 90% of open spina bifida but half of heart conditions"
       },
       "summary": {
         "zh-Hant": "結構超音波通常在 18–22 週，從腦、臉、心臟、脊椎到腎臟逐一檢查，也看胎盤和羊水。先發現就能先規劃生產；但它是篩檢不是診斷，結果正常也不代表所有問題都排除。",
@@ -959,13 +959,15 @@
       ],
       "sources": [
         "https://www.nhs.uk/pregnancy/your-pregnancy-care/20-week-scan",
-        "https://www.gov.uk/government/publications/screening-tests-for-you-and-your-baby/11-physical-conditions-20-week-scan",
+        "https://www.gov.uk/government/publications/screening-tests-for-you-and-your-baby-stfyayb/11-physical-conditions-20-week-scan",
         "https://my.clevelandclinic.org/health/diagnostics/22644-20-week-ultrasound",
-        "https://nhsinform.scot/healthy-living/screening/pregnancy/mid-pregnancy-scan-fetal-anomaly-scan",
+        "https://www.nhsinform.scot/healthy-living/screening/pregnancy/mid-pregnancy-scan",
         "https://www2.hse.ie/pregnancy-birth/scans-tests/ultrasound-scans/fetal-anatomy-scan/",
         "https://medlineplus.gov/ency/article/003778.htm",
         "https://www.fda.gov/radiation-emitting-products/medical-imaging/ultrasound-imaging",
-        "https://www.cdc.gov/birth-defects/data-research/facts-stats/index.html"
+        "https://www.cdc.gov/birth-defects/data-research/facts-stats/index.html",
+        "https://www.acog.org/womens-health/faqs/prenatal-genetic-diagnostic-tests",
+        "https://www.nhs.uk/pregnancy/labour-and-birth/placenta-complications/"
       ],
       "cards": [
         {
@@ -984,8 +986,8 @@
             "en": "Why can't a normal scan guarantee the baby has no problems?"
           },
           "a": {
-            "zh-Hant": "有些狀況照不出來：NHS 數據中脊柱裂約找到 90%，心臟問題只約 50%；它是篩檢，不是診斷。",
-            "en": "Some conditions don't show: in NHS figures it finds about 90% of spina bifida but only about 50% of heart conditions. It's screening, not diagnosis."
+            "zh-Hant": "有些狀況照不出來：英格蘭 NHS 數據中開放性脊柱裂約找到 90%，心臟問題只約 50%；它是篩檢，不是診斷。",
+            "en": "Some conditions don't show: in England's NHS figures it finds about 90% of open spina bifida but only about 50% of heart conditions. It's screening, not diagnosis."
           }
         },
         {

@@ -1011,6 +1011,77 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-22",
+      "slug": "book-childbirth-class",
+      "file": "daily/2026-11-22-book-childbirth-class.html",
+      "title": {
+        "zh-Hant": "生產課孕晚期才上，名額卻要現在搶：先報名，再弄清楚它能幫你什麼",
+        "en": "Childbirth classes happen late, but the spots go early: book now, and know what a class can and can't do"
+      },
+      "summary": {
+        "zh-Hant": "生產課通常在出生前 8–10 週開始，但課有時很快額滿，最好預產期前幾個月就報名。課能讓你和陪產的人先練習、熟悉醫院流程；研究則顯示效果證據有限，別期待它保證生得比較順。",
+        "en": "Childbirth classes usually start 8–10 weeks before birth, but they can fill quickly, so sign up several months ahead. A class lets you and your support person rehearse and learn the hospital's routine; research evidence on outcomes is limited, so don't expect a guarantee of an easier birth."
+      },
+      "tags": [
+        "education",
+        "resources",
+        "mid",
+        "w15",
+        "learn"
+      ],
+      "sources": [
+        "https://womenshealth.gov/pregnancy/getting-ready/birthing-parenting-class.html",
+        "https://www.nhs.uk/pregnancy/labour-and-birth/preparing-for-the-birth/antenatal-classes/",
+        "https://nhsinform.scot/ready-steady-baby/labour-and-birth/getting-ready-for-the-birth/antenatal-classes",
+        "https://www.cochrane.org/CD002869/PREG_individual-or-group-antenatal-education-childbirth-or-parenthood-or-both",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10373291/",
+        "https://www.mountsinai.org/care/obgyn/services/pregnancy-birth/preparing-childbirth/virtual-classes",
+        "https://nyulangone.org/patient-family-support/for-new-expecting-parents/parent-education-eclasses"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "生產課通常什麼時候上？什麼時候該報名？",
+            "en": "When do childbirth classes usually run, and when should you sign up?"
+          },
+          "a": {
+            "zh-Hant": "NHS：通常出生前 8–10 週開始，每週約 2 小時。美國婦女健康辦公室：預產期前幾個月就報名。",
+            "en": "NHS: usually starting 8–10 weeks before birth, about 2 hours a week. U.S. Office on Women's Health: sign up several months before the due date."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "課在孕晚期才上，為什麼孕中期就要報名？",
+            "en": "Why book in the second trimester for a class in the third?"
+          },
+          "a": {
+            "zh-Hant": "因為課有時很快額滿，早點預約才有位子；而且上課本身就排在出生前 8–10 週。",
+            "en": "Classes sometimes fill up quickly, so booking early gets you a place, and the classes themselves start 8–10 weeks before birth."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "研究怎麼說生產課的效果？",
+            "en": "What does research say about how much classes help?"
+          },
+          "a": {
+            "zh-Hant": "Cochrane（2007，9 項試驗）：一般產前教育效果大多未知。2023 年回顧：可能降低恐懼和產痛，但研究品質不足以下定論。",
+            "en": "Cochrane (2007, 9 trials): effects of general antenatal education are largely unknown. A 2023 review: may reduce fear and labor pain, but studies aren't good enough for firm conclusions."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "報了生產課，為什麼還要看有沒有哺乳和新生兒課？",
+            "en": "You've booked a birth class, so why check for breastfeeding and newborn classes too?"
+          },
+          "a": {
+            "zh-Hant": "醫院常把它們拆開：例如西奈山的新生兒課不談哺乳，哺乳是另一堂 2 小時的課。",
+            "en": "Hospitals often split them: Mount Sinai's newborn class doesn't cover breastfeeding, which is a separate 2-hour class."
+          }
+        }
+      ]
     }
   ]
 }

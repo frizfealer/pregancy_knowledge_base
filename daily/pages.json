@@ -1083,6 +1083,74 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-23",
+      "slug": "stress-in-pregnancy",
+      "file": "daily/2026-11-23-stress-in-pregnancy.html",
+      "title": {
+        "zh-Hant": "壓力大會傷到寶寶嗎？日常緊張很正常，要處理的是「又大又久」的那種",
+        "en": "Will stress hurt the baby? Everyday tension is normal; the heavy, lasting kind is what to deal with"
+      },
+      "summary": {
+        "zh-Hant": "孕期有些壓力是正常的；和低出生體重、早產有關的是嚴重或長期的壓力，可能透過睡眠、血壓、免疫和紓壓行為影響懷孕。放鬆練習的試驗顯示能降低媽媽的壓力與焦慮分數，對寶寶的好處證據還有限。",
+        "en": "Some stress in pregnancy is normal. Serious or long-lasting stress is what's linked to low birthweight and preterm birth, possibly through sleep, blood pressure, immunity and coping habits. Relaxation trials show lower stress and anxiety scores for mothers; evidence for the baby is more limited."
+      },
+      "tags": [
+        "mind",
+        "mid",
+        "w15",
+        "learn"
+      ],
+      "sources": [
+        "https://nichd.nih.gov/health/topics/preconceptioncare/conditioninfo/pages/stress.aspx",
+        "https://www.marchofdimes.org/find-support/topics/pregnancy/stress-and-pregnancy",
+        "https://www.nhs.uk/pregnancy/mental-health-in-pregnancy-and-after-the-birth/anxiety-in-pregnancy/",
+        "https://pubmed.ncbi.nlm.nih.gov/30048456/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10810490/"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "孕期有壓力就會傷到寶寶嗎？",
+            "en": "Does any stress in pregnancy harm the baby?"
+          },
+          "a": {
+            "zh-Hant": "不會。孕期有些壓力是正常的；需要處理的是嚴重或長期的壓力，例如重大變故、經濟困難、憂鬱或焦慮。",
+            "en": "No. Some stress in pregnancy is normal. What needs attention is serious or long-lasting stress, such as a major loss, money problems, depression or anxiety."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼心理壓力會影響到懷孕？",
+            "en": "Why can psychological stress affect a pregnancy?"
+          },
+          "a": {
+            "zh-Hant": "它會改變身體和行為：睡眠、食慾變差，血壓可能升高（和早產、低出生體重有關），免疫力受影響，或用抽菸喝酒來應付。確切機制還沒完全弄清楚。",
+            "en": "It changes your body and habits: worse sleep and appetite, possibly higher blood pressure (linked to preterm labor and low birthweight), immune effects, or coping by smoking or drinking. The exact mechanism isn't fully understood."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "2018 年統合分析發現，孕期壓力和什麼的關聯最清楚？",
+            "en": "In the 2018 meta-analysis, what was stress in pregnancy most clearly linked to?"
+          },
+          "a": {
+            "zh-Hant": "低出生體重（勝算約 1.68 倍，8 項研究）。早產的結果不一致，而且都是關聯，不是因果證明。",
+            "en": "Low birthweight (odds ratio about 1.68, 8 studies). Results for preterm birth were inconsistent, and all of it is association, not proof of cause."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "放鬆練習（瑜伽、深呼吸、音樂等）的研究證據怎麼說？",
+            "en": "What does the evidence say about relaxation practices like yoga, breathing and music?"
+          },
+          "a": {
+            "zh-Hant": "2024 年回顧（32 項研究）：媽媽的壓力、焦慮、憂鬱分數都下降，出生體重平均多約 80 公克；但研究差異大，新生兒其他結果的資料還很少。",
+            "en": "A 2024 review of 32 studies: lower stress, anxiety and depression scores for mothers, and birth weight about 80 g higher on average. But the studies varied widely, and data on other newborn outcomes are scarce."
+          }
+        }
+      ]
     }
   ]
 }

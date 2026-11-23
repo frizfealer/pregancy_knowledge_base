@@ -1103,11 +1103,12 @@
         "learn"
       ],
       "sources": [
-        "https://nichd.nih.gov/health/topics/preconceptioncare/conditioninfo/pages/stress.aspx",
+        "https://www.nichd.nih.gov/health/topics/preconceptioncare/conditioninfo/stress",
         "https://www.marchofdimes.org/find-support/topics/pregnancy/stress-and-pregnancy",
         "https://www.nhs.uk/pregnancy/mental-health-in-pregnancy-and-after-the-birth/anxiety-in-pregnancy/",
         "https://pubmed.ncbi.nlm.nih.gov/30048456/",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10810490/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10810490/",
+        "https://pubmed.ncbi.nlm.nih.gov/42061121/"
       ],
       "cards": [
         {
@@ -1116,8 +1117,8 @@
             "en": "Does any stress in pregnancy harm the baby?"
           },
           "a": {
-            "zh-Hant": "不會。孕期有些壓力是正常的；需要處理的是嚴重或長期的壓力，例如重大變故、經濟困難、憂鬱或焦慮。",
-            "en": "No. Some stress in pregnancy is normal. What needs attention is serious or long-lasting stress, such as a major loss, money problems, depression or anxiety."
+            "zh-Hant": "不代表一定會。孕期有些壓力是正常的；較值得處理的是嚴重或長期的壓力，例如重大變故、經濟困難、憂鬱或焦慮。",
+            "en": "Not necessarily. Some stress in pregnancy is normal. More serious or long-lasting stress deserves attention, such as a major loss, money problems, depression or anxiety."
           }
         },
         {
@@ -1146,8 +1147,8 @@
             "en": "What does the evidence say about relaxation practices like yoga, breathing and music?"
           },
           "a": {
-            "zh-Hant": "2024 年回顧（32 項研究）：媽媽的壓力、焦慮、憂鬱分數都下降，出生體重平均多約 80 公克；但研究差異大，新生兒其他結果的資料還很少。",
-            "en": "A 2024 review of 32 studies: lower stress, anxiety and depression scores for mothers, and birth weight about 80 g higher on average. But the studies varied widely, and data on other newborn outcomes are scarce."
+            "zh-Hant": "2024 年回顧（32 項研究）發現媽媽的壓力、焦慮、憂鬱分數降低；出生體重平均多約 80 公克，主要由肌肉放鬆和深呼吸研究帶動，不能推論每種方法都有相同效果。",
+            "en": "A 2024 review of 32 studies found lower maternal stress, anxiety and depression scores. Birthweight averaged about 80 g higher, mainly in muscle-relaxation and breathing trials; this does not mean every method has that effect."
           }
         }
       ]

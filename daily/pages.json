@@ -1152,6 +1152,86 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-24",
+      "slug": "long-trips-blood-clots",
+      "file": "daily/2026-11-24-long-trips-blood-clots.html",
+      "title": {
+        "zh-Hant": "過節要出遠門？懷孕時長途坐著，最該防的是腿上的血栓",
+        "en": "Traveling for the holidays? On long rides in pregnancy, the thing to guard against is a clot in your leg"
+      },
+      "summary": {
+        "zh-Hant": "孕中期通常可以旅行。懷孕讓血液比較容易凝結，長時間坐著會再提高腿部血栓的機會，所以大約每小時起來走一走、多喝水；開車時安全帶腰帶要繫在肚子下方，出門前先查航空或郵輪的週數規定並帶好產檢紀錄。",
+        "en": "Mid-pregnancy travel is usually fine. Pregnancy makes blood clot more easily and long sitting adds to the risk of a leg clot, so get up and walk about every hour and drink fluids. In the car, the lap belt goes under the bump; before you go, check airline or cruise week limits and pack your prenatal records."
+      },
+      "tags": [
+        "health",
+        "mid",
+        "w15",
+        "learn"
+      ],
+      "sources": [
+        "https://wwwnc.cdc.gov/travel/page/pregnant-travelers",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html",
+        "https://www.nhs.uk/pregnancy/keeping-well/travelling/",
+        "https://medlineplus.gov/ency/patientinstructions/000608.htm",
+        "https://www.cdc.gov/blood-clots/risk-factors/pregnancy.html",
+        "https://www.nhtsa.gov/document/if-youre-pregnant-seat-belt-recommendations-drivers-and-passengers",
+        "https://www.fda.gov/radiation-emitting-products/security-systems/products-security-screening-people"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "為什麼懷孕會讓血比較容易凝結？",
+            "en": "Why does pregnancy make blood clot more easily?"
+          },
+          "a": {
+            "zh-Hant": "身體為了減少分娩時失血，讓血液比較容易凝結；懷孕後期長大的寶寶壓迫骨盆血管，腿部血流也可能變少。CDC 說整體風險是五倍，懷孕、分娩和產後 3 個月都特別要注意。",
+            "en": "The body makes blood clot more easily to limit blood loss at delivery, and later the growing baby presses on pelvic blood vessels, which may reduce blood flow to the legs. CDC puts the overall risk at five times higher, with pregnancy, birth and the 3 months after it the times to watch."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "懷孕時安全帶的腰帶和肩帶各要放在哪裡？",
+            "en": "Where do the lap belt and shoulder belt go in pregnancy?"
+          },
+          "a": {
+            "zh-Hant": "腰帶在肚子下方，貼著髖部和骨盆骨；肩帶斜過胸前、從兩側乳房之間通過。絕不放在肚子上、手臂下或背後，安全氣囊保持開啟。",
+            "en": "The lap belt goes below the belly, across the hips and pelvic bone; the shoulder belt crosses the chest between the breasts. Never over the belly, under the arm or behind the back, and leave the airbags on."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "長途旅行時多久該起來動一次？",
+            "en": "On a long trip, how often should you get up and move?"
+          },
+          "a": {
+            "zh-Hant": "CDC 和 MedlinePlus 說大約每小時；NHS 說搭飛機時大約每 30 分鐘。同時多喝水，壓力襪可以問醫師。",
+            "en": "About every hour, say CDC and MedlinePlus; about every 30 minutes on a flight, says the NHS. Drink plenty of fluids too, and ask your doctor about compression stockings."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "旅途中哪些症狀代表要馬上就醫？",
+            "en": "Which symptoms on a trip mean getting care right away?"
+          },
+          "a": {
+            "zh-Hant": "一側腿腫痛、發熱發紅；呼吸困難、胸痛、咳血、心跳快；或出血、宮縮、骨盆或腹部疼痛、子癇前症的症狀。",
+            "en": "One leg swollen, painful, warm or red; trouble breathing, chest pain, coughing up blood, a racing heart; or bleeding, contractions, pelvic or belly pain, or signs of preeclampsia."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "航空公司通常讓孕婦飛到幾週？要準備什麼？",
+            "en": "How late in pregnancy do airlines usually let you fly, and what should you prepare?"
+          },
+          "a": {
+            "zh-Hant": "有些到 36 週，有些更早就不行，要問各家航空。NHS 說 28 週後可能要醫師確認預產期、沒有併發症風險的信，開信可能要等幾週。",
+            "en": "Some allow flying until 36 weeks, others stop earlier, so ask each airline. The NHS says after 28 weeks an airline may want a letter confirming your due date and that you are not at risk of complications, which can take weeks to get."
+          }
+        }
+      ]
     }
   ]
 }

@@ -1232,6 +1232,81 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-25",
+      "slug": "baby-gear-to-skip",
+      "file": "daily/2026-11-25-baby-gear-to-skip.html",
+      "title": {
+        "zh-Hant": "趁特價買嬰兒用品前：床圍和斜躺睡床已禁售，二手嬰兒床光看看不出合不合格",
+        "en": "Before the holiday baby-gear sales: bumpers and inclined sleepers are banned, and you can't see whether a used crib is safe"
+      },
+      "summary": {
+        "zh-Hant": "寶寶睡覺的地方只要堅固平坦的床墊加一張床包。床圍和斜度超過 10 度的斜躺睡床自 2022 年起禁售，AAP 也建議避開定位枕、軟墊和毯子；二手嬰兒床要有合格證明，二手汽車座椅要通過 NHTSA 的 5 項檢查，買了記得註冊以收到召回通知。",
+        "en": "A baby's sleep space needs only a firm, flat mattress and a fitted sheet. Bumpers and inclined sleepers over 10 degrees have been banned since 2022, and AAP says to skip positioners, soft add-ons and blankets. A used crib needs a certificate of compliance, a used car seat must pass NHTSA's 5 checks, and registering new gear gets you recall notices."
+      },
+      "tags": [
+        "resources",
+        "education",
+        "mid",
+        "w15",
+        "learn"
+      ],
+      "sources": [
+        "https://www.cpsc.gov/onsafety/2011/06/the-new-crib-standard-questions-and-answers",
+        "https://www.cpsc.gov/Newsroom/News-Releases/2011/Safer-Cribs-for-Babies-Available-Starting-TodayRetailers-required-to-sell-only-cribs-that-meet-CPSCs-new-crib-standards",
+        "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/New-Crib-Standards-What-Parents-Need-to-Know.aspx",
+        "https://cpsc.gov/Newsroom/News-Releases/2023/CPSC-Approves-Rules-Implementing-Bans-on-Inclined-Sleepers-for-Infants-and-Crib-Bumpers",
+        "https://cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Crib-Bumpers",
+        "https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Inclined-Sleepers",
+        "https://healthychildren.org/English/ages-stages/baby/sleep/Pages/Inclined-Sleepers-and-Other-Baby-Registry-Items-to-Avoid.aspx",
+        "https://www.nhtsa.gov/car-seats-and-booster-seats/used-car-seat-safety-checklist",
+        "https://www.nhtsa.gov/equipment/car-seats-and-booster-seats/registration",
+        "https://www.cpsc.gov/Business--Manufacturing/Business-Education/Durable-Infant-or-Toddler-Products/Durable-Infant-or-Toddler-Product-Consumer-Registration-Cards",
+        "https://www.nhtsa.gov/recalls"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "為什麼現在的嬰兒床不需要床圍？",
+            "en": "Why don't today's cribs need bumpers?"
+          },
+          "a": {
+            "zh-Hant": "安全規定要求欄杆間距很窄，所以 AAP 說床圍沒有必要；床圍和斜躺睡床自 2022 年 11 月 12 日起是聯邦禁售品。",
+            "en": "Safety rules call for narrow rail spacing, so AAP says bumpers are unnecessary; bumpers and inclined sleepers have been federally banned since November 12, 2022."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "寶寶安全的睡眠空間裡應該有什麼？",
+            "en": "What belongs in a safe sleep space?"
+          },
+          "a": {
+            "zh-Hant": "堅固平坦的床墊加一張床包，寶寶仰睡；怕冷用穿式睡袋，不放毯子、枕頭、玩偶或床圍。",
+            "en": "A firm, flat mattress with a fitted sheet and the baby on their back; a sleep sack for warmth, and no blankets, pillows, toys or bumpers."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "二手嬰兒床能不能用看的判斷是否安全？",
+            "en": "Can you judge a used crib's safety by looking?"
+          },
+          "a": {
+            "zh-Hant": "不能。要向製造商或賣家拿合格證明（16 CFR 1219 或 1220）；活動側欄嬰兒床加了固定器也不符合標準。",
+            "en": "No. Ask the maker or seller for a certificate of compliance (16 CFR 1219 or 1220); a drop-side crib doesn't comply even with an immobilizer."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "二手汽車座椅要通過哪 5 項檢查？",
+            "en": "What are the 5 checks for a used car seat?"
+          },
+          "a": {
+            "zh-Hant": "從未發生中度到嚴重車禍、有製造日期和型號標籤、沒有召回、零件齊全、有說明書。",
+            "en": "Never in a moderate to severe crash, labels with manufacture date and model number, no recalls, all its parts, and the instruction book."
+          }
+        }
+      ]
     }
   ]
 }

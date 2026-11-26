@@ -1177,8 +1177,11 @@
         "https://www.nhs.uk/pregnancy/keeping-well/travelling/",
         "https://medlineplus.gov/ency/patientinstructions/000608.htm",
         "https://www.cdc.gov/blood-clots/risk-factors/pregnancy.html",
-        "https://www.nhtsa.gov/document/if-youre-pregnant-seat-belt-recommendations-drivers-and-passengers",
-        "https://www.fda.gov/radiation-emitting-products/security-systems/products-security-screening-people"
+        "https://www.nhtsa.gov/vehicle-safety/seat-belts",
+        "https://www.fda.gov/radiation-emitting-products/security-systems/products-security-screening-people",
+        "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/deep-vein-thrombosis-and-pulmonary-embolism.html",
+        "https://www.cdc.gov/zika/travel/",
+        "https://medlineplus.gov/ency/patientinstructions/000593.htm"
       ],
       "cards": [
         {
@@ -1187,8 +1190,8 @@
             "en": "Why does pregnancy make blood clot more easily?"
           },
           "a": {
-            "zh-Hant": "身體為了減少分娩時失血，讓血液比較容易凝結；懷孕後期長大的寶寶壓迫骨盆血管，腿部血流也可能變少。CDC 說整體風險是五倍，懷孕、分娩和產後 3 個月都特別要注意。",
-            "en": "The body makes blood clot more easily to limit blood loss at delivery, and later the growing baby presses on pelvic blood vessels, which may reduce blood flow to the legs. CDC puts the overall risk at five times higher, with pregnancy, birth and the 3 months after it the times to watch."
+            "zh-Hant": "身體為了減少分娩時失血，讓血液比較容易凝結；孕後期骨盆血管受壓也可能影響腿部血流。CDC 估計靜脈血栓相對風險約為未懷孕時的五倍，但絕對風險仍低；孕期、分娩及產後 3 個月都應留意。",
+            "en": "Blood clots more readily to limit blood loss at delivery; pelvic vessel compression later in pregnancy may also reduce leg blood flow. CDC estimates about five times the relative risk of venous clots versus nonpregnancy, but absolute risk remains low. Be alert during pregnancy, delivery and the following 3 months."
           }
         },
         {
@@ -1207,8 +1210,8 @@
             "en": "On a long trip, how often should you get up and move?"
           },
           "a": {
-            "zh-Hant": "CDC 和 MedlinePlus 說大約每小時；NHS 說搭飛機時大約每 30 分鐘。同時多喝水，壓力襪可以問醫師。",
-            "en": "About every hour, say CDC and MedlinePlus; about every 30 minutes on a flight, says the NHS. Drink plenty of fluids too, and ask your doctor about compression stockings."
+            "zh-Hant": "安全時約每小時走動，NHS 建議飛行時約每 30 分鐘活動；不能起身時做小腿運動。保持水分，但喝水不能取代活動，壓力襪先問醫師。",
+            "en": "Walk about hourly when safe; the NHS suggests moving about every 30 minutes on a flight. Exercise your calves while seated if you cannot stand. Stay hydrated, but water is no substitute for movement; ask about compression stockings."
           }
         },
         {
@@ -1217,8 +1220,8 @@
             "en": "Which symptoms on a trip mean getting care right away?"
           },
           "a": {
-            "zh-Hant": "一側腿腫痛、發熱發紅；呼吸困難、胸痛、咳血、心跳快；或出血、宮縮、骨盆或腹部疼痛、子癇前症的症狀。",
-            "en": "One leg swollen, painful, warm or red; trouble breathing, chest pain, coughing up blood, a racing heart; or bleeding, contractions, pelvic or belly pain, or signs of preeclampsia."
+            "zh-Hant": "疑似肺栓塞（突然呼吸困難、胸痛或咳血）立即打 911（國外用當地急救電話）。一側腿腫痛、發熱發紅應立即聯絡醫療團隊評估。出血、破水、持續嚴重腹痛或子癇前症警訊也應立即就醫。",
+            "en": "For possible PE (sudden breathing trouble, chest pain or coughing blood), call 911 or the local emergency number. For one-sided leg swelling, pain, warmth or redness, contact your care team immediately for assessment. Bleeding, leaking fluid, persistent severe abdominal pain or preeclampsia warning signs also need immediate care."
           }
         },
         {

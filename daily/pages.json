@@ -1307,6 +1307,77 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-26",
+      "slug": "lanugo-vernix-first-bath",
+      "file": "daily/2026-11-26-lanugo-vernix-first-bath.html",
+      "title": {
+        "zh-Hant": "寶寶這幾週開始長細毛，再裹上一層白色胎脂：出生後第一次洗澡，可以等 24 小時",
+        "en": "Your baby is starting to grow fine hair, then a waxy white coat: after birth, the first bath can wait 24 hours"
+      },
+      "summary": {
+        "zh-Hant": "胎毛約在孕中期長出，幫胎脂黏在皮膚上，一起替寶寶保溫、防水，多半在出生前脫落。胎脂有保濕作用，WHO 建議第一次洗澡等到出生 24 小時後，做不到至少等 6 小時，可降低著涼和低血糖的機會；臍帶掉之前只擦澡。",
+        "en": "Lanugo grows in the second trimester and holds vernix on the skin, keeping the baby warm and waterproofed; most of it sheds before birth. Vernix moisturizes, and WHO recommends waiting 24 hours for the first bath, or at least 6, which may lower the chance of getting cold or low blood sugar. Sponge baths only until the cord falls off."
+      },
+      "tags": [
+        "growth",
+        "education",
+        "mid",
+        "w15",
+        "learn"
+      ],
+      "sources": [
+        "https://medlineplus.gov/ency/article/002398.htm",
+        "https://my.clevelandclinic.org/health/body/22487-lanugo",
+        "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-21/",
+        "https://pubmed.ncbi.nlm.nih.gov/31507021/",
+        "https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/bathing-your-newborn.aspx",
+        "https://www.ncbi.nlm.nih.gov/books/NBK190090/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9380966"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "胎兒為什麼要長胎毛？",
+            "en": "Why does a fetus grow lanugo?"
+          },
+          "a": {
+            "zh-Hant": "為了保護和保暖：胎毛讓胎脂黏在皮膚上，一起替身體保溫、保護皮膚不被羊水泡壞。",
+            "en": "For protection and warmth: it holds vernix on the skin, and together they insulate the body and shield the skin from the amniotic fluid."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼新生兒第一次洗澡要等？等多久？",
+            "en": "Why wait to give a newborn the first bath, and for how long?"
+          },
+          "a": {
+            "zh-Hant": "太早洗容易著涼（低體溫），也可能讓血糖下降；胎脂還能保濕。WHO 建議等 24 小時，做不到至少等 6 小時。",
+            "en": "An early bath makes a baby more likely to get cold (hypothermia) and can lower blood sugar, and vernix moisturizes the skin. WHO says wait 24 hours, or at least 6 if a full day isn't possible."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "新生兒什麼時候可以開始泡澡？",
+            "en": "When can a newborn have a tub bath?"
+          },
+          "a": {
+            "zh-Hant": "臍帶殘端掉了（通常 1–2 週）、肚臍癒合之後。之前只擦澡。",
+            "en": "After the cord stump falls off (usually by 1–2 weeks) and the belly button heals. Until then, sponge baths only."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "寶寶出生時肩膀上還有細毛，需要擔心嗎？",
+            "en": "Your baby is born with fine hair on the shoulders. Is that a worry?"
+          },
+          "a": {
+            "zh-Hant": "不用。足月時上臂和肩膀常還留一些，早產兒更常見；通常出生後兩個月內就會消失。",
+            "en": "No. At term some often remains on the upper arms and shoulders, more so in premature babies, and it usually disappears within two months."
+          }
+        }
+      ]
     }
   ]
 }

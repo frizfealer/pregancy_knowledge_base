@@ -1401,13 +1401,14 @@
       "sources": [
         "https://www.nhs.uk/pregnancy/common-symptoms/tiredness/",
         "https://www.hse.ie/conditions/tiredness-fatigue-pregnancy/later-pregnancy/",
-        "https://onlinelibrary.wiley.com/doi/abs/10.1111/jsr.13207",
+        "https://onlinelibrary.wiley.com/doi/10.1111/jsr.13207",
         "https://pubmed.ncbi.nlm.nih.gov/30969203/",
         "https://www.aafp.org/afp/2022/0100/p97",
         "https://pubmed.ncbi.nlm.nih.gov/24732691/",
         "https://link.springer.com/article/10.1007/s00127-021-02101-0",
         "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
-        "https://pubmed.ncbi.nlm.nih.gov/36529887/"
+        "https://pubmed.ncbi.nlm.nih.gov/36529887/",
+        "https://www.medlineplus.gov/ency/patientinstructions/000593.htm"
       ],
       "cards": [
         {

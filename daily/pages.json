@@ -1378,6 +1378,77 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-27",
+      "slug": "pregnancy-insomnia-cbti",
+      "file": "daily/2026-11-27-pregnancy-insomnia-cbti.html",
+      "title": {
+        "zh-Hant": "孕期睡不著，別在床上硬躺：最有證據的解法是一套不吃藥的練習",
+        "en": "Can't sleep in pregnancy? Don't just lie there: the best-studied fix is a drug-free routine"
+      },
+      "summary": {
+        "zh-Hant": "孕期失眠很常見，到孕晚期更多，產後也不一定自己好。失眠的認知行為治療（CBT-I）教你記睡眠日記、固定起床時間、睡不著就離床、暫時縮短躺床時間；在 179 名孕婦的試驗中，5 次療程後 64% 緩解，對照組 52%。",
+        "en": "Insomnia is common in pregnancy, more so in the third trimester, and doesn't always end at birth. CBT-I teaches a sleep diary, a fixed wake time, getting up when you can't sleep and briefly limiting time in bed; in a trial of 179 pregnant women, 64% were in remission after five sessions versus 52% with the control."
+      },
+      "tags": [
+        "mind",
+        "health",
+        "mid",
+        "w15",
+        "learn"
+      ],
+      "sources": [
+        "https://www.nhs.uk/pregnancy/related-conditions/common-symptoms/tiredness/",
+        "https://www.hse.ie/conditions/tiredness-fatigue-pregnancy/later-pregnancy/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8981986",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6485299",
+        "https://www.aafp.org/pubs/afp/issues/2022/0100/p97.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3986207",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8558280"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "失眠治療的「刺激控制」要你怎麼做？",
+            "en": "What does stimulus control ask you to do?"
+          },
+          "a": {
+            "zh-Hant": "想睡才上床、睡不著就離開臥室、床只用來睡覺和性生活、每天同一時間起床、不午睡。",
+            "en": "Go to bed only when sleepy, leave the bedroom when you can't sleep, use the bed only for sleep and sex, wake at the same time every day, and don't nap."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "已經睡不夠了，為什麼「少躺一點」反而有幫助？",
+            "en": "If you're short on sleep, why does spending less time in bed help?"
+          },
+          "a": {
+            "zh-Hant": "把躺床時間縮到接近實際睡眠時間，會加強睡意、讓睡眠更連續。孕婦試驗設了下限：不少於 5.5 小時。",
+            "en": "Limiting time in bed to about the time you actually sleep strengthens sleep drive and consolidates sleep. The pregnancy trial set a floor of 5.5 hours."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "179 名孕婦的試驗中，CBT-I 組和對照組的緩解率各是多少？",
+            "en": "In the trial of 179 pregnant women, what were the remission rates with CBT-I and with the control?"
+          },
+          "a": {
+            "zh-Hant": "5 次療程後，CBT-I 組 64%，對照組 52%；中位緩解時間 31 天對 48 天。",
+            "en": "After five sessions, 64% with CBT-I versus 52% with the control; median time to remission was 31 versus 48 days."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "什麼樣的失眠要特別告訴醫師？",
+            "en": "What kind of sleeplessness should you raise with your doctor?"
+          },
+          "a": {
+            "zh-Hant": "伴隨絕望感、對以前喜歡的事失去興趣的失眠，可能是憂鬱的徵兆。",
+            "en": "Sleeplessness that comes with feeling hopeless or losing interest in things you used to enjoy, which can be a sign of depression."
+          }
+        }
+      ]
     }
   ]
 }

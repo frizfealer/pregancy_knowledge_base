@@ -1449,6 +1449,89 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-28",
+      "slug": "ny-disability-plus-pfl",
+      "file": "daily/2026-11-28-ny-disability-plus-pfl.html",
+      "title": {
+        "zh-Hant": "產後頭幾週，紐約州的給付每週最多只有 170 美元：產假要靠兩種給付接起來",
+        "en": "New York pays at most $170 a week in the first weeks after birth: your leave pay is two benefits joined together"
+      },
+      "summary": {
+        "zh-Hant": "生產的人產後先領短期傷殘給付（一般 6 週，剖腹產 8 週，週薪 50%、上限 170 美元），接著是有薪家庭假（最多 12 週，週薪 67%、2027 年上限 1,287.91 美元）；兩者不能同時領，合計每 52 週最多 26 週。另一位家長也有 12 週家庭假。",
+        "en": "The birth parent first gets short-term disability (typically 6 weeks, 8 after a C-section, at 50% of pay up to $170 a week), then Paid Family Leave (up to 12 weeks at 67% of pay, up to $1,287.91 a week in 2027). They can't overlap and are capped at 26 weeks combined in 52. The other parent gets 12 weeks of PFL too."
+      },
+      "tags": [
+        "resources",
+        "mid",
+        "w16",
+        "learn"
+      ],
+      "sources": [
+        "https://paidfamilyleave.ny.gov/bonding-leave-birth-child/",
+        "https://apps.wcb.ny.gov/content/main/DisabilityBenefits/employee-eligibility-benefits.jsp",
+        "https://www.wcb.ny.gov/content/main/DisabilityBenefits/what-are-disability-benefits.jsp",
+        "https://paidfamilyleave.ny.gov/2027",
+        "https://www.dfs.ny.gov/apps-and-licensing/health-insurers/pfl-rate-decision-2027-page",
+        "https://paidfamilyleave.ny.gov/benefits/",
+        "https://paidfamilyleave.ny.gov/eligibility",
+        "https://paidfamilyleave.ny.gov/2026",
+        "https://info.shelterpoint.com/Blog/ny-dbl-benefits-increase-not-moved-forward-2025",
+        "https://www.bcnys.org/sites/default/files/2026-05/S.172-A%20%28Ramos%29%20_%20A.9571%20%28Bronson%29%20_%20The%20Business%20Council.pdf"
+      ],
+      "cards": [
+        {
+          "q": {
+            "zh-Hant": "紐約州短期傷殘給付怎麼算？每週上限多少？",
+            "en": "How is New York short-term disability calculated, and what is the weekly cap?"
+          },
+          "a": {
+            "zh-Hant": "過去 8 週平均週薪的 50%，每週最多 170 美元，先等 7 天；這個上限從 1989 年沒變。",
+            "en": "50% of the average weekly wage over the last eight weeks, up to $170 a week, after a 7-day wait; the cap hasn't changed since 1989."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "為什麼不能產前就先請家庭假，領比較高的 67%？",
+            "en": "Why can't you start Family Leave before the birth to get the higher 67%?"
+          },
+          "a": {
+            "zh-Hant": "照顧新生兒的家庭假只能在出生後開始，不能用在產前狀況；產前因懷孕不能工作屬於傷殘給付。",
+            "en": "Bonding leave can only start after the birth and isn't for prenatal conditions; being unable to work because of pregnancy before the birth falls under disability."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "傷殘給付和家庭假可以一起領嗎？合計上限多少？",
+            "en": "Can you collect disability and Family Leave together? What is the combined cap?"
+          },
+          "a": {
+            "zh-Hant": "不能同時領；兩者合計每 52 週最多 26 週。",
+            "en": "Not at the same time; at most 26 weeks combined in any 52-week period."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "家庭假申請要在什麼時候寄給保險公司？",
+            "en": "When must the Family Leave request reach the insurance carrier?"
+          },
+          "a": {
+            "zh-Hant": "假開始後 30 天內，以免失去給付；另外可預見時要在 30 天前通知雇主。",
+            "en": "Within 30 days after leave starts, so you don't lose benefits; and give your employer at least 30 days' notice when the leave is foreseeable."
+          }
+        },
+        {
+          "q": {
+            "zh-Hant": "2027 年開始的家庭假，每週最多領多少？為什麼用 2027 年的數字？",
+            "en": "For leave starting in 2027, what is the PFL weekly maximum, and why the 2027 figure?"
+          },
+          "a": {
+            "zh-Hant": "每週 1,287.91 美元（2027 年全州平均週薪 1,922.25 美元的 67%）；給付標準在請假第一天固定。",
+            "en": "$1,287.91 a week (67% of the 2027 statewide average weekly wage of $1,922.25); your rate is set on the first day of leave."
+          }
+        }
+      ]
     }
   ]
 }

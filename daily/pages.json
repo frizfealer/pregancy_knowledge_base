@@ -1455,17 +1455,16 @@
       "slug": "ny-disability-plus-pfl",
       "file": "daily/2026-11-28-ny-disability-plus-pfl.html",
       "title": {
-        "zh-Hant": "產後頭幾週，紐約州的給付每週最多只有 170 美元：產假要靠兩種給付接起來",
-        "en": "New York pays at most $170 a week in the first weeks after birth: your leave pay is two benefits joined together"
+        "zh-Hant": "紐約法定短期傷殘給付每週最多 170 美元：產後如何搭配有薪家庭假",
+        "en": "New York's basic statutory disability benefit caps at $170 a week: how to combine it with Paid Family Leave after birth"
       },
       "summary": {
-        "zh-Hant": "生產的人產後先領短期傷殘給付（一般 6 週，剖腹產 8 週，週薪 50%、上限 170 美元），接著是有薪家庭假（最多 12 週，週薪 67%、2027 年上限 1,287.91 美元）；兩者不能同時領，合計每 52 週最多 26 週。另一位家長也有 12 週家庭假。",
-        "en": "The birth parent first gets short-term disability (typically 6 weeks, 8 after a C-section, at 50% of pay up to $170 a week), then Paid Family Leave (up to 12 weeks at 67% of pay, up to $1,287.91 a week in 2027). They can't overlap and are capped at 26 weeks combined in 52. The other parent gets 12 weeks of PFL too."
+        "zh-Hant": "符合資格的生產者可先請法定短期傷殘給付（一般產後 6 週，剖腹產 8 週，前 7 天通常不給付），再請有薪家庭假，或出生後直接請家庭假。PFL 最多 12 週，2027 年每週上限 1,287.91 美元；同一員工兩者不得重疊、每 52 週合計最多 26 週。",
+        "en": "Eligible birth parents may take statutory disability (generally six weeks after birth, eight after a C-section, usually with seven unpaid days) followed by PFL, or choose PFL immediately after birth. PFL provides up to 12 weeks, capped at $1,287.91 weekly in 2027; the same employee cannot overlap the benefits or exceed 26 weeks combined in 52 weeks."
       },
       "tags": [
         "resources",
         "mid",
-        "w16",
         "learn"
       ],
       "sources": [
@@ -1477,8 +1476,13 @@
         "https://paidfamilyleave.ny.gov/benefits/",
         "https://paidfamilyleave.ny.gov/eligibility",
         "https://paidfamilyleave.ny.gov/2026",
-        "https://info.shelterpoint.com/Blog/ny-dbl-benefits-increase-not-moved-forward-2025",
-        "https://www.bcnys.org/sites/default/files/2026-05/S.172-A%20%28Ramos%29%20_%20A.9571%20%28Bronson%29%20_%20The%20Business%20Council.pdf"
+        "https://www.nysenate.gov/legislation/laws/WKC/204",
+        "https://www.nysenate.gov/legislation/bills/2025/S172/amendment/B",
+        "https://paidfamilyleave.ny.gov/paid-family-leave-and-other-benefits",
+        "https://www.dol.gov/general/topic/workhours/fmla",
+        "https://paidfamilyleave.ny.gov/protections",
+        "https://www.wcb.ny.gov/content/main/DisabilityBenefits/employee-disability-benefits.jsp",
+        "https://paidfamilyleave.ny.gov/PFLbenefitscalculator-2027"
       ],
       "cards": [
         {
@@ -1487,8 +1491,8 @@
             "en": "How is New York short-term disability calculated, and what is the weekly cap?"
           },
           "a": {
-            "zh-Hant": "過去 8 週平均週薪的 50%，每週最多 170 美元，先等 7 天；這個上限從 1989 年沒變。",
-            "en": "50% of the average weekly wage over the last eight weeks, up to $170 a week, after a 7-day wait; the cap hasn't changed since 1989."
+            "zh-Hant": "一般為最近實際工作 8 週平均週薪的 50%，法定基本給付每週最多 170 美元；在職時開始傷殘通常前 7 天不給付。",
+            "en": "Generally 50% of average weekly wages in the last eight weeks worked, up to $170 per week in statutory basic benefits; the first seven days are usually unpaid for disability beginning while employed."
           }
         },
         {
@@ -1527,8 +1531,8 @@
             "en": "For leave starting in 2027, what is the PFL weekly maximum, and why the 2027 figure?"
           },
           "a": {
-            "zh-Hant": "每週 1,287.91 美元（2027 年全州平均週薪 1,922.25 美元的 67%）；給付標準在請假第一天固定。",
-            "en": "$1,287.91 a week (67% of the 2027 statewide average weekly wage of $1,922.25); your rate is set on the first day of leave."
+            "zh-Hant": "每週 1,287.91 美元（2027 年全州平均週薪 1,922.25 美元的 67%）；連續假以首日標準為準；分次請假相隔超過 3 個月可能適用新年度標準。",
+            "en": "$1,287.91 a week (67% of the 2027 statewide average weekly wage of $1,922.25); continuous leave uses the first-day rate; intermittent leave separated by more than three months may use a new year's rate."
           }
         }
       ]

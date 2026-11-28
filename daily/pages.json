@@ -1479,10 +1479,11 @@
         "https://www.nysenate.gov/legislation/laws/WKC/204",
         "https://www.nysenate.gov/legislation/bills/2025/S172/amendment/B",
         "https://paidfamilyleave.ny.gov/paid-family-leave-and-other-benefits",
-        "https://www.dol.gov/general/topic/workhours/fmla",
+        "https://beta.dol.gov/policy-regulations/pay-benefits/leave-benefits/fmla",
         "https://paidfamilyleave.ny.gov/protections",
         "https://www.wcb.ny.gov/content/main/DisabilityBenefits/employee-disability-benefits.jsp",
-        "https://paidfamilyleave.ny.gov/PFLbenefitscalculator-2027"
+        "https://paidfamilyleave.ny.gov/PFLbenefitscalculator-2027",
+        "https://www.wcb.ny.gov/content/main/SubjectNos/sn046_1843.jsp"
       ],
       "cards": [
         {
